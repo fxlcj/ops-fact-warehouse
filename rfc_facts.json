@@ -1,0 +1,282 @@
+{
+  "1035": {
+    "id": 1035,
+    "url": "https://www.rfc-editor.org/rfc/rfc1035",
+    "info_url": "https://www.rfc-editor.org/info/rfc1035/",
+    "status": "Bits Clarification",
+    "date": "1987/11/01",
+    "title": "Domain names - implementation and specification",
+    "abstract": "This RFC is the revised specification of the protocol and format used in the implementation of the Domain Name System.  It obsoletes RFC-883.  This memo documents the details of the domain name client - server communication.",
+    "checked_date": "2026-11-13"
+  },
+  "793": {
+    "id": 793,
+    "url": "https://www.rfc-editor.org/rfc/rfc793",
+    "info_url": "https://www.rfc-editor.org/info/rfc793/",
+    "status": "Format",
+    "date": "1981/09/01",
+    "title": "Transmission Control Protocol",
+    "abstract": null,
+    "checked_date": "2026-11-13"
+  },
+  "1918": {
+    "id": 1918,
+    "url": "https://www.rfc-editor.org/rfc/rfc1918",
+    "info_url": "https://www.rfc-editor.org/info/rfc1918/",
+    "status": "Best Current Practice                            D",
+    "date": "1996/02/01",
+    "title": "Address Allocation for Private Internets",
+    "abstract": "This document describes address allocation for private internets.  This document specifies an Internet Best Current Practices for the Internet Community, and requests discussion and suggestions for improvements.",
+    "checked_date": "2026-11-13"
+  },
+  "3021": {
+    "id": 3021,
+    "url": "https://www.rfc-editor.org/rfc/rfc3021",
+    "info_url": "https://www.rfc-editor.org/info/rfc3021/",
+    "status": "Standards Track                                  Cisco Systems",
+    "date": "2000/12/01",
+    "title": "Using 31-Bit Prefixes on IPv4 Point-to-Point Links",
+    "abstract": "With ever-increasing pressure to conserve IP address space on the Internet, it makes sense to consider where relatively minor changes can be made to fielded practice to improve numbering efficiency.  One such change, proposed by this document, is to halve the amount of address space assigned to point-to-point links (common throughout the Internet infrastructure) by allowing the use of 31-bit subnet masks in a very limited way. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "8484": {
+    "id": 8484,
+    "url": "https://www.rfc-editor.org/rfc/rfc8484",
+    "info_url": "https://www.rfc-editor.org/info/rfc8484/",
+    "status": "Standards Track                                     P",
+    "date": "2018/10/19",
+    "title": "DNS Queries over HTTPS (DoH)",
+    "abstract": "This document defines a protocol for sending DNS queries and getting DNS responses over HTTPS.  Each DNS query-response pair is mapped into an HTTP exchange.",
+    "checked_date": "2026-11-13"
+  },
+  "7526": {
+    "id": 7526,
+    "url": "https://www.rfc-editor.org/rfc/rfc7526",
+    "info_url": "https://www.rfc-editor.org/info/rfc7526/",
+    "status": "Best Current Practice                                 May",
+    "date": "2015/05/20",
+    "title": "Deprecating the Anycast Prefix for 6to4 Relay Routers",
+    "abstract": "Experience with the 6to4 transition mechanism defined in RFC 3056 (\"Connection of IPv6 Domains via IPv4 Clouds\") has shown that the mechanism is unsuitable for widespread deployment and use in the Internet when used in its anycast mode.  Therefore, this document requests that RFC 3068 (\"An Anycast Prefix for 6to4 Relay Routers\") and RFC 6732 (\"6to4 Provider Managed Tunnels\") be made obsolete and moved to Historic status.  It recommends that future products should not support 6to4 anycast and that existing deployments should be reviewed.  This complements the guidelines in RFC 6343.",
+    "checked_date": "2026-11-13"
+  },
+  "6891": {
+    "id": 6891,
+    "url": "https://www.rfc-editor.org/rfc/rfc6891",
+    "info_url": "https://www.rfc-editor.org/info/rfc6891/",
+    "status": "Standards Track                                       P",
+    "date": "2013/04/16",
+    "title": "Extension Mechanisms for DNS (EDNS(0))",
+    "abstract": "The Domain Name System's wire protocol includes a number of fixed fields whose range has been or soon will be exhausted and does not allow requestors to advertise their capabilities to responders. This document describes backward-compatible mechanisms for allowing the protocol to grow.\n\n This document updates the Extension Mechanisms for DNS (EDNS(0)) specification (and obsoletes RFC 2671) based on feedback from deployment experience in several implementations. It also obsoletes RFC 2673 (\"Binary Labels in the Domain Name System\") and adds considerations on the use of extended labels in the DNS.",
+    "checked_date": "2026-11-13"
+  },
+  "7234": {
+    "id": 7234,
+    "url": "https://www.rfc-editor.org/rfc/rfc7234",
+    "info_url": "https://www.rfc-editor.org/info/rfc7234/",
+    "status": "Standards Track                                         Akamai",
+    "date": "2014/06/06",
+    "title": "Hypertext Transfer Protocol (HTTP/1.1): Caching",
+    "abstract": "The Hypertext Transfer Protocol (HTTP) is a stateless \\%application- level protocol for distributed, collaborative, hypertext information systems.  This document defines HTTP caches and the associated header fields that control cache behavior or indicate cacheable response messages.",
+    "checked_date": "2026-11-13"
+  },
+  "5214": {
+    "id": 5214,
+    "url": "https://www.rfc-editor.org/rfc/rfc5214",
+    "info_url": "https://www.rfc-editor.org/info/rfc5214/",
+    "status": "Informational                               Cisco Systems K",
+    "date": "2008/03/21",
+    "title": "Intra-Site Automatic Tunnel Addressing Protocol (ISATAP)",
+    "abstract": "The Intra-Site Automatic Tunnel Addressing Protocol (ISATAP) connects dual-stack (IPv6/IPv4) nodes over IPv4 networks.  ISATAP views the IPv4 network as a link layer for IPv6 and supports an automatic tunneling abstraction similar to the Non-Broadcast Multiple Access (NBMA) model.  This memo provides information for the Internet community.",
+    "checked_date": "2026-11-13"
+  },
+  "4034": {
+    "id": 4034,
+    "url": "https://www.rfc-editor.org/rfc/rfc4034",
+    "info_url": "https://www.rfc-editor.org/info/rfc4034/",
+    "status": "Standards Track                                      D",
+    "date": "2005/03/29",
+    "title": "Resource Records for the DNS Security Extensions",
+    "abstract": "This document is part of a family of documents that describe the DNS Security Extensions (DNSSEC). The DNS Security Extensions are a collection of resource records and protocol modifications that provide source authentication for the DNS. This document defines the public key (DNSKEY), delegation signer (DS), resource record digital signature (RRSIG), and authenticated denial of existence (NSEC) resource records. The purpose and format of each resource record is described in detail, and an example of each resource record is given.\n\n This document obsoletes RFC 2535 and incorporates changes from all updates to RFC 2535. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "6144": {
+    "id": 6144,
+    "url": "https://www.rfc-editor.org/rfc/rfc6144",
+    "info_url": "https://www.rfc-editor.org/info/rfc6144/",
+    "status": "Informational                                            X",
+    "date": "2011/04/27",
+    "title": "Framework for IPv4/IPv6 Translation",
+    "abstract": "This note describes a framework for IPv4/IPv6 translation.  This is in the context of replacing Network Address Translation - Protocol Translation (NAT-PT), which was deprecated by RFC 4966, and to enable networks to have IPv4 and IPv6 coexist in a somewhat rational manner while transitioning to an IPv6 network.  This document is not an Internet Standards Track specification; it is published for informational purposes.",
+    "checked_date": "2026-11-13"
+  },
+  "4447": {
+    "id": 4447,
+    "url": "https://www.rfc-editor.org/rfc/rfc4447",
+    "info_url": "https://www.rfc-editor.org/info/rfc4447/",
+    "status": "Standards Track                            Cisco Systems",
+    "date": "2006/04/26",
+    "title": "Pseudowire Setup and Maintenance Using the Label Distribution Protocol (LDP)",
+    "abstract": "Layer 2 services (such as Frame Relay, Asynchronous Transfer Mode, and Ethernet) can be \"emulated\" over an MPLS backbone by encapsulating the Layer 2 Protocol Data Units (PDU) and transmitting them over \"pseudowires\".  It is also possible to use pseudowires to provide low-rate Time Division Multiplexed and a Synchronous Optical NETworking circuit emulation over an MPLS-enabled network.  This document specifies a protocol for establishing and maintaining the pseudowires, using extensions to Label Distribution Protocol (LDP).  Procedures for encapsulating Layer 2 PDUs are specified in a set of companion documents. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "3056": {
+    "id": 3056,
+    "url": "https://www.rfc-editor.org/rfc/rfc3056",
+    "info_url": "https://www.rfc-editor.org/info/rfc3056/",
+    "status": "Standards Track                                  February",
+    "date": "2001/02/01",
+    "title": "Connection of IPv6 Domains via IPv4 Clouds",
+    "abstract": "This memo specifies an optional interim mechanism for IPv6 sites to communicate with each other over the IPv4 network without explicit tunnel setup, and for them to communicate with native IPv6 domains via relay routers. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "3031": {
+    "id": 3031,
+    "url": "https://www.rfc-editor.org/rfc/rfc3031",
+    "info_url": "https://www.rfc-editor.org/info/rfc3031/",
+    "status": "Standards Track                                 A",
+    "date": "2001/01/01",
+    "title": "Multiprotocol Label Switching Architecture",
+    "abstract": "This document specifies the architecture for Multiprotocol Label Switching (MPLS). [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "6298": {
+    "id": 6298,
+    "url": "https://www.rfc-editor.org/rfc/rfc6298",
+    "info_url": "https://www.rfc-editor.org/info/rfc6298/",
+    "status": "Standards Track                                         J",
+    "date": "2011/06/22",
+    "title": "Computing TCP's Retransmission Timer",
+    "abstract": "This document defines the standard algorithm that Transmission Control Protocol (TCP) senders are required to use to compute and manage their retransmission timer.  It expands on the discussion in Section 4.2.3.1 of RFC 1122 and upgrades the requirement of supporting the algorithm from a SHOULD to a MUST.  This document obsoletes RFC 2988. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "3517": {
+    "id": 3517,
+    "url": "https://www.rfc-editor.org/rfc/rfc3517",
+    "info_url": "https://www.rfc-editor.org/info/rfc3517/",
+    "status": "Standards Track                                      M",
+    "date": "2003/04/10",
+    "title": "A Conservative Selective Acknowledgment (SACK)-based Loss Recovery Algorithm for TCP",
+    "abstract": "This document presents a conservative loss recovery algorithm for TCP that is based on the use of the selective acknowledgment (SACK) TCP option.  The algorithm presented in this document conforms to the spirit of the current congestion control specification (RFC 2581), but allows TCP senders to recover more effectively when multiple segments are lost from a single flight of data. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "879": {
+    "id": 879,
+    "url": "https://www.rfc-editor.org/rfc/rfc879",
+    "info_url": "https://www.rfc-editor.org/info/rfc879/",
+    "status": null,
+    "date": "1983/11/01",
+    "title": "The TCP Maximum Segment Size and Related Topics",
+    "abstract": "This RFC discusses the TCP Maximum Segment Size Option and related topics.  The purposes is to clarify some aspects of TCP and its interaction with IP.  This memo is a clarification to the TCP specification, and contains information that may be considered as \"advice to implementers\".",
+    "checked_date": "2026-11-13"
+  },
+  "6335": {
+    "id": 6335,
+    "url": "https://www.rfc-editor.org/rfc/rfc6335",
+    "info_url": "https://www.rfc-editor.org/info/rfc6335/",
+    "status": "Best Current Practice                                 J",
+    "date": "2011/08/31",
+    "title": "Internet Assigned Numbers Authority (IANA) Procedures for the Management of the Service Name and Transport Protocol Port Number Registry",
+    "abstract": "This document defines the procedures that the Internet Assigned Numbers Authority (IANA) uses when handling assignment and other requests related to the Service Name and Transport Protocol Port Number registry. It also discusses the rationale and principles behind these procedures and how they facilitate the long-term sustainability of the registry.\n\n This document updates IANA's procedures by obsoleting the previous UDP and TCP port assignment procedures defined in Sections 8 and 9.1 of the IANA Allocation Guidelines, and it updates the IANA service name and port assignment procedures for UDP-Lite, the Datagram Congestion Control Protocol (DCCP), and the Stream Control Transmission Protocol (SCTP). It also updates the DNS SRV specification to clarify what a service name is and how it is registered. This memo documents an Internet Best Current Practice.",
+    "checked_date": "2026-11-13"
+  },
+  "1321": {
+    "id": 1321,
+    "url": "https://www.rfc-editor.org/rfc/rfc1321",
+    "info_url": "https://www.rfc-editor.org/info/rfc1321/",
+    "status": "of this Memo",
+    "date": "1992/04/01",
+    "title": "The MD5 Message-Digest Algorithm",
+    "abstract": "This document describes the MD5 message-digest algorithm.  The algorithm takes as input a message of arbitrary length and produces as output a 128-bit \"fingerprint\" or \"message digest\" of the input.  This memo provides information for the Internet community.  It does not specify an Internet standard.",
+    "checked_date": "2026-11-13"
+  },
+  "6180": {
+    "id": 6180,
+    "url": "https://www.rfc-editor.org/rfc/rfc6180",
+    "info_url": "https://www.rfc-editor.org/info/rfc6180/",
+    "status": "Informational                                         F",
+    "date": "2011/05/27",
+    "title": "Guidelines for Using IPv6 Transition Mechanisms during IPv6 Deployment",
+    "abstract": "The Internet continues to grow beyond the capabilities of IPv4.  An expansion in the address space is clearly required.  With its increase in the number of available prefixes and addresses in a subnet, and improvements in address management, IPv6 is the only real option on the table.  Yet, IPv6 deployment requires some effort, resources, and expertise.  The availability of many different deployment models is one reason why expertise is required.  This document discusses the IPv6 deployment models and migration tools, and it recommends ones that have been found to work well in operational networks in many common situations.  This document is not an Internet Standards Track specification; it is published for informational purposes.",
+    "checked_date": "2026-11-13"
+  },
+  "5861": {
+    "id": 5861,
+    "url": "https://www.rfc-editor.org/rfc/rfc5861",
+    "info_url": "https://www.rfc-editor.org/info/rfc5861/",
+    "status": "Informational                                         May",
+    "date": "2010/05/05",
+    "title": "HTTP Cache-Control Extensions for Stale Content",
+    "abstract": "This document defines two independent HTTP Cache-Control extensions that allow control over the use of stale responses by caches.  This document is not an Internet Standards Track specification; it is published for informational purposes.",
+    "checked_date": "2026-11-13"
+  },
+  "7626": {
+    "id": 7626,
+    "url": "https://www.rfc-editor.org/rfc/rfc7626",
+    "info_url": "https://www.rfc-editor.org/info/rfc7626/",
+    "status": "Informational                                      August",
+    "date": "2015/08/26",
+    "title": "DNS Privacy Considerations",
+    "abstract": "This document describes the privacy issues associated with the use of the DNS by Internet users.  It is intended to be an analysis of the present situation and does not prescribe solutions.",
+    "checked_date": "2026-11-13"
+  },
+  "4380": {
+    "id": 4380,
+    "url": "https://www.rfc-editor.org/rfc/rfc4380",
+    "info_url": "https://www.rfc-editor.org/info/rfc4380/",
+    "status": "Standards Track                                  February",
+    "date": "2006/02/03",
+    "title": "Teredo: Tunneling IPv6 over UDP through Network Address Translations (NATs)",
+    "abstract": "We propose here a service that enables nodes located behind one or more IPv4 Network Address Translations (NATs) to obtain IPv6 connectivity by tunneling packets over UDP; we call this the Teredo service.  Running the service requires the help of \"Teredo servers\" and \"Teredo relays\".  The Teredo servers are stateless, and only have to manage a small fraction of the traffic between Teredo clients; the Teredo relays act as IPv6 routers between the Teredo service and the \"native\" IPv6 Internet.  The relays can also provide interoperability with hosts using other transition mechanisms such as \"6to4\". [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "1034": {
+    "id": 1034,
+    "url": "https://www.rfc-editor.org/rfc/rfc1034",
+    "info_url": "https://www.rfc-editor.org/info/rfc1034/",
+    "status": "queries",
+    "date": "1987/11/01",
+    "title": "Domain names - concepts and facilities",
+    "abstract": "This RFC is the revised basic definition of The Domain Name System.  It obsoletes RFC-882.  This memo describes the domain style names and their used for host address look up and electronic mail forwarding.  It discusses the clients and servers in the domain name system and the protocol used between them.",
+    "checked_date": "2026-11-13"
+  },
+  "4251": {
+    "id": 4251,
+    "url": "https://www.rfc-editor.org/rfc/rfc4251",
+    "info_url": "https://www.rfc-editor.org/info/rfc4251/",
+    "status": "Standards Track                                C",
+    "date": "2006/01/06",
+    "title": "The Secure Shell (SSH) Protocol Architecture",
+    "abstract": "The Secure Shell (SSH) Protocol is a protocol for secure remote login and other secure network services over an insecure network.  This document describes the architecture of the SSH protocol, as well as the notation and terminology used in SSH protocol documents.  It also discusses the SSH algorithm naming system that allows local extensions.  The SSH protocol consists of three major components: The Transport Layer Protocol provides server authentication, confidentiality, and integrity with perfect forward secrecy.  The User Authentication Protocol authenticates the client to the server.  The Connection Protocol multiplexes the encrypted tunnel into several logical channels.  Details of these protocols are described in separate documents. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "4033": {
+    "id": 4033,
+    "url": "https://www.rfc-editor.org/rfc/rfc4033",
+    "info_url": "https://www.rfc-editor.org/info/rfc4033/",
+    "status": "Standards Track                                      D",
+    "date": "2005/03/29",
+    "title": "DNS Security Introduction and Requirements",
+    "abstract": "The Domain Name System Security Extensions (DNSSEC) add data origin authentication and data integrity to the Domain Name System.  This document introduces these extensions and describes their capabilities and limitations.  This document also discusses the services that the DNS security extensions do and do not provide.  Last, this document describes the interrelationships between the documents that collectively describe DNSSEC. [STANDARDS-TRACK]",
+    "checked_date": "2026-11-13"
+  },
+  "8446": {
+    "id": 8446,
+    "url": "https://www.rfc-editor.org/rfc/rfc8446",
+    "info_url": "https://www.rfc-editor.org/info/rfc8446/",
+    "status": "Standards Track",
+    "date": "2018/08/10",
+    "title": "The Transport Layer Security (TLS) Protocol Version 1.3",
+    "abstract": "This document specifies version 1.3 of the Transport Layer Security (TLS) protocol. TLS allows client/server applications to communicate over the Internet in a way that is designed to prevent eavesdropping, tampering, and message forgery.\n\n This document updates RFCs 5705 and 6066, and obsoletes RFCs 5077, 5246, and 6961. This document also specifies new requirements for TLS 1.2 implementations.",
+    "checked_date": "2026-11-13"
+  },
+  "9110": {
+    "id": 9110,
+    "url": "https://www.rfc-editor.org/rfc/rfc9110",
+    "info_url": "https://www.rfc-editor.org/info/rfc9110/",
+    "status": "of This Memo",
+    "date": "2022/06/06",
+    "title": "HTTP Semantics",
+    "abstract": "The Hypertext Transfer Protocol (HTTP) is a stateless application-level protocol for distributed, collaborative, hypertext information systems. This document describes the overall architecture of HTTP, establishes common terminology, and defines aspects of the protocol that are shared by all versions. In this definition are core protocol elements, extensibility mechanisms, and the \"http\" and \"https\" Uniform Resource Identifier (URI) schemes.\n\n This document updates RFC 3864 and obsoletes RFCs 2818, 7231, 7232, 7233, 7235, 7538, 7615, 7694, and portions of 7230.",
+    "checked_date": "2026-11-13"
+  }
+}

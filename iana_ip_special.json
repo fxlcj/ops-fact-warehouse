@@ -1,0 +1,625 @@
+{
+  "ipv4": [
+    {
+      "family": "ipv4",
+      "address": "0.0.0.0/8",
+      "name": "\"This network\"",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc791",
+        "section": "3.2"
+      },
+      "allocation": "1981-09",
+      "source": true,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "0.0.0.0/32",
+      "name": "\"This host on this network\"",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc1122",
+        "section": "3.2.1.3"
+      },
+      "allocation": "1981-09",
+      "source": true,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "10.0.0.0/8",
+      "name": "Private-Use",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc1918"
+      },
+      "allocation": "1996-02",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "100.64.0.0/10",
+      "name": "Shared Address Space",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc6598"
+      },
+      "allocation": "2012-04",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "127.0.0.0/8",
+      "name": "Loopback",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc1122",
+        "section": "3.2.1.3"
+      },
+      "allocation": "1981-09",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "169.254.0.0/16",
+      "name": "Link Local",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc3927"
+      },
+      "allocation": "2005-05",
+      "source": true,
+      "destination": true,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "172.16.0.0/12",
+      "name": "Private-Use",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc1918"
+      },
+      "allocation": "1996-02",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "192.0.0.0/24",
+      "name": "IETF Protocol Assignments",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc6890",
+        "section": "2.1"
+      },
+      "allocation": "2010-01",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "192.0.0.0/29",
+      "name": "IPv4 Service Continuity Prefix",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc7335"
+      },
+      "allocation": "2011-06",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "192.0.0.8/32",
+      "name": "IPv4 dummy address",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc7600"
+      },
+      "allocation": "2015-03",
+      "source": true,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "192.0.0.170/32, 192.0.0.171/32",
+      "name": "NAT64/DNS64 Discovery",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc7050",
+        "section": "2.2"
+      },
+      "allocation": "2013-02",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "192.0.2.0/24",
+      "name": "Documentation (TEST-NET-1)",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc5737"
+      },
+      "allocation": "2010-01",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "192.168.0.0/16",
+      "name": "Private-Use",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc1918"
+      },
+      "allocation": "1996-02",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "198.18.0.0/15",
+      "name": "Benchmarking",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc2544"
+      },
+      "allocation": "1999-03",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "198.51.100.0/24",
+      "name": "Documentation (TEST-NET-2)",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc5737"
+      },
+      "allocation": "2010-01",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "203.0.113.0/24",
+      "name": "Documentation (TEST-NET-3)",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc5737"
+      },
+      "allocation": "2010-01",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "240.0.0.0/4",
+      "name": "Reserved",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc1112",
+        "section": "4"
+      },
+      "allocation": "1989-08",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv4",
+      "address": "255.255.255.255/32",
+      "name": "Limited Broadcast",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc919",
+        "section": "7"
+      },
+      "allocation": "1984-10",
+      "source": false,
+      "destination": true,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
+      "checked_date": "2026-11-13"
+    }
+  ],
+  "ipv6": [
+    {
+      "family": "ipv6",
+      "address": "::1/128",
+      "name": "Loopback Address",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc4291"
+      },
+      "allocation": "2006-02",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "::/128",
+      "name": "Unspecified Address",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc4291"
+      },
+      "allocation": "2006-02",
+      "source": true,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "::ffff:0:0/96",
+      "name": "IPv4-mapped Address",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc4291"
+      },
+      "allocation": "2006-02",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "64:ff9b::/96",
+      "name": "IPv4-IPv6 Translat.",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc6052"
+      },
+      "allocation": "2010-10",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": true,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "64:ff9b:1::/48",
+      "name": "IPv4-IPv6 Translat.",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc8215"
+      },
+      "allocation": "2017-06",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "100::/64",
+      "name": "Discard-Only Address Block",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc6666"
+      },
+      "allocation": "2012-06",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "100:0:0:1::/64",
+      "name": "Dummy IPv6 Prefix",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc9780"
+      },
+      "allocation": "2025-04",
+      "source": true,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "2001::/23",
+      "name": "IETF Protocol Assignments",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc2928"
+      },
+      "allocation": "2000-09",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "2001::/32",
+      "name": "TEREDO",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc8190"
+      },
+      "allocation": "2006-01",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "2001:2::/48",
+      "name": "Benchmarking",
+      "spec": {
+        "type": "rfc-errata",
+        "data": "1752"
+      },
+      "allocation": "2008-04",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "2001:10::/28",
+      "name": "Deprecated (previously ORCHID)",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc4843"
+      },
+      "allocation": "2007-03",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "2001:db8::/32",
+      "name": "Documentation",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc3849"
+      },
+      "allocation": "2004-07",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "2002::/16",
+      "name": "6to4",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc3056"
+      },
+      "allocation": "2001-02",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "2620:4f:8000::/48",
+      "name": "Direct Delegation AS112 Service",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc7534"
+      },
+      "allocation": "2011-05",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": true,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "3fff::/20",
+      "name": "Documentation",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc9637"
+      },
+      "allocation": "2024-07",
+      "source": false,
+      "destination": false,
+      "forwardable": false,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "5f00::/16",
+      "name": "Segment Routing (SRv6) SIDs",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc9602"
+      },
+      "allocation": "2024-04",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "fc00::/7",
+      "name": "Unique-Local",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc8190"
+      },
+      "allocation": "2005-10",
+      "source": true,
+      "destination": true,
+      "forwardable": true,
+      "global": false,
+      "reserved": false,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    },
+    {
+      "family": "ipv6",
+      "address": "fe80::/10",
+      "name": "Link-Local Unicast",
+      "spec": {
+        "type": "rfc",
+        "data": "rfc4291"
+      },
+      "allocation": "2006-02",
+      "source": true,
+      "destination": true,
+      "forwardable": false,
+      "global": false,
+      "reserved": true,
+      "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
+      "checked_date": "2026-11-13"
+    }
+  ]
+}

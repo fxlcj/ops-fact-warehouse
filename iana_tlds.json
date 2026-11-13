@@ -1,0 +1,5746 @@
+[
+  {
+    "tld": "AAA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AARP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ABB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ABBOTT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ABBVIE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ABC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ABLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ABOGADO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ABUDHABI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ACADEMY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ACCENTURE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ACCOUNTANT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ACCOUNTANTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ACO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ACTOR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ADS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ADULT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AEG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AERO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AETNA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AFL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AFRICA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AGAKHAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AGENCY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AIG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AIRBUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AIRFORCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AIRTEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AKDN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ALIBABA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ALIPAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ALLFINANZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ALLSTATE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ALLY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ALSACE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ALSTOM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AMAZON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AMERICANEXPRESS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AMERICANFAMILY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AMEX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AMFAM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AMICA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AMSTERDAM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ANALYTICS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ANDROID",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ANQUAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ANZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AOL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "APARTMENTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "APP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "APPLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AQ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AQUARELLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ARAB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ARAMCO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ARCHI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ARMY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ARPA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ART",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ARTE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ASDA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ASIA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ASSOCIATES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ATHLETA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ATTORNEY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUCTION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUDI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUDIBLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUDIO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUSPOST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUTHOR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUTO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AUTOS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AWS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AXA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "AZURE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BABY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BAIDU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BANAMEX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BAND",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BANK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BARCELONA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BARCLAYCARD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BARCLAYS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BAREFOOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BARGAINS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BASEBALL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BASKETBALL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BAUHAUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BAYERN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BBC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BBT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BBVA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BCG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BCN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BEATS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BEAUTY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BEER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BERLIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BEST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BESTBUY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BHARTI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BIBLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BID",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BIKE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BINGO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BIO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BIZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BJ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BLACK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BLACKFRIDAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BLOCKBUSTER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BLOG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BLOOMBERG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BLUE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BMS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BMW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BNPPARIBAS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOATS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOEHRINGER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOFA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOND",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOOK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOOKING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOSCH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOSTIK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOSTON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOUTIQUE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BOX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BRADESCO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BRIDGESTONE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BROADWAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BROKER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BROTHER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BRUSSELS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BUILD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BUILDERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BUSINESS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BUY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BUZZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "BZH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAFE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CALL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CALVINKLEIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAMERA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAMP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CANON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAPETOWN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAPITAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAPITALONE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CARAVAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CARDS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CARE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAREER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAREERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CARS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CASA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CASE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CASH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CASINO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CAT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CATERING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CATHOLIC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CBA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CBN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CBRE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CENTER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CEO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CERN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CFA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CFD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHANEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHANNEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHARITY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHASE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHAT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHEAP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHINTAI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHRISTMAS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHROME",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CHURCH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CIPRIANI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CIRCLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CISCO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CITADEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CITI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CITIC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CITY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLAIMS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLEANING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLICK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLINIC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLINIQUE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLOTHING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLOUD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLUB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CLUBMED",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COACH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CODES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COFFEE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COLLEGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COLOGNE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COMMBANK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COMMUNITY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COMPANY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COMPARE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COMPUTER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COMSEC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CONDOS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CONSTRUCTION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CONSULTING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CONTACT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CONTRACTORS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COOKING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COOL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COOP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CORSICA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COUNTRY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COUPON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COUPONS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "COURSES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CPA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CREDIT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CREDITCARD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CREDITUNION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CRICKET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CROWN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CRS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CRUISE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CRUISES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CUISINELLA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CYMRU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CYOU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "CZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DAD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DANCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DATA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DATE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DATING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DATSUN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DCLK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DDS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DEAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DEALER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DEALS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DEGREE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DELIVERY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DELL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DELOITTE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DELTA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DEMOCRAT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DENTAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DENTIST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DESI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DESIGN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DEV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DHL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DIAMONDS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DIET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DIGITAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DIRECT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DIRECTORY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DISCOUNT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DISCOVER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DISH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DIY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DJ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DNP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DOCS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DOCTOR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DOG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DOMAINS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DOWNLOAD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DRIVE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DTV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DUBAI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DUPONT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DURBAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DVAG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DVR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "DZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EARTH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EAT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ECO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EDEKA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EDU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EDUCATION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EMAIL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EMERCK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ENERGY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ENGINEER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ENGINEERING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ENTERPRISES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EPSON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EQUIPMENT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ERICSSON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ERNI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ESQ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ESTATE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EUROVISION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EVENTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EXCHANGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EXPERT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EXPOSED",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EXPRESS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "EXTRASPACE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FAGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FAIL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FAIRWINDS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FAITH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FAMILY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FANS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FARM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FARMERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FASHION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FAST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FEDEX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FEEDBACK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FERRARI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FERRERO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FIDELITY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FIDO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FILM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FINAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FINANCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FINANCIAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FIRE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FIRESTONE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FIRMDALE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FISH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FISHING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FIT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FITNESS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FJ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FLICKR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FLIGHTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FLIR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FLORIST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FLOWERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FLY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FOO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FOOD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FOOTBALL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FORD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FOREX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FORSALE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FORUM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FOUNDATION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FOX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FREE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FRESENIUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FRL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FROGANS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FRONTIER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FTR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FUJITSU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FUN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FUND",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FURNITURE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FUTBOL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "FYI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GALLERY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GALLO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GALLUP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GAME",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GAMES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GAP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GARDEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GBIZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GDN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GEA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GENT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GENTING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GEORGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GGEE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GIFT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GIFTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GIVES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GIVING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GLASS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GLOBAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GLOBO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GMAIL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GMBH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GMO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GMX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GODADDY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOLD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOLDPOINT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOLF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOODYEAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOOG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOOGLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GOV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GQ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GRAINGER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GRAPHICS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GRATIS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GREEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GRIPE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GROCERY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GROUP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GUCCI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GUGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GUIDE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GUITARS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GURU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "GY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HAIR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HAMBURG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HANGOUT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HAUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HBO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HDFC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HDFCBANK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HEALTH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HEALTHCARE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HELP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HERE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HERMES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HIPHOP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HISAMITSU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HITACHI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HIV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HKT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOCKEY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOLDINGS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOLIDAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOMEDEPOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOMEGOODS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOMES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOMESENSE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HONDA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HORSE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOSPITAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOSTING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOTELS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOTMAIL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOUSE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HOW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HSBC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HUGHES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HYATT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "HYUNDAI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IBM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ICBC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ICE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ICU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ID",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IEEE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IFM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IKANO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IMAMAT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IMDB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IMMO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IMMOBILIEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INDUSTRIES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INFINITI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INFO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INSTITUTE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INSURANCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INSURE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INTERNATIONAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INTUIT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "INVESTMENTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IPIRANGA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IQ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IRISH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ISMAILI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ISTANBUL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "IT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ITAU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ITV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JAGUAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JAVA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JCB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JEEP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JETZT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JEWELRY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JIO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JLL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JMP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JNJ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JOBS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JOBURG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JOY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JPMORGAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JPRS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "JUEGOS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KAUFEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KDDI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KERRYHOTELS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KERRYPROPERTIES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KFH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KIA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KIDS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KIM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KINDLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KITCHEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KIWI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KOELN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KOMATSU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KOSHER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KPMG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KPN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KRD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KRED",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KUOKGROUP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KYOTO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "KZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LACAIXA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LAMBORGHINI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LAMER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LAND",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LANDROVER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LANXESS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LASALLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LAT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LATINO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LATROBE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LAW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LAWYER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LDS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LEASE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LECLERC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LEFRAK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LEGAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LEGO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LEXUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LGBT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIDL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIFE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIFEINSURANCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIFESTYLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIGHTING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIKE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LILLY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIMITED",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIMO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LINCOLN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LINK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIVE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LIVING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LLC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LLP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOANS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOCKER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOCUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LONDON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOTTE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOTTO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LOVE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LPL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LPLFINANCIAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LTD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LTDA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LUNDBECK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LUXE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LUXURY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "LY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MADRID",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MAIF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MAISON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MAKEUP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MANAGEMENT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MANGO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MAP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MARKET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MARKETING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MARKETS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MARRIOTT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MARSHALLS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MATTEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MBA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MCKINSEY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ME",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MED",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MEDIA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MEET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MELBOURNE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MEME",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MEMORIAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MENU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MERCK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MERCKMSD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MIAMI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MICROSOFT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MIL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MINI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MINT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MIT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MITSUBISHI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ML",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MLB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MLS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MMA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOBI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOBILE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MODA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MONASH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MONEY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MONSTER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MORMON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MORTGAGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOSCOW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOTO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOTORCYCLES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MOVIE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MQ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MSD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MTN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MTR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MUSEUM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MUSIC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "MZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NAB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NAGOYA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NAME",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NAVY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NBA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NEC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NETBANK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NETFLIX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NETWORK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NEUSTAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NEW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NEWS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NEXT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NEXTDIRECT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NEXUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NFL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NGO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NHK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NICO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NIKE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NIKON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NINJA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NISSAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NISSAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NOKIA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NORTON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NOW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NOWRUZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NOWTV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NRA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NRW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NTT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NYC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "NZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OBI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OBSERVER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OFFICE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OKINAWA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OLAYAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OLAYANGROUP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OLLO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OMEGA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ONE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ONG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ONL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ONLINE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OOO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OPEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ORACLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ORANGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ORG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ORGANIC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ORIGINS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OSAKA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OTSUKA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OTT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "OVH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PAGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PANASONIC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PARIS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PARS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PARTNERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PARTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PARTY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PCCW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PFIZER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHARMACY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHILIPS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHONE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHOTO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHOTOGRAPHY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHOTOS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PHYSIO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PICS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PICTET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PICTURES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PID",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PINK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PIONEER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PIZZA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PLACE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PLAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PLAYSTATION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PLUMBING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PLUS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PNC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "POHL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "POKER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "POLITIE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PORN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "POST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PRAXI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PRESS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PRIME",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PRO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PROD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PRODUCTIONS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PROF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PROGRESSIVE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PROMO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PROPERTIES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PROPERTY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PROTECTION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PRU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PRUDENTIAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PUB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PWC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "PY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "QA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "QPON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "QUEBEC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "QUEST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RACING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RADIO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "READ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REALESTATE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REALTOR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REALTY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RECIPES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RED",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REDUMBRELLA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REHAB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REISE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REISEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REIT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RELIANCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RENT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RENTALS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REPAIR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REPORT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REPUBLICAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RESTAURANT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REVIEW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REVIEWS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "REXROTH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RICH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RICHARDLI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RICOH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RIL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RIO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RIP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ROCKS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RODEO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ROGERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ROOM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RSVP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RUGBY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RUHR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RUN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RWE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "RYUKYU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAARLAND",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAFE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAFETY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAKURA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SALE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SALON",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAMSCLUB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAMSUNG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SANDVIK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SANDVIKCOROMANT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SANOFI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SARL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAVE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SAXO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SBI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SBS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCHAEFFLER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCHMIDT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCHOLARSHIPS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCHOOL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCHULE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCHWARZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCIENCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SCOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SEARCH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SEAT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SECURE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SECURITY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SEEK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SELECT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SENER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SERVICES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SEVEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SEW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SEX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SEXY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SFR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHANGRILA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHARP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHELL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHIA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHIKSHA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHOES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHOP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHOPPING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHOUJI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SHOW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SILK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SINA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SINGLES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SITE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SJ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SKI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SKIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SKY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SKYPE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SLING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SMART",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SMILE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SNCF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOCCER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOCIAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOFTBANK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOFTWARE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOHU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOLAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOLUTIONS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SONG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SONY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SOY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SPA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SPACE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SPORT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SPOT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SRL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STADA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STAPLES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STATEBANK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STATEFARM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STCGROUP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STOCKHOLM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STORAGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STORE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STREAM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STUDIO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STUDY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "STYLE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SUCKS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SUPPLIES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SUPPLY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SUPPORT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SURF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SURGERY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SUZUKI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SWATCH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SWISS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SYDNEY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SYSTEMS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "SZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TAB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TAIPEI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TALK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TAOBAO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TARGET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TATAMOTORS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TATAR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TATTOO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TAX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TAXI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TCI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TDK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TEAM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TECH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TECHNOLOGY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TEMASEK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TENNIS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TEVA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "THD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "THEATER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "THEATRE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TIAA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TICKETS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TIENDA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TIPS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TIRES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TIROL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TJ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TJMAXX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TJX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TKMAXX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TMALL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TODAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOKYO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOOLS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TORAY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOSHIBA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOTAL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOURS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOWN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOYOTA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TOYS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRADE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRADING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRAINING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRAVEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRAVELERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRAVELERSINSURANCE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRUST",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TRV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TUBE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TUI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TUNES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TUSHU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TVS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "TZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UBANK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UBS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UNICOM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UNIVERSITY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UNO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UOL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UPS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "US",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UY",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "UZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VACATIONS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VANA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VANGUARD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VEGAS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VENTURES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VERISIGN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VERSICHERUNG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VET",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIAJES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIDEO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIKING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VILLAS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIRGIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VISA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VISION",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIVA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VIVO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VLAANDEREN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VODKA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VOLVO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VOTE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VOTING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VOTO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VOYAGE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "VU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WALES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WALMART",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WALTER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WANG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WANGGOU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WATCH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WATCHES",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEATHER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEATHERCHANNEL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEBCAM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEBER",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEBSITE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WED",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEDDING",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEIBO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WEIR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WHOSWHO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WIEN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WIKI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WILLIAMHILL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WINDOWS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WINE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WINNERS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WME",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WOODSIDE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WORK",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WORKS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WORLD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WOW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WTC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "WTF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XBOX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XEROX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XIHUAN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XIN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--11B4C3D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--1CK2E1B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--1QQW23A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--2SCRJ9C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--30RR7Y",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--3BST00M",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--3DS443G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--3E0B707E",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--3HCRJ9C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--3PXU8K",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--42C2D9A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--45BR5CYL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--45BRJ9C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--45Q11C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--4DBRK0CE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--4GBRIM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--54B7FTA0CC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--55QW42G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--55QX5D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--5SU34J936BGSG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--5TZM5G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--6FRZ82G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--6QQ986B3XL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--80ADXHKS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--80AO21A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--80AQECDR1A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--80ASEHDB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--80ASWG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--8Y0A063A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--90A3AC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--90AE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--90AIS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--9DBQ2A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--9ET52U",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--9KRT00A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--B4W605FERD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--BCK1B9A5DRE4C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--C1AVG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--C2BR7G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--CCK2B3B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--CCKWCXETD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--CG4BKI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--CLCHC0EA0B2G2A9GCD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--CZR694B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--CZRS0T",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--CZRU2D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--D1ACJ3B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--D1ALF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--E1A4C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--ECKVDTC9D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--EFVY88H",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FCT429K",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FHBEI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FIQ228C5HS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FIQ64B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FIQS8S",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FIQZ9S",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FJQ720A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FLW351E",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FPCRJ9C3D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FZC2C9E2C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--FZYS8D69UVGM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--G2XX48C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--GCKR3F0F",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--GECRJ9C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--GK3AT1E",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--H2BREG3EVE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--H2BRJ9C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--H2BRJ9C8C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--HXT814E",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--I1B6B1A6A2E",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--IMR513N",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--IO0A7I",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--J1AEF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--J1AMH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--J6W193G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--JLQ480N2RG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--JVR189M",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--KCRX77D1X4A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--KPRW13D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--KPRY57D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--KPUT3I",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--L1ACC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--LGBBAT1AD8J",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGB9AWBF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBA3A3EJT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBA3A4F16A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBA7C0BBN0A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBAAM7A8H",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBAB2BD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBAH1A3HJKRD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBAI9AZGQP6J",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBAYH7GPA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBBH1A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBBH1A71E",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBC0A9AZCG",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBCA7DZDO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBCPQ6GPA1A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBERP4A5D4AR",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBGU82A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBI4ECEXP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBPL2FH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBT3DHD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBTX2B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MGBX4CD0AB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MIX891F",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MK1BU44C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--MXTQ1M",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--NGBC5AZD",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--NGBE9E0A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--NGBRX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--NODE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--NQV7F",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--NQV7FS00EMA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--NYQY26A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--O3CW4H",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--OGBPF8FL",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--OTU796D",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--P1ACF",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--P1AI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--PGBS0DH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--PSSY2U",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--Q7CE6A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--Q9JYB4C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--QCKA1PMC",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--QXA6A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--QXAM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--RHQV96G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--ROVU88B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--RVC1E0AM3E",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--S9BRJ9C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--SES554G",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--T60B56A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--TCKWE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--TIQ49XQYJ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--UNUP4Y",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--VERMGENSBERATER-CTB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--VERMGENSBERATUNG-PWB",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--VHQUV",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--VUQ861B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--W4R85EL8FHU5DNRA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--W4RS40L",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--WGBH1C",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--WGBL6A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--XHQ521B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--XKC2AL3HYE2A",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--XKC2DL3A5EE0H",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--Y9A3AQ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--YFRO4I67O",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--YGBI2AMMX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XN--ZFR164B",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XXX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "XYZ",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YACHTS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YAHOO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YAMAXUN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YANDEX",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YODOBASHI",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YOGA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YOKOHAMA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YOU",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YOUTUBE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YT",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "YUN",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZAPPOS",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZARA",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZERO",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZIP",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZM",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZONE",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZUERICH",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  },
+  {
+    "tld": "ZW",
+    "url": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt"
+  }
+]
