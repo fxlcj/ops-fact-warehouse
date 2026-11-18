@@ -16,7 +16,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -34,7 +34,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -51,7 +51,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -68,7 +68,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -86,7 +86,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -103,7 +103,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -120,7 +120,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -138,7 +138,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -155,7 +155,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -172,7 +172,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -190,7 +190,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -207,7 +207,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -224,7 +224,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -241,7 +241,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -258,7 +258,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -275,7 +275,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -293,7 +293,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv4",
@@ -311,7 +311,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     }
   ],
   "ipv6": [
@@ -330,7 +330,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -347,7 +347,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -364,7 +364,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -381,7 +381,7 @@
       "global": true,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -398,7 +398,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -415,7 +415,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -432,7 +432,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -449,7 +449,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -466,7 +466,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -483,7 +483,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -500,7 +500,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -517,7 +517,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -534,7 +534,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -551,7 +551,7 @@
       "global": true,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -568,7 +568,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -585,7 +585,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -602,7 +602,7 @@
       "global": false,
       "reserved": false,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     },
     {
       "family": "ipv6",
@@ -619,7 +619,7 @@
       "global": false,
       "reserved": true,
       "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xml",
-      "checked_date": "2026-11-13"
+      "checked_date": "2026-11-19"
     }
   ]
 }

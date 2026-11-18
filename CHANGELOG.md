@@ -3,6 +3,14 @@
 Each entry records what changed and the date the official source was re-checked.
 A figure never changes without its `checked_date` changing with it.
 
+## 2026-11-19 — CISA KEV snapshot refresh (1779 → 1782)
+
+Weekly re-collection. `cisa_kev.json` is a **point-in-time snapshot of a live feed**,
+so its count moves with each official release — always cite it with its `checked_date`.
+- `cisa_kev.json`: **1782** entries (was 1779). Catalog version `2026.11.17`, date released 2026-11-17. Three entries added this cycle, none removed, no due-date changes.
+- `cisa_kev_ops_relevant.json`: **363**-entry ops-vendor subset (Ivanti / SonicWall / Fortinet / Palo Alto / Cisco / VMware / MikroTik / Ubiquiti, etc.), unchanged.
+- Other files re-collected against their official sources this run; counts stable — 28 RFC / 48 common ports (ref) / 18+18 special IP ranges / 96 protocol numbers / 1436 TLDs.
+
 ## 2026-11-13 — 2026.11 (initial public dataset)
 
 Initial public dataset for the ops.jiunotes.top fact warehouse: 7 files covering

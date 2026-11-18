@@ -1,866 +1,866 @@
 [
   {
-    "value": null,
-    "name": null,
-    "description": null,
-    "ipv6": false,
+    "value": "0",
+    "name": "HOPOPT",
+    "description": "IPv6 Hop-by-Hop Option",
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "1",
+    "name": "ICMP",
+    "description": "Internet Control Message",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "2",
+    "name": "IGMP",
+    "description": "Internet Group Management",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "3",
+    "name": "GGP",
+    "description": "Gateway-to-Gateway",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "4",
+    "name": "IPv4",
+    "description": "IPv4 encapsulation",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "5",
+    "name": "ST",
+    "description": "Stream",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "6",
+    "name": "TCP",
+    "description": "Transmission Control",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "7",
+    "name": "CBT",
+    "description": "CBT",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "8",
+    "name": "EGP",
+    "description": "Exterior Gateway Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "10",
+    "name": "BBN-RCC-MON",
+    "description": "BBN RCC Monitoring",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "11",
+    "name": "NVP-II",
+    "description": "Network Voice Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "12",
+    "name": "PUP",
+    "description": "PUP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "15",
+    "name": "XNET",
+    "description": "Cross Net Debugger",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "16",
+    "name": "CHAOS",
+    "description": "Chaos",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "17",
+    "name": "UDP",
+    "description": "User Datagram",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "18",
+    "name": "MUX",
+    "description": "Multiplexing",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "19",
+    "name": "DCN-MEAS",
+    "description": "DCN Measurement Subsystems",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "20",
+    "name": "HMP",
+    "description": "Host Monitoring",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "21",
+    "name": "PRM",
+    "description": "Packet Radio Measurement",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "22",
+    "name": "XNS-IDP",
+    "description": "XEROX NS IDP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "23",
+    "name": "TRUNK-1",
+    "description": "Trunk-1",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "24",
+    "name": "TRUNK-2",
+    "description": "Trunk-2",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "25",
+    "name": "LEAF-1",
+    "description": "Leaf-1",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "26",
+    "name": "LEAF-2",
+    "description": "Leaf-2",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "27",
+    "name": "RDP",
+    "description": "Reliable Data Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "28",
+    "name": "IRTP",
+    "description": "Internet Reliable Transaction",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "30",
+    "name": "NETBLT",
+    "description": "Bulk Data Transfer Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "31",
+    "name": "MFE-NSP",
+    "description": "MFE Network Services Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "32",
+    "name": "MERIT-INP",
+    "description": "MERIT Internodal Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "33",
+    "name": "DCCP",
+    "description": "Datagram Congestion Control Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "34",
+    "name": "3PC",
+    "description": "Third Party Connect Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "35",
+    "name": "IDPR",
+    "description": "Inter-Domain Policy Routing Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "36",
+    "name": "XTP",
+    "description": "XTP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "37",
+    "name": "DDP",
+    "description": "Datagram Delivery Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "38",
+    "name": "IDPR-CMTP",
+    "description": "IDPR Control Message Transport Proto",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "39",
+    "name": "TP++",
+    "description": "TP++ Transport Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "42",
+    "name": "SDRP",
+    "description": "Source Demand Routing Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "45",
+    "name": "IDRP",
+    "description": "Inter-Domain Routing Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "47",
+    "name": "GRE",
+    "description": "Generic Routing Encapsulation",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "48",
+    "name": "DSR",
+    "description": "Dynamic Source Routing Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "49",
+    "name": "BNA",
+    "description": "BNA",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
-    "ipv6": false,
+    "value": "50",
+    "name": "ESP",
+    "description": "Encap Security Payload",
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
-    "ipv6": false,
+    "value": "51",
+    "name": "AH",
+    "description": "Authentication Header",
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "52",
+    "name": "I-NLSP",
+    "description": "Integrated Net Layer Security  TUBA",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "54",
+    "name": "NARP",
+    "description": "NBMA Address Resolution Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "58",
+    "name": "IPv6-ICMP",
+    "description": "ICMP for IPv6",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "59",
+    "name": "IPv6-NoNxt",
+    "description": "No Next Header for IPv6",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
-    "ipv6": false,
+    "value": "60",
+    "name": "IPv6-Opts",
+    "description": "Destination Options for IPv6",
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "62",
+    "name": "CFTP",
+    "description": "CFTP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "64",
+    "name": "SAT-EXPAK",
+    "description": "SATNET and Backroom EXPAK",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "65",
+    "name": "KRYPTOLAN",
+    "description": "Kryptolan",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "66",
+    "name": "RVD",
+    "description": "MIT Remote Virtual Disk Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "67",
+    "name": "IPPC",
+    "description": "Internet Pluribus Packet Core",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "69",
+    "name": "SAT-MON",
+    "description": "SATNET Monitoring",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "70",
+    "name": "VISA",
+    "description": "VISA Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "71",
+    "name": "IPCV",
+    "description": "Internet Packet Core Utility",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "72",
+    "name": "CPNX",
+    "description": "Computer Protocol Network Executive",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "73",
+    "name": "CPHB",
+    "description": "Computer Protocol Heart Beat",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "74",
+    "name": "WSN",
+    "description": "Wang Span Network",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "75",
+    "name": "PVP",
+    "description": "Packet Video Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "76",
+    "name": "BR-SAT-MON",
+    "description": "Backroom SATNET Monitoring",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "77",
+    "name": "SUN-ND",
+    "description": "SUN ND PROTOCOL-Temporary",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "78",
+    "name": "WB-MON",
+    "description": "WIDEBAND Monitoring",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "79",
+    "name": "WB-EXPAK",
+    "description": "WIDEBAND EXPAK",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "80",
+    "name": "ISO-IP",
+    "description": "ISO Internet Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "81",
+    "name": "VMTP",
+    "description": "VMTP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "82",
+    "name": "SECURE-VMTP",
+    "description": "SECURE-VMTP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "83",
+    "name": "VINES",
+    "description": "VINES",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "84",
+    "name": "IPTM",
+    "description": "Internet Protocol Traffic Manager",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "85",
+    "name": "NSFNET-IGP",
+    "description": "NSFNET-IGP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "86",
+    "name": "DGP",
+    "description": "Dissimilar Gateway Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "87",
+    "name": "TCF",
+    "description": "TCF",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "89",
+    "name": "OSPFIGP",
+    "description": "OSPFIGP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "90",
+    "name": "Sprite-RPC",
+    "description": "Sprite RPC Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "91",
+    "name": "LARP",
+    "description": "Locus Address Resolution Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "92",
+    "name": "MTP",
+    "description": "Multicast Transport Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "93",
+    "name": "AX.25",
+    "description": "AX.25 Frames",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "94",
+    "name": "IPIP",
+    "description": "IP-within-IP Encapsulation Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "96",
+    "name": "SCC-SP",
+    "description": "Semaphore Communications Sec. Pro.",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "97",
+    "name": "ETHERIP",
+    "description": "Ethernet-within-IP Encapsulation",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "98",
+    "name": "ENCAP",
+    "description": "Encapsulation Header",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "100",
+    "name": "GMTP",
+    "description": "GMTP",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "101",
+    "name": "IFMP",
+    "description": "Ipsilon Flow Management Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "108",
+    "name": "IPComp",
+    "description": "IP Payload Compression Protocol",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
+    "value": "129",
+    "name": "IPLT",
     "description": null,
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "130",
+    "name": "SPS",
+    "description": "Secure Packet Shield",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
+    "value": "134",
+    "name": "RSVP-E2E-IGNORE",
     "description": null,
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
+    "value": "135",
+    "name": "Mobility Header",
     "description": null,
-    "ipv6": false,
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
+    "value": "136",
+    "name": "UDPLite",
     "description": null,
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
+    "value": "137",
+    "name": "MPLS-in-IP",
     "description": null,
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "138",
+    "name": "manet",
+    "description": "MANET Protocols",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
-    "ipv6": false,
+    "value": "140",
+    "name": "Shim6",
+    "description": "Shim6 Protocol",
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "141",
+    "name": "WESP",
+    "description": "Wrapped Encapsulating Security Payload",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
-    "name": null,
-    "description": null,
+    "value": "142",
+    "name": "ROHC",
+    "description": "Robust Header Compression",
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
+    "value": "253",
     "name": null,
-    "description": null,
-    "ipv6": false,
+    "description": "Use for experimentation and testing",
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   },
   {
-    "value": null,
+    "value": "254",
     "name": null,
-    "description": null,
-    "ipv6": false,
+    "description": "Use for experimentation and testing",
+    "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-13"
+    "checked_date": "2026-11-19"
   }
 ]
