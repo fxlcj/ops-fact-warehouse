@@ -1,0 +1,474 @@
+{
+  "_meta": {
+    "title": "Nginx 常用指令白名单",
+    "source": [
+      "https://nginx.org/en/docs/ngx_core_module.html",
+      "https://nginx.org/en/docs/http/ngx_http_core_module.html",
+      "https://nginx.org/en/docs/http/ngx_http_proxy_module.html",
+      "https://nginx.org/en/docs/http/ngx_http_ssl_module.html"
+    ],
+    "checked_date": "2026-11-22",
+    "note": "Nginx 常用指令 80+ 条（core/http/proxy/ssl/limit_conn/limit_req）。文章里 nginx.conf 块中的指令必须在白名单内，否则 G4b WARN。context 字段标注指令适用的配置段（main/http/server/location/if）。"
+  },
+  "directives": {
+    "http": "主配置段 http {} 块",
+    "server": "服务器配置段 server {} 块",
+    "location": "位置匹配段 location {} 块",
+    "if": "条件段 if {} 块",
+    "main": "主配置段（worker_* / error_log 等）",
+    "events": "事件段 events {} 块",
+    "stream": "TCP/UDP 流代理段 stream {} 块"
+  },
+  "instructions": [
+    {
+      "directive": "worker_processes",
+      "context": "main",
+      "desc": "worker 进程数（auto=CPU 核数）"
+    },
+    {
+      "directive": "worker_connections",
+      "context": "events",
+      "desc": "单 worker 最大连接数"
+    },
+    {
+      "directive": "worker_rlimit_nofile",
+      "context": "main",
+      "desc": "单 worker 文件句柄上限"
+    },
+    {
+      "directive": "worker_cpu_affinity",
+      "context": "main",
+      "desc": "worker CPU 亲和"
+    },
+    {
+      "directive": "error_log",
+      "context": "main/http/server/location/if",
+      "desc": "错误日志路径"
+    },
+    {
+      "directive": "pid",
+      "context": "main",
+      "desc": "pid 文件路径"
+    },
+    {
+      "directive": "user",
+      "context": "main",
+      "desc": "worker 运行用户"
+    },
+    {
+      "directive": "events { worker_connections }",
+      "context": "events",
+      "desc": "事件模型配置"
+    },
+    {
+      "directive": "listen",
+      "context": "server",
+      "desc": "监听端口/地址（可带 ssl/http2/default_server/reuseport）"
+    },
+    {
+      "directive": "server_name",
+      "context": "server",
+      "desc": "服务器名"
+    },
+    {
+      "directive": "default_server",
+      "context": "server",
+      "desc": "默认服务器（listen 参数）"
+    },
+    {
+      "directive": "root",
+      "context": "http/server/location/if",
+      "desc": "网站根目录"
+    },
+    {
+      "directive": "index",
+      "context": "http/server/location/if",
+      "desc": "首页文件"
+    },
+    {
+      "directive": "try_files",
+      "context": "server/location/if",
+      "desc": "文件试读 + 回退"
+    },
+    {
+      "directive": "location",
+      "context": "http/server",
+      "desc": "位置匹配块（= ~ ^~ / 前缀）"
+    },
+    {
+      "directive": "if",
+      "context": "location",
+      "desc": "条件（慎用，if is evil）"
+    },
+    {
+      "directive": "rewrite",
+      "context": "http/server/location/if",
+      "desc": "URL 重写"
+    },
+    {
+      "directive": "return",
+      "context": "http/server/location/if",
+      "desc": "直接返回（如 301）"
+    },
+    {
+      "directive": "alias",
+      "context": "http/server/location/if",
+      "desc": "文件别名映射"
+    },
+    {
+      "directive": "include",
+      "context": "any",
+      "desc": "包含其他配置"
+    },
+    {
+      "directive": "server_tokens",
+      "context": "main/http/server",
+      "desc": "版本信息（off=隐藏）"
+    },
+    {
+      "directive": "keepalive_timeout",
+      "context": "http/server/location",
+      "desc": "keepalive 超时"
+    },
+    {
+      "directive": "keepalive_requests",
+      "context": "http/server/location",
+      "desc": "keepalive 最大请求数"
+    },
+    {
+      "directive": "sendfile",
+      "context": "http/server/location",
+      "desc": "sendfile 优化"
+    },
+    {
+      "directive": "tcp_nopush",
+      "context": "http/server/location",
+      "desc": "TCP nopush"
+    },
+    {
+      "directive": "tcp_nodelay",
+      "context": "http/server/location",
+      "desc": "TCP nodelay"
+    },
+    {
+      "directive": "open_file_cache",
+      "context": "http/server/location",
+      "desc": "文件缓存"
+    },
+    {
+      "directive": "open_file_cache_valid",
+      "context": "http/server/location",
+      "desc": "缓存有效期"
+    },
+    {
+      "directive": "open_file_cache_min_uses",
+      "context": "http/server/location",
+      "desc": "缓存最少使用次数"
+    },
+    {
+      "directive": "open_file_cache_errors",
+      "context": "http/server/location",
+      "desc": "错误缓存"
+    },
+    {
+      "directive": "client_max_body_size",
+      "context": "http/server/location",
+      "desc": "请求体上限（上传调大）"
+    },
+    {
+      "directive": "client_body_buffer_size",
+      "context": "http/server/location",
+      "desc": "请求体缓冲"
+    },
+    {
+      "directive": "client_header_buffer_size",
+      "context": "http/server/location",
+      "desc": "请求头缓冲"
+    },
+    {
+      "directive": "client_header_timeout",
+      "context": "http/server/location",
+      "desc": "请求头超时"
+    },
+    {
+      "directive": "client_body_timeout",
+      "context": "http/server/location",
+      "desc": "请求体超时"
+    },
+    {
+      "directive": "send_timeout",
+      "context": "http/server/location",
+      "desc": "响应发送超时"
+    },
+    {
+      "directive": "request_time",
+      "context": "any",
+      "desc": "请求处理时间变量"
+    },
+    {
+      "directive": "access_log",
+      "context": "http/server/location/if",
+      "desc": "访问日志"
+    },
+    {
+      "directive": "log_format",
+      "context": "http",
+      "desc": "日志格式"
+    },
+    {
+      "directive": "limit_conn",
+      "context": "http/server/location/if",
+      "desc": "并发连接限制"
+    },
+    {
+      "directive": "limit_conn_zone",
+      "context": "http",
+      "desc": "连接限制共享区"
+    },
+    {
+      "directive": "limit_req",
+      "context": "http/server/location/if",
+      "desc": "请求速率限制"
+    },
+    {
+      "directive": "limit_req_zone",
+      "context": "http",
+      "desc": "速率限制共享区"
+    },
+    {
+      "directive": "limit_rate",
+      "context": "http/server/location/if",
+      "desc": "响应限速"
+    },
+    {
+      "directive": "proxy_pass",
+      "context": "location/if",
+      "desc": "反向代理目标"
+    },
+    {
+      "directive": "proxy_set_header",
+      "context": "location/if",
+      "desc": "代理请求头（X-Real-IP/X-Forwarded-For）"
+    },
+    {
+      "directive": "proxy_connect_timeout",
+      "context": "location/if",
+      "desc": "代理连接超时"
+    },
+    {
+      "directive": "proxy_read_timeout",
+      "context": "location/if",
+      "desc": "代理读超时"
+    },
+    {
+      "directive": "proxy_send_timeout",
+      "context": "location/if",
+      "desc": "代理写超时"
+    },
+    {
+      "directive": "proxy_next_upstream",
+      "context": "location/if",
+      "desc": "失败重试"
+    },
+    {
+      "directive": "proxy_http_version",
+      "context": "location/if",
+      "desc": "代理 HTTP 版本"
+    },
+    {
+      "directive": "proxy_buffering",
+      "context": "location/if",
+      "desc": "代理缓冲"
+    },
+    {
+      "directive": "proxy_cache",
+      "context": "location/if",
+      "desc": "代理缓存"
+    },
+    {
+      "directive": "proxy_cache_valid",
+      "context": "location/if",
+      "desc": "缓存有效期"
+    },
+    {
+      "directive": "proxy_cache_key",
+      "context": "location/if",
+      "desc": "缓存 key"
+    },
+    {
+      "directive": "proxy_cache_path",
+      "context": "http",
+      "desc": "缓存路径"
+    },
+    {
+      "directive": "upstream",
+      "context": "http",
+      "desc": "上游组"
+    },
+    {
+      "directive": "server",
+      "context": "upstream",
+      "desc": "上游节点"
+    },
+    {
+      "directive": "max_fails",
+      "context": "upstream",
+      "desc": "上游失败阈值"
+    },
+    {
+      "directive": "fail_timeout",
+      "context": "upstream",
+      "desc": "上游失败超时"
+    },
+    {
+      "directive": "weight",
+      "context": "upstream",
+      "desc": "上游权重"
+    },
+    {
+      "directive": "ssl_certificate",
+      "context": "http/server/location",
+      "desc": "TLS 证书"
+    },
+    {
+      "directive": "ssl_certificate_key",
+      "context": "http/server/location",
+      "desc": "TLS 私钥"
+    },
+    {
+      "directive": "ssl_protocols",
+      "context": "http/server/location",
+      "desc": "TLS 协议版本"
+    },
+    {
+      "directive": "ssl_ciphers",
+      "context": "http/server/location",
+      "desc": "TLS 套件"
+    },
+    {
+      "directive": "ssl_prefer_server_ciphers",
+      "context": "http/server/location",
+      "desc": "优先服务端套件"
+    },
+    {
+      "directive": "ssl_session_cache",
+      "context": "http/server/location",
+      "desc": "TLS 会话缓存"
+    },
+    {
+      "directive": "ssl_session_timeout",
+      "context": "http/server/location",
+      "desc": "TLS 会话超时"
+    },
+    {
+      "directive": "ssl_trusted_certificate",
+      "context": "http/server/location",
+      "desc": "客户端证书校验"
+    },
+    {
+      "directive": "add_header",
+      "context": "http/server/location/if",
+      "desc": "响应头（CSP/CORS/Cookie）"
+    },
+    {
+      "directive": "more_set_headers",
+      "context": "any",
+      "desc": "ngx_http_more 模块"
+    },
+    {
+      "directive": "map",
+      "context": "http",
+      "desc": "变量映射"
+    },
+    {
+      "directive": "geo",
+      "context": "http",
+      "desc": "IP 地理映射"
+    },
+    {
+      "directive": "split_clients",
+      "context": "http",
+      "desc": "客户端分组"
+    },
+    {
+      "directive": "mirror",
+      "context": "location/if",
+      "desc": "请求镜像"
+    },
+    {
+      "directive": "perl",
+      "context": "location/if",
+      "desc": "perl 内嵌"
+    },
+    {
+      "directive": "fastcgi_pass",
+      "context": "location/if",
+      "desc": "PHP-FPM 代理"
+    },
+    {
+      "directive": "uwsgi_pass",
+      "context": "location/if",
+      "desc": "uwsgi 代理"
+    },
+    {
+      "directive": "scgi_pass",
+      "context": "location/if",
+      "desc": "scgi 代理"
+    },
+    {
+      "directive": "grpc_pass",
+      "context": "location/if",
+      "desc": "gRPC 代理"
+    },
+    {
+      "directive": "aio",
+      "context": "http/server/location",
+      "desc": "异步 IO"
+    },
+    {
+      "directive": "output_buffers",
+      "context": "http/server/location",
+      "desc": "输出缓冲"
+    },
+    {
+      "directive": "postpone_output",
+      "context": "http/server/location",
+      "desc": "输出延迟阈值"
+    },
+    {
+      "directive": "gzip",
+      "context": "http/server/location",
+      "desc": "gzip 压缩"
+    },
+    {
+      "directive": "gzip_min_length",
+      "context": "http/server/location",
+      "desc": "gzip 最小长度"
+    },
+    {
+      "directive": "gzip_comp_level",
+      "context": "http/server/location",
+      "desc": "gzip 压缩级别"
+    },
+    {
+      "directive": "gzip_types",
+      "context": "http/server/location",
+      "desc": "gzip 类型"
+    },
+    {
+      "directive": "gzip_vary",
+      "context": "http/server/location",
+      "desc": "gzip Vary 头"
+    },
+    {
+      "directive": "http2",
+      "context": "listen",
+      "desc": "HTTP/2 启用"
+    },
+    {
+      "directive": "http3",
+      "context": "listen",
+      "desc": "HTTP/3 启用"
+    }
+  ]
+}

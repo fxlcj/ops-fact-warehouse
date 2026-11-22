@@ -1,0 +1,294 @@
+{
+  "_meta": {
+    "title": "vLLM 官方 Prometheus 指标白名单",
+    "source": [
+      "https://docs.vllm.com.cn/en/latest/usage/metrics",
+      "https://github.com/vllm-project/vllm/blob/main/docs/design/metrics.md",
+      "https://github.com/kaito-project/kaito/blob/main/docs/inference/Monitoring.md"
+    ],
+    "checked_date": "2026-11-22",
+    "note": "V1 引擎默认开启。指标名带 vllm: 前缀；histogram 自动扩展 _sum/_count/_bucket/_max 后缀。DEPRECATED 指标保留在列表中供旧版兼容，标注 deprecated=true。"
+  },
+  "metrics": [
+    {
+      "name": "vllm:num_requests_running",
+      "type": "Gauge",
+      "desc": "模型执行批次中的请求数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:num_requests_waiting",
+      "type": "Gauge",
+      "desc": "等待处理的请求数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:num_requests_swapped",
+      "type": "Gauge",
+      "desc": "换入 CPU 的请求数（DEPRECATED: V1 不用 KV offload）",
+      "deprecated": true
+    },
+    {
+      "name": "vllm:num_requests_waiting_by_reason",
+      "type": "Gauge",
+      "desc": "按原因划分的等待请求数（capacity/deferred）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:kv_cache_usage_perc",
+      "type": "Gauge",
+      "desc": "KV 缓存使用占比（0-1）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:gpu_cache_usage_perc",
+      "type": "Gauge",
+      "desc": "GPU KV cache 使用占比（0-1）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:cpu_cache_usage_perc",
+      "type": "Gauge",
+      "desc": "CPU KV cache 使用占比（DEPRECATED: V1 不用）",
+      "deprecated": true
+    },
+    {
+      "name": "vllm:gpu_prefix_cache_hit_rate",
+      "type": "Gauge",
+      "desc": "GPU prefix cache 命中率（0-1）",
+      "deprecated": true
+    },
+    {
+      "name": "vllm:cpu_prefix_cache_hit_rate",
+      "type": "Gauge",
+      "desc": "CPU prefix cache 命中率（DEPRECATED: V1 不用）",
+      "deprecated": true
+    },
+    {
+      "name": "vllm:lora_requests_info",
+      "type": "Gauge",
+      "desc": "LoRA 请求运行统计",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:num_preemptions_total",
+      "type": "Counter",
+      "desc": "抢占累计次数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:prompt_tokens_total",
+      "type": "Counter",
+      "desc": "处理的 prompt token 总数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:generation_tokens_total",
+      "type": "Counter",
+      "desc": "生成的 token 总数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_success_total",
+      "type": "Counter",
+      "desc": "成功完成的请求数（按 finish reason 分类）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:iteration_tokens_total",
+      "type": "Histogram",
+      "desc": "每个 engine_step 的 token 数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:time_to_first_token_seconds",
+      "type": "Histogram",
+      "desc": "TTFT 延迟（秒）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:inter_token_latency_seconds",
+      "type": "Histogram",
+      "desc": "Token 间延迟（秒）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:e2e_request_latency_seconds",
+      "type": "Histogram",
+      "desc": "端到端请求延迟（秒）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_queue_time_seconds",
+      "type": "Histogram",
+      "desc": "队列等待时间（秒）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_prefill_time_seconds",
+      "type": "Histogram",
+      "desc": "预填充阶段时间（秒）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_decode_time_seconds",
+      "type": "Histogram",
+      "desc": "解码阶段时间（秒）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_inference_time_seconds",
+      "type": "Histogram",
+      "desc": "推理阶段时间（秒）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_time_per_output_token_seconds",
+      "type": "Histogram",
+      "desc": "每输出 token 时间（TPOT）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_prompt_tokens",
+      "type": "Histogram",
+      "desc": "请求 prompt 长度",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_generation_tokens",
+      "type": "Histogram",
+      "desc": "请求生成长度",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_max_num_generation_tokens",
+      "type": "Histogram",
+      "desc": "序列组中最大生成 token 数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_num_preemptions",
+      "type": "Histogram",
+      "desc": "请求被抢占次数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_params_n",
+      "type": "Histogram",
+      "desc": "请求 n 参数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:request_params_max_tokens",
+      "type": "Histogram",
+      "desc": "请求 max_tokens 参数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:kv_block_idle_before_evict_seconds",
+      "type": "Histogram",
+      "desc": "KV 块逐出前空闲时间（采样，--kv-cache-metrics-sample）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:kv_block_lifetime_seconds",
+      "type": "Histogram",
+      "desc": "KV 块从分配到逐出的生命周期（采样）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:kv_block_reuse_gap_seconds",
+      "type": "Histogram",
+      "desc": "连续 KV 块访问间隔（采样）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:spec_decode_num_accepted_tokens_total",
+      "type": "Counter",
+      "desc": "speculative decoding 接受 token 数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:spec_decode_num_draft_tokens_total",
+      "type": "Counter",
+      "desc": "speculative decoding draft token 数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:spec_decode_num_emitted_tokens_total",
+      "type": "Counter",
+      "desc": "speculative decoding 发出 token 数（DEPRECATED: V1 不用）",
+      "deprecated": true
+    },
+    {
+      "name": "vllm:spec_decode_draft_acceptance_rate",
+      "type": "Gauge",
+      "desc": "speculative decoding 接受率（DEPRECATED: V1 不用）",
+      "deprecated": true
+    },
+    {
+      "name": "vllm:spec_decode_efficiency",
+      "type": "Gauge",
+      "desc": "speculative decoding 效率（DEPRECATED: V1 不用）",
+      "deprecated": true
+    },
+    {
+      "name": "vllm:version_info",
+      "type": "Gauge",
+      "desc": "vLLM 版本信息（info 指标，label vllm_version）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm_version",
+      "type": "Gauge",
+      "desc": "vLLM 版本 info 指标（label 名，常出现在 /metrics 的 version_info 标签或 dump 里）",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:nixl_num_failed_notifications",
+      "type": "Counter",
+      "desc": "NIXL KV connector 通知失败次数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:nixl_num_failed_transfers",
+      "type": "Counter",
+      "desc": "NIXL KV connector 传输失败次数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:nixl_num_kv_expired_reqs",
+      "type": "Counter",
+      "desc": "NIXL KV 过期请求数",
+      "deprecated": false
+    },
+    {
+      "name": "vllm:nixl_bytes_transferred",
+      "type": "Histogram",
+      "desc": "NIXL KV 传输字节数",
+      "deprecated": false
+    }
+  ],
+  "histogram_suffixes": [
+    "_sum",
+    "_count",
+    "_bucket",
+    "_max"
+  ],
+  "deprecated_metrics": [
+    "vllm:num_requests_swapped",
+    "vllm:cpu_cache_usage_perc",
+    "vllm:gpu_prefix_cache_hit_rate",
+    "vllm:cpu_prefix_cache_hit_rate",
+    "vllm:spec_decode_num_emitted_tokens_total",
+    "vllm:spec_decode_draft_acceptance_rate",
+    "vllm:spec_decode_efficiency"
+  ],
+  "custom_pushgateway_examples": {
+    "_note": "文章里 pushgateway 脚本可自定义导出指标，但命名必须遵循 vllm: 冒号版前缀 + 语义名，禁止下划线版。以下为本站已用的自定义名（需 G4 白名单放行）：",
+    "names": [
+      "vllm:kv_cache_tokens_total",
+      "vllm:gpu_memory_used_bytes"
+    ]
+  }
+}

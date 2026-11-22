@@ -3,6 +3,22 @@
 Each entry records what changed and the date the official source was re-checked.
 A figure never changes without its `checked_date` changing with it.
 
+## 2026-11-22 — Technical-reference whitelist repos added (vLLM / HA CLI / sysctl / HTTP / Prometheus / Nginx / Kubernetes / iptables / Docker)
+
+New machine-readable reference repos under the subdirectories below. These are **static reference whitelists** distilled from each project's official docs, each with a `checked_date` in `_meta`. They exist so articles can be checked against the official fixed-data surface (commands, flags, metric names, directives, table/chain/target) — a fabricated identifier not on the list is a red flag worth reviewing.
+
+- `vllm-metrics/vllm-metrics.json`: 43 vLLM Prometheus metric names (with `vllm:` prefix, histogram suffixes, deprecation notes) + `vllm-metrics/vllm-flags.json`: 37 vLLM CLI flags.
+- `ha-cli/ha-cli.json`: 21 top-level `ha` subcommands + 67 secondary actions + 8 global flags (Home Assistant CLI).
+- `linux-sysctl/sysctl.json`: 100+ sysctl parameters across net/vm/fs/kernel.
+- `http-status/codes.json`: full HTTP status-code set (RFC 9110 + IANA extensions).
+- `prometheus-metrics/metrics.json`: node_exporter / kube-state-metrics / Prometheus-self metric names + PromQL functions.
+- `nginx-directives/directives.json`: 80+ common Nginx directives.
+- `kubernetes/kubernetes.json`: 37 kubectl subcommands + ~60 resource kinds/abbreviations (incl. Prometheus-Operator CRDs).
+- `firewall/firewall.json`: iptables tables / chains / targets (incl. Kubernetes `KUBE` target) + nftables tables.
+- `docker/docker.json`: 28 docker subcommands + 50+ common docker / docker-compose flags.
+
+Maintenance: these are reference data re-checked manually (not a live feed); `checked_date` refreshes each re-check. The CISA KEV and IANA files above remain the live/re-collected sources.
+
 ## 2026-11-19 — CISA KEV snapshot refresh (1779 → 1782)
 
 Weekly re-collection. `cisa_kev.json` is a **point-in-time snapshot of a live feed**,

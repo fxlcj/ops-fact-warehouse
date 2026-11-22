@@ -1,0 +1,606 @@
+{
+  "_meta": {
+    "title": "Kubernetes / kubectl 官方命令与资源白名单",
+    "source": [
+      "https://kubernetes.io/docs/reference/kubectl/generated/kubectl/",
+      "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_get/",
+      "https://kubernetes.io/docs/reference/kubernetes-api/"
+    ],
+    "checked_date": "2026-11-22",
+    "note": "kubectl 顶层命令 + get/delete/apply/patch 等资源动词 + 官方资源类型与缩写。用于 G4b 源头遏制：文章里 kubectl <命令> / <资源> 不在白名单 → 告警/阻断。资源缩写来自 kubectl api-resources。"
+  },
+  "kubectl_commands": [
+    {
+      "name": "get",
+      "desc": "按名称/标签/类型查看资源"
+    },
+    {
+      "name": "describe",
+      "desc": "查看资源详情与事件"
+    },
+    {
+      "name": "apply",
+      "desc": "按 YAML 声明式应用/更新资源"
+    },
+    {
+      "name": "create",
+      "desc": "创建资源（imperative）"
+    },
+    {
+      "name": "delete",
+      "desc": "删除资源（可按名称/标签/类型）"
+    },
+    {
+      "name": "exec",
+      "desc": "在 Pod 容器内执行命令"
+    },
+    {
+      "name": "logs",
+      "desc": "查看容器/POD 日志"
+    },
+    {
+      "name": "rollout",
+      "desc": "管理资源滚动更新历史"
+    },
+    {
+      "name": "port-forward",
+      "desc": "本地端口转发到资源/节点/服务"
+    },
+    {
+      "name": "top",
+      "desc": "查看资源用量（需 metrics-server）"
+    },
+    {
+      "name": "debug",
+      "desc": "Pod 节点调试"
+    },
+    {
+      "name": "patch",
+      "desc": "按 JSON/YAML/strategic patch 更新资源"
+    },
+    {
+      "name": "scale",
+      "desc": "按副本数扩缩 Deployment/StatefulSet"
+    },
+    {
+      "name": "set",
+      "desc": "更新已有对象指定字段（image/env/replicas 等）"
+    },
+    {
+      "name": "edit",
+      "desc": "在编辑器中编辑资源"
+    },
+    {
+      "name": "wait",
+      "desc": "等待资源满足条件"
+    },
+    {
+      "name": "label",
+      "desc": "给资源打标签"
+    },
+    {
+      "name": "annotate",
+      "desc": "给资源加注解"
+    },
+    {
+      "name": "expose",
+      "desc": "把 Service/Deployment 暴露成 Service"
+    },
+    {
+      "name": "run",
+      "desc": "创建 Deployment/Job（简化命令，官方建议少用）"
+    },
+    {
+      "name": "config",
+      "desc": "管理 kubeconfig 配置"
+    },
+    {
+      "name": "cluster-info",
+      "desc": "查看集群信息/控制面地址"
+    },
+    {
+      "name": "version",
+      "desc": "查看 kubectl 与 server 版本"
+    },
+    {
+      "name": "events",
+      "desc": "列出集群事件（k8s 1.31+ 起 events API 移除，旧用）"
+    },
+    {
+      "name": "explain",
+      "desc": "查看资源字段文档"
+    },
+    {
+      "name": "api-resources",
+      "desc": "列出集群支持的 API 资源"
+    },
+    {
+      "name": "api-versions",
+      "desc": "列出集群 API 版本（旧）"
+    },
+    {
+      "name": "auth",
+      "desc": "查看资源访问权限（can-i）"
+    },
+    {
+      "name": "cordon",
+      "desc": "把节点标记不可调度"
+    },
+    {
+      "name": "uncordon",
+      "desc": "取消节点不可调度标记"
+    },
+    {
+      "name": "drain",
+      "desc": "驱逐节点上 Pod（维护排空）"
+    },
+    {
+      "name": "taint",
+      "desc": "给节点加污点"
+    },
+    {
+      "name": "attach",
+      "desc": "附加到 Pod 标准输入"
+    },
+    {
+      "name": "cp",
+      "desc": "在容器与本地间拷贝文件"
+    },
+    {
+      "name": "plugin",
+      "desc": "管理 kubectl 插件"
+    },
+    {
+      "name": "diff",
+      "desc": "对比集群对象与本地 YAML（kubectl diff，1.33+ 内置）"
+    }
+  ],
+  "resource_types": [
+    {
+      "name": "pod",
+      "short": "po",
+      "kind": "Pod",
+      "group": "v1"
+    },
+    {
+      "name": "pods",
+      "short": "po",
+      "kind": "Pod",
+      "group": "v1",
+      "note": "列表形式，kubectl get pods"
+    },
+    {
+      "name": "deployment",
+      "short": "deploy",
+      "kind": "Deployment",
+      "group": "apps/v1"
+    },
+    {
+      "name": "deployments",
+      "short": "deploy",
+      "kind": "Deployment",
+      "group": "apps/v1",
+      "note": "列表"
+    },
+    {
+      "name": "service",
+      "short": "svc",
+      "kind": "Service",
+      "group": "v1"
+    },
+    {
+      "name": "services",
+      "short": "svc",
+      "kind": "Service",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "statefulset",
+      "short": "sts",
+      "kind": "StatefulSet",
+      "group": "apps/v1"
+    },
+    {
+      "name": "statefulsets",
+      "short": "sts",
+      "kind": "StatefulSet",
+      "group": "apps/v1",
+      "note": "列表"
+    },
+    {
+      "name": "daemonset",
+      "short": "ds",
+      "kind": "DaemonSet",
+      "group": "apps/v1"
+    },
+    {
+      "name": "daemonsets",
+      "short": "ds",
+      "kind": "DaemonSet",
+      "group": "apps/v1",
+      "note": "列表"
+    },
+    {
+      "name": "replicaset",
+      "short": "rs",
+      "kind": "ReplicaSet",
+      "group": "apps/v1"
+    },
+    {
+      "name": "replicasets",
+      "short": "rs",
+      "kind": "ReplicaSet",
+      "group": "apps/v1",
+      "note": "列表"
+    },
+    {
+      "name": "replicationcontroller",
+      "short": "rc",
+      "kind": "ReplicationController",
+      "group": "v1"
+    },
+    {
+      "name": "job",
+      "short": "job",
+      "kind": "Job",
+      "group": "batch/v1"
+    },
+    {
+      "name": "jobs",
+      "short": "job",
+      "kind": "Job",
+      "group": "batch/v1",
+      "note": "列表"
+    },
+    {
+      "name": "cronjob",
+      "short": "cj",
+      "kind": "CronJob",
+      "group": "batch/v1"
+    },
+    {
+      "name": "cronjobs",
+      "short": "cj",
+      "kind": "CronJob",
+      "group": "batch/v1",
+      "note": "列表"
+    },
+    {
+      "name": "configmap",
+      "short": "cm",
+      "kind": "ConfigMap",
+      "group": "v1"
+    },
+    {
+      "name": "configmaps",
+      "short": "cm",
+      "kind": "ConfigMap",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "secret",
+      "short": "secret",
+      "kind": "Secret",
+      "group": "v1"
+    },
+    {
+      "name": "secrets",
+      "short": "secret",
+      "kind": "Secret",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "namespace",
+      "short": "ns",
+      "kind": "Namespace",
+      "group": "v1"
+    },
+    {
+      "name": "namespaces",
+      "short": "ns",
+      "kind": "Namespace",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "node",
+      "short": "no",
+      "kind": "Node",
+      "group": "v1"
+    },
+    {
+      "name": "nodes",
+      "short": "no",
+      "kind": "Node",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "ingress",
+      "short": "ing",
+      "kind": "Ingress",
+      "group": "networking.k8s.io/v1"
+    },
+    {
+      "name": "ingresses",
+      "short": "ing",
+      "kind": "Ingress",
+      "group": "networking.k8s.io/v1",
+      "note": "列表"
+    },
+    {
+      "name": "networkpolicy",
+      "short": "netpol",
+      "kind": "NetworkPolicy",
+      "group": "networking.k8s.io/v1"
+    },
+    {
+      "name": "networkpolicies",
+      "short": "netpol",
+      "kind": "NetworkPolicy",
+      "group": "networking.k8s.io/v1",
+      "note": "列表"
+    },
+    {
+      "name": "persistentvolume",
+      "short": "pv",
+      "kind": "PersistentVolume",
+      "group": "v1"
+    },
+    {
+      "name": "persistentvolumes",
+      "short": "pv",
+      "kind": "PersistentVolume",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "persistentvolumeclaim",
+      "short": "pvc",
+      "kind": "PersistentVolumeClaim",
+      "group": "v1"
+    },
+    {
+      "name": "persistentvolumeclaims",
+      "short": "pvc",
+      "kind": "PersistentVolumeClaim",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "serviceaccount",
+      "short": "sa",
+      "kind": "ServiceAccount",
+      "group": "v1"
+    },
+    {
+      "name": "serviceaccounts",
+      "short": "sa",
+      "kind": "ServiceAccount",
+      "group": "v1",
+      "note": "列表"
+    },
+    {
+      "name": "role",
+      "short": "role",
+      "kind": "Role",
+      "group": "rbac.authorization.k8s.io/v1"
+    },
+    {
+      "name": "roles",
+      "short": "role",
+      "kind": "Role",
+      "group": "rbac.authorization.k8s.io/v1",
+      "note": "列表"
+    },
+    {
+      "name": "rolebinding",
+      "short": "rb",
+      "kind": "RoleBinding",
+      "group": "rbac.authorization.k8s.io/v1"
+    },
+    {
+      "name": "rolebindings",
+      "short": "rb",
+      "kind": "RoleBinding",
+      "group": "rbac.authorization.k8s.io/v1",
+      "note": "列表"
+    },
+    {
+      "name": "clusterrole",
+      "short": "clusterrole",
+      "kind": "ClusterRole",
+      "group": "rbac.authorization.k8s.io/v1"
+    },
+    {
+      "name": "clusterroles",
+      "short": "clusterrole",
+      "kind": "ClusterRole",
+      "group": "rbac.authorization.k8s.io/v1",
+      "note": "列表"
+    },
+    {
+      "name": "clusterrolebinding",
+      "short": "crb",
+      "kind": "ClusterRoleBinding",
+      "group": "rbac.authorization.k8s.io/v1"
+    },
+    {
+      "name": "clusterrolebindings",
+      "short": "crb",
+      "kind": "ClusterRoleBinding",
+      "group": "rbac.authorization.k8s.io/v1",
+      "note": "列表"
+    },
+    {
+      "name": "limitrange",
+      "short": "limits",
+      "kind": "LimitRange",
+      "group": "v1"
+    },
+    {
+      "name": "resourcequota",
+      "short": "quota",
+      "kind": "ResourceQuota",
+      "group": "v1"
+    },
+    {
+      "name": "event",
+      "short": "ev",
+      "kind": "Event",
+      "group": "v1"
+    },
+    {
+      "name": "events",
+      "short": "ev",
+      "kind": "Event",
+      "group": "v1",
+      "note": "列表（1.25+ 事件 API 移除，旧用）"
+    },
+    {
+      "name": "endpoints",
+      "short": "ep",
+      "kind": "Endpoints",
+      "group": "v1"
+    },
+    {
+      "name": "endpointslice",
+      "short": "ends",
+      "kind": "EndpointSlice",
+      "group": "discovery.k8s.io/v1"
+    },
+    {
+      "name": "storageclass",
+      "short": "sc",
+      "kind": "StorageClass",
+      "group": "storage.k8s.io/v1"
+    },
+    {
+      "name": "csivolume",
+      "short": "csi",
+      "kind": "CSIVolume",
+      "group": "storage.k8s.io/v1"
+    },
+    {
+      "name": "csinode",
+      "short": "csinodes",
+      "kind": "CSINode",
+      "group": "storage.k8s.io/v1"
+    },
+    {
+      "name": "priorityclass",
+      "short": "pc",
+      "kind": "PriorityClass",
+      "group": "scheduling.k8s.io/v1"
+    },
+    {
+      "name": "podsecuritypolicy",
+      "short": "psp",
+      "kind": "PodSecurityPolicy",
+      "group": "policy/v1beta1",
+      "note": "已移除（1.25+）"
+    },
+    {
+      "name": "poddisruptionbudget",
+      "short": "pdb",
+      "kind": "PodDisruptionBudget",
+      "group": "policy/v1"
+    },
+    {
+      "name": "customresourcedefinition",
+      "short": "crd",
+      "kind": "CustomResourceDefinition",
+      "group": "apiextensions.k8s.io/v1"
+    },
+    {
+      "name": "alertmanager",
+      "short": "am",
+      "kind": "Alertmanager",
+      "group": "monitoring.coreos.com/v1",
+      "note": "Prometheus Operator CRD"
+    },
+    {
+      "name": "prometheus",
+      "short": "prom",
+      "kind": "Prometheus",
+      "group": "monitoring.coreos.com/v1",
+      "note": "Prometheus Operator CRD"
+    },
+    {
+      "name": "prometheusrule",
+      "short": "rule",
+      "kind": "PrometheusRule",
+      "group": "monitoring.coreos.com/v1",
+      "note": "Prometheus Operator CRD"
+    },
+    {
+      "name": "servicemonitor",
+      "short": "svcmon",
+      "kind": "ServiceMonitor",
+      "group": "monitoring.coreos.com/v1",
+      "note": "Prometheus Operator CRD"
+    },
+    {
+      "name": "podmonitor",
+      "short": "podmon",
+      "kind": "PodMonitor",
+      "group": "monitoring.coreos.com/v1",
+      "note": "Prometheus Operator CRD"
+    },
+    {
+      "name": "ingressclass",
+      "short": "ingclass",
+      "kind": "IngressClass",
+      "group": "networking.k8s.io/v1"
+    },
+    {
+      "name": "validatingwebhookconfiguration",
+      "short": "vwc",
+      "kind": "ValidatingWebhookConfiguration",
+      "group": "admissionregistration.k8s.io/v1"
+    },
+    {
+      "name": "mutatingwebhookconfiguration",
+      "short": "mwc",
+      "kind": "MutatingWebhookConfiguration",
+      "group": "admissionregistration.k8s.io/v1"
+    },
+    {
+      "name": "csidriver",
+      "short": "csidr",
+      "kind": "CSIDriver",
+      "group": "storage.k8s.io/v1"
+    }
+  ],
+  "rollout_subcommands": [
+    {
+      "name": "status",
+      "desc": "查看滚动更新状态"
+    },
+    {
+      "name": "history",
+      "desc": "查看更新历史"
+    },
+    {
+      "name": "undo",
+      "desc": "回滚到历史版本"
+    },
+    {
+      "name": "pause",
+      "desc": "暂停滚动更新"
+    },
+    {
+      "name": "resume",
+      "desc": "恢复滚动更新"
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "kubectl events",
+      "reason": "1.25+ 移除 events API，改用 kubectl get events / 事件列表 API"
+    }
+  ]
+}

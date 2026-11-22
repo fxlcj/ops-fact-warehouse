@@ -1,0 +1,277 @@
+{
+  "_meta": {
+    "title": "Home Assistant CLI 子命令 / flag 白名单",
+    "source": [
+      "https://github.com/home-assistant/cli/tree/4.31.0/README.md",
+      "https://www.home-assistant.io/common-tasks/os/",
+      "https://home-assistant.io/getting-started/"
+    ],
+    "checked_date": "2026-11-22",
+    "note": "HA CLI（home-assistant/cli 4.31.0）官方子命令族。顶层 ha <子命令>，子命令族下还有一级 <动作>。白名单收录「顶层 + 一级动作」两级。"
+  },
+  "top_level_commands": [
+    {
+      "name": "addons",
+      "desc": "Add-on 管理（install/update/remove/configure）"
+    },
+    {
+      "name": "audio",
+      "desc": "音频设备处理"
+    },
+    {
+      "name": "authentication",
+      "desc": "HA 用户认证管理"
+    },
+    {
+      "name": "backups",
+      "desc": "备份创建/恢复/删除（create/restore/remove）"
+    },
+    {
+      "name": "banner",
+      "desc": "打印 HA banner + 信息"
+    },
+    {
+      "name": "cli",
+      "desc": "CLI 后端信息/更新/配置"
+    },
+    {
+      "name": "core",
+      "desc": "HA Core 控制（check/info/logs/options/rebuild/restart/start/stats/stop/update）"
+    },
+    {
+      "name": "dns",
+      "desc": "DNS 服务器信息/更新/配置"
+    },
+    {
+      "name": "docker",
+      "desc": "Docker 后端信息/OCI 配置"
+    },
+    {
+      "name": "hardware",
+      "desc": "硬件信息（info/audio）"
+    },
+    {
+      "name": "help",
+      "desc": "帮助"
+    },
+    {
+      "name": "host",
+      "desc": "宿主机控制（reboot/shutdown/update/info）"
+    },
+    {
+      "name": "info",
+      "desc": "HA 总体信息概览"
+    },
+    {
+      "name": "jobs",
+      "desc": "运行中任务管理"
+    },
+    {
+      "name": "multicast",
+      "desc": "多播网络信息/更新/配置"
+    },
+    {
+      "name": "network",
+      "desc": "网络信息/更新/配置"
+    },
+    {
+      "name": "observer",
+      "desc": "Observer 信息/更新/配置"
+    },
+    {
+      "name": "os",
+      "desc": "OS 更新/信息/配置/datadisk（list/move/wipe）"
+    },
+    {
+      "name": "rest",
+      "desc": "Supervisor REST API 透传（ha rest GET/POST /api/...）"
+    },
+    {
+      "name": "resolution",
+      "desc": "Supervisor 问题中心/诊断"
+    },
+    {
+      "name": "supervisor",
+      "desc": "Supervisor 监控/控制/配置（info/logs/options/reload/update）"
+    }
+  ],
+  "subcommands": {
+    "core": [
+      "check",
+      "info",
+      "logs",
+      "options",
+      "rebuild",
+      "restart",
+      "start",
+      "stats",
+      "stop",
+      "update",
+      "version"
+    ],
+    "supervisor": [
+      "info",
+      "logs",
+      "options",
+      "reload",
+      "update"
+    ],
+    "addons": [
+      "info",
+      "install",
+      "list",
+      "remove",
+      "restart",
+      "start",
+      "stop",
+      "update",
+      "config"
+    ],
+    "backups": [
+      "list",
+      "new",
+      "restore",
+      "remove",
+      "info"
+    ],
+    "host": [
+      "reboot",
+      "shutdown",
+      "update",
+      "info",
+      "services",
+      "networks"
+    ],
+    "os": [
+      "info",
+      "update",
+      "datadisk",
+      "version"
+    ],
+    "os.datadisk": [
+      "list",
+      "move",
+      "wipe"
+    ],
+    "hardware": [
+      "info",
+      "audio"
+    ],
+    "dns": [
+      "info",
+      "update",
+      "config"
+    ],
+    "multicast": [
+      "info",
+      "update",
+      "config"
+    ],
+    "network": [
+      "info",
+      "update",
+      "config"
+    ],
+    "observer": [
+      "info",
+      "update",
+      "config"
+    ],
+    "jobs": [
+      "list",
+      "info",
+      "cancel"
+    ],
+    "resolution": [
+      "info",
+      "list",
+      "fix"
+    ],
+    "cli": [
+      "info",
+      "update",
+      "config"
+    ],
+    "docker": [
+      "info",
+      "config",
+      "oci"
+    ],
+    "authentication": [
+      "list"
+    ]
+  },
+  "global_flags": [
+    {
+      "flag": "--api-token",
+      "desc": "Supervisor API token"
+    },
+    {
+      "flag": "--config",
+      "desc": "可选配置文件（默认 $HOME/.homeassistant.yaml）"
+    },
+    {
+      "flag": "--endpoint",
+      "desc": "Supervisor endpoint（默认 'supervisor'）"
+    },
+    {
+      "flag": "-h",
+      "desc": "帮助"
+    },
+    {
+      "flag": "--help",
+      "desc": "帮助"
+    },
+    {
+      "flag": "--log-level",
+      "desc": "日志级别（默认 Warn）"
+    },
+    {
+      "flag": "--no-progress",
+      "desc": "禁用进度 spinner"
+    },
+    {
+      "flag": "--raw-json",
+      "desc": "输出原始 JSON"
+    }
+  ],
+  "deprecated": [
+    {
+      "command": "ha backup",
+      "note": "旧版单数，已改为 ha backups（复数）"
+    },
+    {
+      "command": "ha core backup",
+      "note": "备份已统一到 ha backups，ha core 下无 backup 子命令"
+    },
+    {
+      "command": "ha supervisor backup",
+      "note": "同上，备份在 ha backups"
+    },
+    {
+      "command": "ha addon",
+      "note": "旧版单数，已改为 ha addons（复数）"
+    },
+    {
+      "command": "ha supervisor addons",
+      "note": "addon 管理统一在 ha addons"
+    },
+    {
+      "command": "ha core status",
+      "note": "无此子命令，用 ha core info / ha core stats"
+    },
+    {
+      "command": "ha core show",
+      "note": "无此子命令，用 ha core info"
+    },
+    {
+      "command": "ha os datadisk add",
+      "note": "无 add，数据盘用 mount/umount 挂载，再 ha os datadisk move"
+    },
+    {
+      "command": "ha os datadisk remove",
+      "note": "无 remove，卸载用 umount"
+    }
+  ],
+  "_note": "HA CLI 面宽，G4b 对 HA 仅 WARN 不阻断（vLLM 指标 FAIL 阻断）。三级子命令（如 ha os datadisk add）当前两级校验覆盖不到第三级动作，deprecated 段列出已知编造名供人工核对。"
+}

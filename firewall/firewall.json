@@ -1,0 +1,299 @@
+{
+  "_meta": {
+    "title": "iptables / nftables 防火墙目标、表、链官方白名单",
+    "source": [
+      "https://git.netfilter.org/pktgdweb/blob/master/iptables/html/iptables.html",
+      "https://man7.org/linux/man-pages/man8/iptables.8.html",
+      "https://man7.org/linux/man-pages/man8/nft.8.html"
+    ],
+    "checked_date": "2026-11-22",
+    "note": "iptables 五表（filter/nat/mangle/raw/security）× 链 × 目标(-j) + nftables 表。KUBE 是 Kubernetes IPVS/nftables 后端专用目标（k8s 1.26+ nftables 后端），属合法。用于 G4b 源头遏制：文章里 iptables -t <表> -A/-I <链> -j <目标> 不在白名单 → 告警。"
+  },
+  "tables": [
+    {
+      "name": "filter",
+      "desc": "默认表，包过滤"
+    },
+    {
+      "name": "nat",
+      "desc": "网络地址转换"
+    },
+    {
+      "name": "mangle",
+      "desc": "包修改（TOS/TTL/MARK）"
+    },
+    {
+      "name": "raw",
+      "desc": "连接跟踪前处理（NOTRACK）"
+    },
+    {
+      "name": "security",
+      "desc": "安全标记（SECMARK）"
+    }
+  ],
+  "chains": [
+    {
+      "name": "PREROUTING",
+      "tables": [
+        "nat",
+        "mangle",
+        "raw",
+        "filter",
+        "security"
+      ],
+      "desc": "路由前"
+    },
+    {
+      "name": "INPUT",
+      "tables": [
+        "filter",
+        "mangle",
+        "raw",
+        "security",
+        "nat"
+      ],
+      "desc": "进本机"
+    },
+    {
+      "name": "FORWARD",
+      "tables": [
+        "filter",
+        "mangle",
+        "nat"
+      ],
+      "desc": "转发"
+    },
+    {
+      "name": "OUTPUT",
+      "tables": [
+        "filter",
+        "mangle",
+        "raw",
+        "security",
+        "nat"
+      ],
+      "desc": "出本机"
+    },
+    {
+      "name": "POSTROUTING",
+      "tables": [
+        "nat",
+        "mangle"
+      ],
+      "desc": "路由后"
+    }
+  ],
+  "targets": [
+    {
+      "name": "ACCEPT",
+      "tables": [
+        "filter",
+        "security"
+      ]
+    },
+    {
+      "name": "DROP",
+      "tables": [
+        "filter",
+        "security"
+      ]
+    },
+    {
+      "name": "REJECT",
+      "tables": [
+        "filter",
+        "security"
+      ]
+    },
+    {
+      "name": "RETURN",
+      "tables": [
+        "filter",
+        "nat",
+        "mangle",
+        "raw",
+        "security"
+      ]
+    },
+    {
+      "name": "LOG",
+      "tables": [
+        "filter",
+        "nat",
+        "mangle",
+        "raw",
+        "security"
+      ]
+    },
+    {
+      "name": "NFLOG",
+      "tables": [
+        "filter",
+        "nat",
+        "mangle",
+        "raw",
+        "security"
+      ]
+    },
+    {
+      "name": "DNAT",
+      "tables": [
+        "nat"
+      ]
+    },
+    {
+      "name": "SNAT",
+      "tables": [
+        "nat"
+      ]
+    },
+    {
+      "name": "MASQUERADE",
+      "tables": [
+        "nat"
+      ]
+    },
+    {
+      "name": "NETMAP",
+      "tables": [
+        "nat"
+      ]
+    },
+    {
+      "name": "REDIRECT",
+      "tables": [
+        "nat"
+      ]
+    },
+    {
+      "name": "CONNMARK",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "MARK",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "TCPMSS",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "TOS",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "ECN",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "TTL",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "CLASSIFY",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "DSCP",
+      "tables": [
+        "mangle"
+      ]
+    },
+    {
+      "name": "SECMARK",
+      "tables": [
+        "security"
+      ]
+    },
+    {
+      "name": "NOTRACK",
+      "tables": [
+        "raw"
+      ]
+    },
+    {
+      "name": "CT",
+      "tables": [
+        "filter",
+        "security"
+      ],
+      "desc": "连接跟踪状态判断（--ctstate）"
+    },
+    {
+      "name": "LIMIT",
+      "tables": [
+        "filter"
+      ]
+    },
+    {
+      "name": "STAT",
+      "tables": [
+        "filter"
+      ]
+    },
+    {
+      "name": "IPSET",
+      "tables": [
+        "filter",
+        "mangle",
+        "nat"
+      ]
+    },
+    {
+      "name": "KUBE",
+      "tables": [
+        "nat",
+        "filter"
+      ],
+      "desc": "Kubernetes IPVS/nftables 后端专用目标，k8s 1.26+ nftables 后端使用，合法"
+    }
+  ],
+  "nftables_tables": [
+    {
+      "name": "filter",
+      "family": [
+        "inet",
+        "ip",
+        "ip6"
+      ]
+    },
+    {
+      "name": "nat",
+      "family": [
+        "inet",
+        "ip",
+        "ip6"
+      ]
+    },
+    {
+      "name": "mangle",
+      "family": [
+        "inet",
+        "ip",
+        "ip6"
+      ]
+    },
+    {
+      "name": "raw",
+      "family": [
+        "inet",
+        "ip"
+      ]
+    }
+  ],
+  "deprecated": []
+}

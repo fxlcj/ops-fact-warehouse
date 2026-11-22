@@ -1,0 +1,203 @@
+{
+  "_meta": {
+    "title": "vLLM 合法 CLI flag 白名单",
+    "source": [
+      "https://docs.vllm.cc/en/latest/configuration/serve_args.html",
+      "vllm serve --help",
+      "docs.vllm.com.cn/en/latest/serving/"
+    ],
+    "checked_date": "2026-11-22",
+    "note": "vllm serve 命令行 flag。新增 vLLM 版本可能加 flag，定期对照 release notes 补。"
+  },
+  "flags": [
+    {
+      "flag": "--model",
+      "desc": "模型路径/HF id",
+      "deprecated": false
+    },
+    {
+      "flag": "--host",
+      "desc": "监听地址",
+      "deprecated": false
+    },
+    {
+      "flag": "--port",
+      "desc": "监听端口",
+      "deprecated": false
+    },
+    {
+      "flag": "--served-model-name",
+      "desc": "对外暴露的模型名",
+      "deprecated": false
+    },
+    {
+      "flag": "--tensor-parallel-size",
+      "desc": "张量并行度（GPU 数）",
+      "deprecated": false
+    },
+    {
+      "flag": "--pipeline-parallel-size",
+      "desc": "流水线并行度",
+      "deprecated": false
+    },
+    {
+      "flag": "--max-model-len",
+      "desc": "最大上下文长度",
+      "deprecated": false
+    },
+    {
+      "flag": "--max-num-seqs",
+      "desc": "最大并发序列数",
+      "deprecated": false
+    },
+    {
+      "flag": "--max-num-batched-tokens",
+      "desc": "单步最大 batch token 数",
+      "deprecated": false
+    },
+    {
+      "flag": "--gpu-memory-utilization",
+      "desc": "GPU 显存使用比例（0-1）",
+      "deprecated": false
+    },
+    {
+      "flag": "--swap-space",
+      "desc": "CPU swap 空间 GB",
+      "deprecated": true
+    },
+    {
+      "flag": "--kv-cache-dtype",
+      "desc": "KV cache 数据类型（auto/fp8）",
+      "deprecated": false
+    },
+    {
+      "flag": "--block-size",
+      "desc": "KV 块大小（token）",
+      "deprecated": false
+    },
+    {
+      "flag": "--enable-prefix-caching",
+      "desc": "启用 prefix caching",
+      "deprecated": false
+    },
+    {
+      "flag": "--enable-chunked-prefill",
+      "desc": "启用 chunked prefill",
+      "deprecated": false
+    },
+    {
+      "flag": "--chunked-prefill-size",
+      "desc": "chunked prefill 单步 token 上限",
+      "deprecated": false
+    },
+    {
+      "flag": "--preemption-mode",
+      "desc": "抢占模式（recompute/swap）",
+      "deprecated": false
+    },
+    {
+      "flag": "--num-scheduler-steps",
+      "desc": "调度器步数（spec decode 相关）",
+      "deprecated": false
+    },
+    {
+      "flag": "--stream-interval",
+      "desc": "流式输出间隔（token）",
+      "deprecated": false
+    },
+    {
+      "flag": "--api-server-count",
+      "desc": "API server 进程数",
+      "deprecated": false
+    },
+    {
+      "flag": "--speculative-model",
+      "desc": "speculative decoding 草稿模型",
+      "deprecated": false
+    },
+    {
+      "flag": "--num-speculative-tokens",
+      "desc": "speculative decoding 预测 token 数",
+      "deprecated": false
+    },
+    {
+      "flag": "--kv-transfer-config",
+      "desc": "KV 传输配置（JSON，含 kv_connector）",
+      "deprecated": false
+    },
+    {
+      "flag": "--long-prefill-token-threshold",
+      "desc": "长 prompt 阈值",
+      "deprecated": false
+    },
+    {
+      "flag": "--kv-cache-metrics-sample",
+      "desc": "KV 块采样指标开关",
+      "deprecated": false
+    },
+    {
+      "flag": "--enable-auto-tool-choice",
+      "desc": "自动工具选择",
+      "deprecated": false
+    },
+    {
+      "flag": "--tool-call-parser",
+      "desc": "工具调用解析器",
+      "deprecated": false
+    },
+    {
+      "flag": "--disable-frontend-multi-processes",
+      "desc": "禁用前端多进程",
+      "deprecated": false
+    },
+    {
+      "flag": "--enable-dp-attention",
+      "desc": "启用 DP attention",
+      "deprecated": false
+    },
+    {
+      "flag": "--scheduling-policy",
+      "desc": "调度策略（fcfs/priority）",
+      "deprecated": false
+    },
+    {
+      "flag": "--quantization",
+      "desc": "量化方式（fp8/awq/gptq）",
+      "deprecated": false
+    },
+    {
+      "flag": "--dtype",
+      "desc": "数据类型（float16/bfloat16/float32）",
+      "deprecated": false
+    },
+    {
+      "flag": "--disable-custom-all-reduce",
+      "desc": "禁用自定义 all-reduce 内核（调试用）",
+      "deprecated": false
+    },
+    {
+      "flag": "--gpus",
+      "desc": "docker --gpus（部署 vLLM 容器时透传给 docker，非 vllm 本体 flag）",
+      "deprecated": false
+    },
+    {
+      "flag": "--name",
+      "desc": "docker --name（部署 vLLM 容器时透传，非 vllm 本体 flag）",
+      "deprecated": false
+    },
+    {
+      "flag": "--shm-size",
+      "desc": "docker --shm-size（部署 vLLM 容器时透传，非 vllm 本体 flag）",
+      "deprecated": false
+    },
+    {
+      "flag": "--task",
+      "desc": "docker compose task 子命令（部署场景，非 vllm 本体 flag）",
+      "deprecated": false
+    }
+  ],
+  "deprecated_flags": [
+    "--swap-space",
+    "--disable-async-output-processing"
+  ]
+}

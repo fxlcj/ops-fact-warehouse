@@ -1,0 +1,365 @@
+{
+  "_meta": {
+    "title": "Docker / docker compose 常用命令与 flag 白名单",
+    "source": [
+      "https://docs.docker.com/reference/cli/docker/",
+      "https://docs.docker.com/compose/reference/",
+      "https://docs.docker.com/engine/reference/run/"
+    ],
+    "checked_date": "2026-11-22",
+    "note": "docker 子命令 + 高频 run/compose flag。用于 G4b 源头遏制：文章里 docker 子命令 / --flag 不在白名单 → 告警。"
+  },
+  "subcommands": [
+    {
+      "name": "compose",
+      "desc": "compose 项目编排（v2 子命令）"
+    },
+    {
+      "name": "run",
+      "desc": "创建并运行容器"
+    },
+    {
+      "name": "logs",
+      "desc": "查看容器日志"
+    },
+    {
+      "name": "exec",
+      "desc": "在运行中容器执行命令"
+    },
+    {
+      "name": "stop",
+      "desc": "停止容器"
+    },
+    {
+      "name": "start",
+      "desc": "启动容器"
+    },
+    {
+      "name": "pull",
+      "desc": "拉取镜像"
+    },
+    {
+      "name": "ps",
+      "desc": "列出容器"
+    },
+    {
+      "name": "rm",
+      "desc": "删除容器"
+    },
+    {
+      "name": "restart",
+      "desc": "重启容器"
+    },
+    {
+      "name": "inspect",
+      "desc": "查看容器/镜像详情"
+    },
+    {
+      "name": "system",
+      "desc": "系统级（prune 等）"
+    },
+    {
+      "name": "stats",
+      "desc": "资源使用统计"
+    },
+    {
+      "name": "info",
+      "desc": "引擎信息"
+    },
+    {
+      "name": "tag",
+      "desc": "给镜像打标签"
+    },
+    {
+      "name": "build",
+      "desc": "构建镜像"
+    },
+    {
+      "name": "cp",
+      "desc": "容器与主机间拷贝文件"
+    },
+    {
+      "name": "images",
+      "desc": "列出镜像"
+    },
+    {
+      "name": "push",
+      "desc": "推送镜像"
+    },
+    {
+      "name": "save",
+      "desc": "导出镜像"
+    },
+    {
+      "name": "load",
+      "desc": "导入镜像"
+    },
+    {
+      "name": "network",
+      "desc": "网络管理"
+    },
+    {
+      "name": "volume",
+      "desc": "卷管理"
+    },
+    {
+      "name": "login",
+      "desc": "登录镜像仓库"
+    },
+    {
+      "name": "logout",
+      "desc": "登出"
+    },
+    {
+      "name": "version",
+      "desc": "版本"
+    },
+    {
+      "name": "image",
+      "desc": "镜像管理"
+    },
+    {
+      "name": "container",
+      "desc": "容器管理（run 等同义）"
+    },
+    {
+      "name": "search",
+      "desc": "搜索官方镜像"
+    },
+    {
+      "name": "version",
+      "desc": "版本（docker version / 全局）"
+    }
+  ],
+  "flags": [
+    {
+      "flag": "-d",
+      "desc": "后台运行（detached）"
+    },
+    {
+      "flag": "--rm",
+      "desc": "退出后自动删除容器"
+    },
+    {
+      "flag": "-it",
+      "desc": "交互式 + tty"
+    },
+    {
+      "flag": "-i",
+      "desc": "保持 stdin"
+    },
+    {
+      "flag": "-t",
+      "desc": "分配 tty"
+    },
+    {
+      "flag": "-p",
+      "desc": "发布端口（-p host:container）"
+    },
+    {
+      "flag": "-P",
+      "desc": "随机端口映射"
+    },
+    {
+      "flag": "-v",
+      "desc": "挂载卷（host:container）"
+    },
+    {
+      "flag": "-e",
+      "desc": "设置环境变量"
+    },
+    {
+      "flag": "--env-file",
+      "desc": "从文件读取环境变量"
+    },
+    {
+      "flag": "-m",
+      "desc": "限制内存（run）"
+    },
+    {
+      "flag": "--memory",
+      "desc": "限制内存（同 -m）"
+    },
+    {
+      "flag": "--memory-swap",
+      "desc": "内存 + swap 上限"
+    },
+    {
+      "flag": "--cpus",
+      "desc": "限制 CPU 核数"
+    },
+    {
+      "flag": "-c",
+      "desc": "指定命令（logs）"
+    },
+    {
+      "flag": "-f",
+      "desc": "指定 compose 文件"
+    },
+    {
+      "flag": "--file",
+      "desc": "指定文件（同 -f）"
+    },
+    {
+      "flag": "--force-recreate",
+      "desc": "强制重建容器"
+    },
+    {
+      "flag": "--no-recreate",
+      "desc": "不重建"
+    },
+    {
+      "flag": "--build",
+      "desc": "compose 构建镜像"
+    },
+    {
+      "flag": "--detach",
+      "desc": "compose 后台运行"
+    },
+    {
+      "flag": "--no-color",
+      "desc": "禁彩色"
+    },
+    {
+      "flag": "--follow",
+      "desc": "跟随日志"
+    },
+    {
+      "flag": "--tail",
+      "desc": "日志末尾 N 行"
+    },
+    {
+      "flag": "--since",
+      "desc": "按时间过滤日志"
+    },
+    {
+      "flag": "--name",
+      "desc": "容器命名"
+    },
+    {
+      "flag": "--restart",
+      "desc": "重启策略（no/always/on-failure:5）"
+    },
+    {
+      "flag": "--network",
+      "desc": "指定网络"
+    },
+    {
+      "flag": "--network-alias",
+      "desc": "网络别名"
+    },
+    {
+      "flag": "--mount",
+      "desc": "挂载（type=...,source=...,target=...）"
+    },
+    {
+      "flag": "--add-host",
+      "desc": "添加 /etc/hosts 条目"
+    },
+    {
+      "flag": "--dns",
+      "desc": "指定 DNS"
+    },
+    {
+      "flag": "--workdir",
+      "desc": "容器内工作目录"
+    },
+    {
+      "flag": "--user",
+      "desc": "指定运行用户"
+    },
+    {
+      "flag": "--privileged",
+      "desc": "特权容器"
+    },
+    {
+      "flag": "--device",
+      "desc": "透传设备（如 /dev/gpu）"
+    },
+    {
+      "flag": "--shm-size",
+      "desc": "共享内存大小"
+    },
+    {
+      "flag": "--init",
+      "desc": "容器内跑 init"
+    },
+    {
+      "flag": "--platform",
+      "desc": "指定平台（linux/amd64）"
+    },
+    {
+      "flag": "--pull",
+      "desc": "拉取策略（always/never）"
+    },
+    {
+      "flag": "--env",
+      "desc": "同 -e"
+    },
+    {
+      "flag": "--health-cmd",
+      "desc": "健康检查命令"
+    },
+    {
+      "flag": "--health-interval",
+      "desc": "健康检查间隔"
+    },
+    {
+      "flag": "--stop-timeout",
+      "desc": "停止超时"
+    },
+    {
+      "flag": "--timeout",
+      "desc": "exec/stop 超时"
+    },
+    {
+      "flag": "--quiet",
+      "desc": "精简输出"
+    },
+    {
+      "flag": "--all",
+      "desc": "显示所有（含已退出）"
+    },
+    {
+      "flag": "--filter",
+      "desc": "过滤（compose ps）"
+    },
+    {
+      "flag": "--project-name",
+      "desc": "compose 项目名"
+    },
+    {
+      "flag": "--profile",
+      "desc": "compose 服务 profile"
+    },
+    {
+      "flag": "--scale",
+      "desc": "compose 服务副本数"
+    },
+    {
+      "flag": "--wait",
+      "desc": "compose 等待服务就绪"
+    },
+    {
+      "flag": "--no-deps",
+      "desc": "忽略依赖"
+    },
+    {
+      "flag": "--rmi",
+      "desc": "system prune 删镜像"
+    },
+    {
+      "flag": "--format",
+      "desc": "输出格式（ps/inspect，go-template）"
+    },
+    {
+      "flag": "--version",
+      "desc": "版本（全局 flag）"
+    },
+    {
+      "flag": "--volumes",
+      "desc": "prune 含卷（system prune -a）"
+    }
+  ],
+  "deprecated": []
+}
