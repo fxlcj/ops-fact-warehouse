@@ -1,0 +1,1123 @@
+{
+  "_meta": {
+    "title": "常用网络诊断/传输工具 flag 白名单（curl / tcpdump / nmap / ss / ip / dig / traceroute / netstat）",
+    "source": [
+      "https://man7.org/linux/man-pages/man1/curl.1.html",
+      "https://man7.org/linux/man-pages/man8/tcpdump.8.html",
+      "https://nmap.org/book/man.html",
+      "https://man7.org/linux/man-pages/man8/ss.8.html",
+      "https://man7.org/linux/man-pages/man8/ip.8.html",
+      "https://man7.org/linux/man-pages/man1/dig.1.html"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "运维排查高频工具的合法 flag 子集。G4b 对 curl/nmap/ss/ip 常用 flag 做 WARN 扫描（面宽先保守）。重点收录文章里高频出现的，覆盖 network/monitor 栏 189 篇引用。"
+  },
+  "curl": [
+    {
+      "flag": "-I",
+      "desc": "HEAD 请求，只取响应头"
+    },
+    {
+      "flag": "-i",
+      "desc": "输出含响应头"
+    },
+    {
+      "flag": "-s",
+      "desc": "静默（不显示进度）"
+    },
+    {
+      "flag": "-S",
+      "desc": "配合 -s 显示错误"
+    },
+    {
+      "flag": "-k",
+      "desc": "不校验 TLS 证书（自签测试）"
+    },
+    {
+      "flag": "-L",
+      "desc": "跟随重定向"
+    },
+    {
+      "flag": "-f",
+      "desc": "4xx/5xx 视为错误"
+    },
+    {
+      "flag": "-o",
+      "desc": "写文件"
+    },
+    {
+      "flag": "-O",
+      "desc": "按 URL 名写文件"
+    },
+    {
+      "flag": "-X",
+      "desc": "指定 HTTP 方法"
+    },
+    {
+      "flag": "-d",
+      "desc": "POST 数据"
+    },
+    {
+      "flag": "--data",
+      "desc": "同 -d"
+    },
+    {
+      "flag": "--data-urlencode",
+      "desc": "URL 编码 POST"
+    },
+    {
+      "flag": "--data-raw",
+      "desc": "原样 POST（不解析 @）"
+    },
+    {
+      "flag": "--data-binary",
+      "desc": "二进制 POST"
+    },
+    {
+      "flag": "-F",
+      "desc": "multipart 字段"
+    },
+    {
+      "flag": "-u",
+      "desc": "Basic 认证 user:pass"
+    },
+    {
+      "flag": "-A",
+      "desc": "User-Agent"
+    },
+    {
+      "flag": "-e",
+      "desc": "Referer"
+    },
+    {
+      "flag": "--resolve",
+      "desc": "强制解析域名到指定 IP"
+    },
+    {
+      "flag": "--connect-timeout",
+      "desc": "连接超时（秒）"
+    },
+    {
+      "flag": "--max-time",
+      "desc": "总超时（秒）"
+    },
+    {
+      "flag": "--retry",
+      "desc": "失败重试次数"
+    },
+    {
+      "flag": "--retry-delay",
+      "desc": "重试间隔"
+    },
+    {
+      "flag": "-m",
+      "desc": "总超时（同 --max-time）"
+    },
+    {
+      "flag": "-v",
+      "desc": "详细调试"
+    },
+    {
+      "flag": "--http2",
+      "desc": "用 HTTP/2"
+    },
+    {
+      "flag": "--http1.1",
+      "desc": "强制 HTTP/1.1"
+    },
+    {
+      "flag": "--http3",
+      "desc": "用 HTTP/3"
+    },
+    {
+      "flag": "--tlsv1.2",
+      "desc": "最低 TLS 1.2"
+    },
+    {
+      "flag": "--tlsv1.3",
+      "desc": "最低 TLS 1.3"
+    },
+    {
+      "flag": "--cert",
+      "desc": "客户端证书"
+    },
+    {
+      "flag": "--key",
+      "desc": "客户端私钥"
+    },
+    {
+      "flag": "--cacert",
+      "desc": "自定义 CA"
+    },
+    {
+      "flag": "--capath",
+      "desc": "自定义 CA 目录"
+    },
+    {
+      "flag": "--proxy",
+      "desc": "走代理"
+    },
+    {
+      "flag": "--proxy-user",
+      "desc": "代理认证"
+    },
+    {
+      "flag": "--interface",
+      "desc": "指定网卡"
+    },
+    {
+      "flag": "--limit-rate",
+      "desc": "限速（字节/秒）"
+    },
+    {
+      "flag": "-z",
+      "desc": "条件请求（新于时间戳才下载）"
+    },
+    {
+      "flag": "--head",
+      "desc": "同 -I"
+    },
+    {
+      "flag": "--head",
+      "desc": "HEAD"
+    },
+    {
+      "flag": "--compressed",
+      "desc": "接受压缩"
+    },
+    {
+      "flag": "--insecure",
+      "desc": "同 -k"
+    },
+    {
+      "flag": "--no-keepalive",
+      "desc": "关 keep-alive"
+    },
+    {
+      "flag": "--keepalive-time",
+      "desc": "keep-alive 空闲时间"
+    },
+    {
+      "flag": "--silent",
+      "desc": "同 -s"
+    },
+    {
+      "flag": "--show-error",
+      "desc": "同 -S"
+    },
+    {
+      "flag": "--fail",
+      "desc": "同 -f"
+    },
+    {
+      "flag": "--write-out",
+      "desc": "写完成后的变量（%{time_total} 等）"
+    },
+    {
+      "flag": "--header",
+      "desc": "自定义请求头"
+    },
+    {
+      "flag": "-H",
+      "desc": "同 --header"
+    },
+    {
+      "flag": "--user",
+      "desc": "同 -u"
+    },
+    {
+      "flag": "--location",
+      "desc": "同 -L"
+    },
+    {
+      "flag": "--user-agent",
+      "desc": "同 -A"
+    },
+    {
+      "flag": "--referer",
+      "desc": "同 -e"
+    },
+    {
+      "flag": "-C",
+      "desc": "续传（-C - 断点续传）"
+    },
+    {
+      "flag": "-E",
+      "desc": "断点续传目标文件（同 -C -）"
+    },
+    {
+      "flag": "-G",
+      "desc": "把 -d 数据作为 GET 参数"
+    },
+    {
+      "flag": "-c",
+      "desc": "Cookie 文件"
+    },
+    {
+      "flag": "-b",
+      "desc": "发送 Cookie"
+    },
+    {
+      "flag": "-l",
+      "desc": "（少用，telnet）"
+    },
+    {
+      "flag": "-r",
+      "desc": "字节范围（-r 10-20）"
+    },
+    {
+      "flag": "-x",
+      "desc": "代理（同 --proxy）"
+    },
+    {
+      "flag": "-X",
+      "desc": "方法（已有，补充）"
+    },
+    {
+      "flag": "-y",
+      "desc": "（少用）"
+    },
+    {
+      "flag": "-K",
+      "desc": "配置文件"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本（大写 V）"
+    },
+    {
+      "flag": "-w",
+      "desc": "写完成后的变量（--write-out 的短写）"
+    },
+    {
+      "flag": "--dearmor",
+      "desc": "（curl 无此 flag，疑似误用，进 WARN 供核对）"
+    },
+    {
+      "flag": "-I",
+      "desc": "HEAD（已有）"
+    },
+    {
+      "flag": "-s",
+      "desc": "静默（已有）"
+    }
+  ],
+  "ip_global_flags": [
+    {
+      "flag": "-4",
+      "desc": "只 IPv4"
+    },
+    {
+      "flag": "-6",
+      "desc": "只 IPv6"
+    },
+    {
+      "flag": "-B",
+      "desc": "不反解（B，少见）"
+    },
+    {
+      "flag": "-E",
+      "desc": "（ip 无此 flag，疑似误用）"
+    },
+    {
+      "flag": "-br",
+      "desc": "简短格式（bare）"
+    },
+    {
+      "flag": "-d",
+      "desc": "调试"
+    },
+    {
+      "flag": "-s",
+      "desc": "静默（stats）"
+    },
+    {
+      "flag": "-w",
+      "desc": "（ip 无此 flag，疑似误用）"
+    },
+    {
+      "flag": "-c",
+      "desc": "（ip 无此 flag）"
+    },
+    {
+      "flag": "-o",
+      "desc": "（ip 无此 flag）"
+    }
+  ],
+  "tcpdump": [
+    {
+      "flag": "-i",
+      "desc": "抓接口（any 全口）"
+    },
+    {
+      "flag": "-n",
+      "desc": "不反解 DNS"
+    },
+    {
+      "flag": "-nn",
+      "desc": "不反解 DNS + 服务名"
+    },
+    {
+      "flag": "-s",
+      "desc": "snaplen（包截断）"
+    },
+    {
+      "flag": "-c",
+      "desc": "抓 N 包停"
+    },
+    {
+      "flag": "-w",
+      "desc": "写 pcap 文件"
+    },
+    {
+      "flag": "-r",
+      "desc": "读 pcap 文件"
+    },
+    {
+      "flag": "-v",
+      "desc": "详细"
+    },
+    {
+      "flag": "-vv",
+      "desc": "更详细"
+    },
+    {
+      "flag": "-vvv",
+      "desc": "最详细"
+    },
+    {
+      "flag": "-q",
+      "desc": "精简（少打印载荷）"
+    },
+    {
+      "flag": "-A",
+      "desc": "ASCII 打印载荷"
+    },
+    {
+      "flag": "-X",
+      "desc": "hex+ASCII 打印载荷"
+    },
+    {
+      "flag": "-t",
+      "desc": "不打印时间戳"
+    },
+    {
+      "flag": "-tt",
+      "desc": "打印原始时间"
+    },
+    {
+      "flag": "-ttt",
+      "desc": "相对上一包时间"
+    },
+    {
+      "flag": "-T",
+      "desc": "强制按协议解析"
+    },
+    {
+      "flag": "-B",
+      "desc": "捕获缓冲区大小（K）"
+    },
+    {
+      "flag": "-C",
+      "desc": "分卷文件（M）"
+    },
+    {
+      "flag": "-W",
+      "desc": "分卷数"
+    },
+    {
+      "flag": "-4",
+      "desc": "只 IPv4"
+    },
+    {
+      "flag": "-6",
+      "desc": "只 IPv6"
+    },
+    {
+      "flag": "-f",
+      "desc": "读 BPF 表达式文件"
+    },
+    {
+      "flag": "-p",
+      "desc": "不特权模式"
+    },
+    {
+      "flag": "-P",
+      "desc": "每个包带端口"
+    },
+    {
+      "flag": "-e",
+      "desc": "打印链路层（MAC）"
+    },
+    {
+      "flag": "-d",
+      "desc": "打印 BPF 表达式"
+    },
+    {
+      "flag": "-Z",
+      "desc": "降权运行"
+    },
+    {
+      "flag": "-u",
+      "desc": "显示非特权 uid"
+    },
+    {
+      "flag": "-G",
+      "desc": "（tcpdump 无 -G，分卷用 -C/-W；疑似误用）"
+    },
+    {
+      "flag": "-M",
+      "desc": "（tcpdump 无 -M，MAC 用 -e；疑似误用）"
+    }
+  ],
+  "nmap": [
+    {
+      "flag": "-sT",
+      "desc": "TCP connect 扫描"
+    },
+    {
+      "flag": "-sS",
+      "desc": "SYN（半开）扫描"
+    },
+    {
+      "flag": "-sU",
+      "desc": "UDP 扫描"
+    },
+    {
+      "flag": "-sV",
+      "desc": "探测服务版本"
+    },
+    {
+      "flag": "-sC",
+      "desc": "默认脚本扫描"
+    },
+    {
+      "flag": "-sN",
+      "desc": "空包扫描"
+    },
+    {
+      "flag": "-sF",
+      "desc": "FIN 扫描"
+    },
+    {
+      "flag": "-sA",
+      "desc": "ACK 扫描"
+    },
+    {
+      "flag": "-sW",
+      "desc": "窗口扫描"
+    },
+    {
+      "flag": "-sM",
+      "desc": "IP 分片扫描"
+    },
+    {
+      "flag": "-O",
+      "desc": "OS 检测"
+    },
+    {
+      "flag": "-A",
+      "desc": "综合（OS+版本+脚本+traceroute）"
+    },
+    {
+      "flag": "-Pn",
+      "desc": "不做主机存活探测（当目标必活）"
+    },
+    {
+      "flag": "-PE",
+      "desc": "ICMP echo 探测"
+    },
+    {
+      "flag": "-PP",
+      "desc": "ICMP 时间戳探测"
+    },
+    {
+      "flag": "-PY",
+      "desc": "ICMP 掩码探测"
+    },
+    {
+      "flag": "-PA",
+      "desc": "ACK 探测"
+    },
+    {
+      "flag": "-PS",
+      "desc": "TCP SYN 探测"
+    },
+    {
+      "flag": "-PU",
+      "desc": "TCP/UDP 探测"
+    },
+    {
+      "flag": "-p",
+      "desc": "指定端口（-p- 全 65535）"
+    },
+    {
+      "flag": "-P",
+      "desc": "同 -p"
+    },
+    {
+      "flag": "-T0",
+      "desc": "最快（时序模板 0）"
+    },
+    {
+      "flag": "-T1",
+      "desc": "时序模板 1"
+    },
+    {
+      "flag": "-T2",
+      "desc": "时序模板 2"
+    },
+    {
+      "flag": "-T3",
+      "desc": "时序模板 3（默认）"
+    },
+    {
+      "flag": "-T4",
+      "desc": "时序模板 4"
+    },
+    {
+      "flag": "-T5",
+      "desc": "时序模板 5"
+    },
+    {
+      "flag": "-T6",
+      "desc": "时序模板 6"
+    },
+    {
+      "flag": "-T7",
+      "desc": "最慢"
+    },
+    {
+      "flag": "-T8",
+      "desc": "同 7"
+    },
+    {
+      "flag": "-T9",
+      "desc": "最慢"
+    },
+    {
+      "flag": "-T10",
+      "desc": "最慢"
+    },
+    {
+      "flag": "-v",
+      "desc": "详细"
+    },
+    {
+      "flag": "-vv",
+      "desc": "更详细"
+    },
+    {
+      "flag": "-vvv",
+      "desc": "最详细"
+    },
+    {
+      "flag": "-oN",
+      "desc": "输出普通文本"
+    },
+    {
+      "flag": "-oX",
+      "desc": "输出 XML"
+    },
+    {
+      "flag": "-oG",
+      "desc": "输出 grepable"
+    },
+    {
+      "flag": "-oA",
+      "desc": "三种全输出"
+    },
+    {
+      "flag": "-F",
+      "desc": "快速扫描（默认端口集）"
+    },
+    {
+      "flag": "-f",
+      "desc": "全端口扫描"
+    },
+    {
+      "flag": "-r",
+      "desc": "顺序端口"
+    },
+    {
+      "flag": "-R",
+      "desc": "不反解"
+    },
+    {
+      "flag": "-iL",
+      "desc": "目标列表文件"
+    },
+    {
+      "flag": "-iR",
+      "desc": "随机范围"
+    },
+    {
+      "flag": "-sL",
+      "desc": "列表扫描（只列主机）"
+    },
+    {
+      "flag": "-sn",
+      "desc": "Ping 扫描（不扫端口）"
+    },
+    {
+      "flag": "-sO",
+      "desc": "OS 识别"
+    },
+    {
+      "flag": "-sI",
+      "desc": "僵尸扫描（IPID）"
+    },
+    {
+      "flag": "-n",
+      "desc": "不反解主机名"
+    },
+    {
+      "flag": "--reason",
+      "desc": "显示判断原因"
+    },
+    {
+      "flag": "--stats-every",
+      "desc": "每 N 秒打统计"
+    },
+    {
+      "flag": "--scan-trace",
+      "desc": "显示扫描路径"
+    },
+    {
+      "flag": "--source-port",
+      "desc": "指定源端口"
+    },
+    {
+      "flag": "--port",
+      "desc": "指定端口（同 -p）"
+    },
+    {
+      "flag": "--dns-servers",
+      "desc": "指定 DNS 服务器"
+    }
+  ],
+  "ss": [
+    {
+      "flag": "-t",
+      "desc": "TCP"
+    },
+    {
+      "flag": "-u",
+      "desc": "UDP"
+    },
+    {
+      "flag": "-n",
+      "desc": "数字（不反解）"
+    },
+    {
+      "flag": "-l",
+      "desc": "只 listen"
+    },
+    {
+      "flag": "-p",
+      "desc": "显示进程"
+    },
+    {
+      "flag": "-e",
+      "desc": "扩展定时器"
+    },
+    {
+      "flag": "-m",
+      "desc": "内存（Socket buffer）"
+    },
+    {
+      "flag": "-i",
+      "desc": "每连接信息（含 TCP 信息）"
+    },
+    {
+      "flag": "-o",
+      "desc": "定时器（同 -e）"
+    },
+    {
+      "flag": "-r",
+      "desc": "raw"
+    },
+    {
+      "flag": "-f",
+      "desc": "raw"
+    },
+    {
+      "flag": "--state",
+      "desc": "按状态过滤"
+    },
+    {
+      "flag": "--sport",
+      "desc": "源端口"
+    },
+    {
+      "flag": "--dport",
+      "desc": "目的端口"
+    },
+    {
+      "flag": "--pid",
+      "desc": "按 PID 过滤"
+    },
+    {
+      "flag": "-H",
+      "desc": "无表头"
+    },
+    {
+      "flag": "-Z",
+      "desc": "显示 Security Context"
+    },
+    {
+      "flag": "--timer-info",
+      "desc": "定时器"
+    },
+    {
+      "flag": "-K",
+      "desc": "强制 close（同 ss -K）"
+    },
+    {
+      "flag": "--cgroup",
+      "desc": "cgroup 视图"
+    },
+    {
+      "flag": "-a",
+      "desc": "所有 socket（-t 的展开）"
+    },
+    {
+      "flag": "-A",
+      "desc": "（ss 无 -A，疑似误用）"
+    },
+    {
+      "flag": "-E",
+      "desc": "（ss 无 -E，疑似误用）"
+    },
+    {
+      "flag": "-c",
+      "desc": "（ss 无 -c，疑似误用）"
+    },
+    {
+      "flag": "-d",
+      "desc": "（ss 无 -d，疑似误用）"
+    },
+    {
+      "flag": "-s",
+      "desc": "（ss 无 -s，疑似误用）"
+    }
+  ],
+  "ip": [
+    {
+      "cmd": "ip addr",
+      "desc": "列网卡地址"
+    },
+    {
+      "cmd": "ip address",
+      "desc": "列网卡地址（全拼）"
+    },
+    {
+      "cmd": "ip a",
+      "desc": "列网卡地址（缩写）"
+    },
+    {
+      "cmd": "ip link",
+      "desc": "列链路层（MAC/状态）"
+    },
+    {
+      "cmd": "ip route",
+      "desc": "路由表"
+    },
+    {
+      "cmd": "ip r",
+      "desc": "路由表（缩写）"
+    },
+    {
+      "cmd": "ip neigh",
+      "desc": "邻居（ARP）表"
+    },
+    {
+      "cmd": "ip n",
+      "desc": "邻居表（缩写）"
+    },
+    {
+      "cmd": "ip link set dev X up/down",
+      "desc": "启/停网卡"
+    },
+    {
+      "cmd": "ip link add",
+      "desc": "建虚拟网卡（bridge/bond/vxlan 等）"
+    },
+    {
+      "cmd": "ip addr add",
+      "desc": "加 IP 地址"
+    },
+    {
+      "cmd": "ip addr del",
+      "desc": "删 IP 地址"
+    },
+    {
+      "cmd": "ip route add",
+      "desc": "加路由"
+    },
+    {
+      "cmd": "ip route del",
+      "desc": "删路由"
+    },
+    {
+      "cmd": "ip -4",
+      "desc": "只 IPv4"
+    },
+    {
+      "cmd": "ip -6",
+      "desc": "只 IPv6"
+    }
+  ],
+  "dig": [
+    {
+      "flag": "+short",
+      "desc": "精简答案"
+    },
+    {
+      "flag": "+trace",
+      "desc": "逐跳追踪（从根）"
+    },
+    {
+      "flag": "+short",
+      "desc": "简答"
+    },
+    {
+      "flag": "-t",
+      "desc": "记录类型（A/AAAA/MX/TXT/NS/SOA）"
+    },
+    {
+      "flag": "-x",
+      "desc": "反向解析"
+    },
+    {
+      "flag": "+norec",
+      "desc": "禁递归"
+    },
+    {
+      "flag": "+dnssec",
+      "desc": "DNSSEC 校验"
+    },
+    {
+      "flag": "+class",
+      "desc": "查询类"
+    },
+    {
+      "flag": "+retry",
+      "desc": "重试次数"
+    },
+    {
+      "flag": "+time",
+      "desc": "超时（秒）"
+    },
+    {
+      "flag": "+rsize",
+      "desc": "响应包大小"
+    },
+    {
+      "flag": "+vc",
+      "desc": "走 TCP"
+    },
+    {
+      "flag": "+noall",
+      "desc": "只打答案区"
+    },
+    {
+      "flag": "+nodots",
+      "desc": "单段域名不补 .com"
+    },
+    {
+      "flag": "+domain",
+      "desc": "指定搜索域"
+    },
+    {
+      "flag": "+subnet",
+      "desc": "EDNS0 客户端子网"
+    },
+    {
+      "flag": "+bufsize",
+      "desc": "缓冲大小"
+    }
+  ],
+  "netstat": [
+    {
+      "flag": "-t",
+      "desc": "TCP"
+    },
+    {
+      "flag": "-u",
+      "desc": "UDP"
+    },
+    {
+      "flag": "-n",
+      "desc": "数字"
+    },
+    {
+      "flag": "-l",
+      "desc": "listen"
+    },
+    {
+      "flag": "-p",
+      "desc": "进程"
+    },
+    {
+      "flag": "-r",
+      "desc": "路由表"
+    },
+    {
+      "flag": "-i",
+      "desc": "接口统计"
+    },
+    {
+      "flag": "-s",
+      "desc": "协议统计"
+    },
+    {
+      "flag": "-E",
+      "desc": "丢包/错误统计（netstat -E）"
+    },
+    {
+      "flag": "-a",
+      "desc": "所有（含 listen）"
+    },
+    {
+      "flag": "-o",
+      "desc": "定时器（Windows）"
+    },
+    {
+      "flag": "-a",
+      "desc": "（Windows 组合 -ano）"
+    }
+  ],
+  "traceroute": [
+    {
+      "flag": "-n",
+      "desc": "不反解"
+    },
+    {
+      "flag": "-i",
+      "desc": "指定接口"
+    },
+    {
+      "flag": "-w",
+      "desc": "等待时间"
+    },
+    {
+      "flag": "-q",
+      "desc": "每跳探测数"
+    },
+    {
+      "flag": "-p",
+      "desc": "源端口"
+    },
+    {
+      "flag": "-F",
+      "desc": "不分片"
+    },
+    {
+      "flag": "-I",
+      "desc": "ICMP 模式"
+    },
+    {
+      "flag": "-A",
+      "desc": "异步"
+    },
+    {
+      "flag": "-M",
+      "desc": "ICMP 类型"
+    }
+  ],
+  "ping": [
+    {
+      "flag": "-c",
+      "desc": "发 N 包停"
+    },
+    {
+      "flag": "-i",
+      "desc": "间隔（秒）"
+    },
+    {
+      "flag": "-I",
+      "desc": "指定接口"
+    },
+    {
+      "flag": "-W",
+      "desc": "等待应答（秒）"
+    },
+    {
+      "flag": "-s",
+      "desc": "包大小"
+    },
+    {
+      "flag": "-f",
+      "desc": "洪泛（特权）"
+    },
+    {
+      "flag": "-4",
+      "desc": "IPv4"
+    },
+    {
+      "flag": "-6",
+      "desc": "IPv6"
+    },
+    {
+      "flag": "-a",
+      "desc": "ASCII 显示"
+    },
+    {
+      "flag": "-M",
+      "desc": "分片模式（M p/dt/do）"
+    },
+    {
+      "flag": "-t",
+      "desc": "（Windows ping -t 持续，Linux ping 无）"
+    }
+  ],
+  "mtr": [
+    {
+      "flag": "-r",
+      "desc": "报表模式（非实时）"
+    },
+    {
+      "flag": "-c",
+      "desc": "发 N 包"
+    },
+    {
+      "flag": "-n",
+      "desc": "不反解"
+    },
+    {
+      "flag": "-4",
+      "desc": "IPv4"
+    },
+    {
+      "flag": "-6",
+      "desc": "IPv6"
+    },
+    {
+      "flag": "-i",
+      "desc": "接口"
+    },
+    {
+      "flag": "-P",
+      "desc": "并行"
+    },
+    {
+      "flag": "--no-dns",
+      "desc": "不反解（全写）"
+    },
+    {
+      "flag": "-w",
+      "desc": "（mtr 无 -w，组合 -rwc 中 w 为写报告，少见）"
+    },
+    {
+      "flag": "-z",
+      "desc": "（mtr 无 -z）"
+    }
+  ],
+  "deprecated": [
+    {
+      "flag": "curl --insecure",
+      "reason": "生产禁用 -k，仅测试自签；G4 提示"
+    }
+  ]
+}

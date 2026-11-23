@@ -1,0 +1,399 @@
+{
+  "_meta": {
+    "title": "Jenkins / GitLab CI / GitHub Actions 流水线指令白名单",
+    "source": [
+      "https://www.jenkins.io/doc/book/pipeline/",
+      "https://docs.gitlab.com/ee/ci/yaml/",
+      "https://docs.github.com/en/actions"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "CI 流水线高频指令（Jenkinsfile pipeline 块 / GitLab .gitlab-ci.yml 关键字 / GitHub Actions 关键字）。G4b 对 pipeline 指令 + CI 关键字 WARN 扫描（面宽）。运维自动化文 44 篇命中。"
+  },
+  "jenkins_pipeline_steps": [
+    {
+      "name": "node",
+      "desc": "在指定节点执行"
+    },
+    {
+      "name": "agent",
+      "desc": "声明执行器"
+    },
+    {
+      "name": "pipeline",
+      "desc": "流水线块"
+    },
+    {
+      "name": "stages",
+      "desc": "阶段集"
+    },
+    {
+      "name": "stage",
+      "desc": "单阶段"
+    },
+    {
+      "name": "steps",
+      "desc": "步骤集"
+    },
+    {
+      "name": "parallel",
+      "desc": "并行"
+    },
+    {
+      "name": "post",
+      "desc": "后置块"
+    },
+    {
+      "name": "when",
+      "desc": "条件"
+    },
+    {
+      "name": "options",
+      "desc": "选项"
+    },
+    {
+      "name": "triggers",
+      "desc": "触发器"
+    },
+    {
+      "name": "tools",
+      "desc": "工具声明"
+    },
+    {
+      "name": "environment",
+      "desc": "环境变量"
+    },
+    {
+      "name": "input",
+      "desc": "人工确认"
+    },
+    {
+      "name": "checkout",
+      "desc": "拉代码"
+    },
+    {
+      "name": "sh",
+      "desc": "执行 shell"
+    },
+    {
+      "name": "bat",
+      "desc": "执行批处理（Windows）"
+    },
+    {
+      "name": "echo",
+      "desc": "打印"
+    },
+    {
+      "name": "sleep",
+      "desc": "睡"
+    },
+    {
+      "name": "retry",
+      "desc": "重试"
+    },
+    {
+      "name": "timeout",
+      "desc": "超时"
+    },
+    {
+      "name": "milestone",
+      "desc": "里程碑"
+    },
+    {
+      "name": "script",
+      "desc": "脚本块"
+    },
+    {
+      "name": "try",
+      "desc": "try-catch"
+    },
+    {
+      "name": "catch",
+      "desc": "catch"
+    },
+    {
+      "name": "finally",
+      "desc": "finally"
+    },
+    {
+      "name": "withCredentials",
+      "desc": "凭据"
+    },
+    {
+      "name": "withEnv",
+      "desc": "临时环境变量"
+    },
+    {
+      "name": "dir",
+      "desc": "子目录"
+    },
+    {
+      "name": "error",
+      "desc": "抛错"
+    },
+    {
+      "name": "sleep",
+      "desc": "睡（重复）"
+    },
+    {
+      "name": "stage",
+      "desc": "阶段（重复）"
+    },
+    {
+      "name": "file",
+      "desc": "（少见）"
+    }
+  ],
+  "gitlab_ci_keywords": [
+    {
+      "name": "stages",
+      "desc": "阶段"
+    },
+    {
+      "name": "variables",
+      "desc": "变量"
+    },
+    {
+      "name": "default",
+      "desc": "默认"
+    },
+    {
+      "name": "before_script",
+      "desc": "前脚本"
+    },
+    {
+      "name": "after_script",
+      "desc": "后脚本"
+    },
+    {
+      "name": "image",
+      "desc": "镜像"
+    },
+    {
+      "name": "services",
+      "desc": "服务"
+    },
+    {
+      "name": "only",
+      "desc": "仅触发"
+    },
+    {
+      "name": "except",
+      "desc": "不触发"
+    },
+    {
+      "name": "when",
+      "desc": "条件"
+    },
+    {
+      "name": "script",
+      "desc": "脚本"
+    },
+    {
+      "name": "cache",
+      "desc": "缓存"
+    },
+    {
+      "name": "artifacts",
+      "desc": "产物"
+    },
+    {
+      "name": "pages",
+      "desc": "Pages 站点"
+    },
+    {
+      "name": "trigger",
+      "desc": "触发下游"
+    },
+    {
+      "name": "retry",
+      "desc": "重试"
+    },
+    {
+      "name": "interruptible",
+      "desc": "可中断"
+    },
+    {
+      "name": "rules",
+      "desc": "规则"
+    },
+    {
+      "name": "extends",
+      "desc": "继承"
+    },
+    {
+      "name": "include",
+      "desc": "引入"
+    },
+    {
+      "name": "template",
+      "desc": "模板"
+    },
+    {
+      "name": "tags",
+      "desc": "runner tag"
+    },
+    {
+      "name": "environment",
+      "desc": "环境"
+    },
+    {
+      "name": "dependencies",
+      "desc": "依赖"
+    },
+    {
+      "name": "needs",
+      "desc": "按需依赖"
+    },
+    {
+      "name": "timeout",
+      "desc": "超时"
+    },
+    {
+      "name": "allow_failure",
+      "desc": "允许失败"
+    },
+    {
+      "name": "start_in",
+      "desc": "延迟启动"
+    },
+    {
+      "name": "parallel",
+      "desc": "并行"
+    },
+    {
+      "name": "parallel:matrix",
+      "desc": "矩阵并行"
+    },
+    {
+      "name": "resource_group",
+      "desc": "资源组"
+    },
+    {
+      "name": "coverage",
+      "desc": "覆盖率"
+    },
+    {
+      "name": "dotted",
+      "desc": "（少见）"
+    }
+  ],
+  "github_actions": [
+    {
+      "name": "on",
+      "desc": "触发器"
+    },
+    {
+      "name": "jobs",
+      "desc": "任务"
+    },
+    {
+      "name": "steps",
+      "desc": "步骤"
+    },
+    {
+      "name": "runs-on",
+      "desc": "执行器"
+    },
+    {
+      "name": "strategy",
+      "desc": "矩阵"
+    },
+    {
+      "name": "matrix",
+      "desc": "矩阵"
+    },
+    {
+      "name": "needs",
+      "desc": "依赖"
+    },
+    {
+      "name": "if",
+      "desc": "条件"
+    },
+    {
+      "name": "env",
+      "desc": "环境变量"
+    },
+    {
+      "name": "timeout-minutes",
+      "desc": "超时"
+    },
+    {
+      "name": "permissions",
+      "desc": "权限"
+    },
+    {
+      "name": "concurrency",
+      "desc": "并发"
+    },
+    {
+      "name": "outputs",
+      "desc": "输出"
+    },
+    {
+      "name": "with",
+      "desc": "输入"
+    },
+    {
+      "name": "continue-on-error",
+      "desc": "错则续"
+    },
+    {
+      "name": "id",
+      "desc": "步骤 ID"
+    },
+    {
+      "name": "name",
+      "desc": "名"
+    },
+    {
+      "name": "uses",
+      "desc": "引用 action"
+    },
+    {
+      "name": "run",
+      "desc": "执行"
+    },
+    {
+      "name": "shell",
+      "desc": "shell"
+    },
+    {
+      "name": "working-directory",
+      "desc": "工作目录"
+    },
+    {
+      "name": "defaults",
+      "desc": "默认"
+    },
+    {
+      "name": "workflow_dispatch",
+      "desc": "手动触发"
+    },
+    {
+      "name": "pull_request",
+      "desc": "PR 触发"
+    },
+    {
+      "name": "push",
+      "desc": "推送触发"
+    },
+    {
+      "name": "schedule",
+      "desc": "定时"
+    },
+    {
+      "name": "deployment",
+      "desc": "部署"
+    },
+    {
+      "name": "inputs",
+      "desc": "输入"
+    },
+    {
+      "name": "secrets",
+      "desc": "密钥"
+    }
+  ],
+  "deprecated": []
+}

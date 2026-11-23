@@ -1,0 +1,692 @@
+{
+  "_meta": {
+    "title": "常用日志格式字段 + 日志排查命令白名单（nginx / syslog / journald / docker / grep / awk）",
+    "source": [
+      "https://nginx.org/en/docs/http/ngx_http_log_module.html",
+      "https://www.freebsd.org/doc/books/base-section/man8/syslogd.html",
+      "https://www.freedesktop.org/software/systemd/man/journalctl.html",
+      "https://docs.docker.com/config/containers/logging/"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "运维排查文高频：nginx access/error 日志字段（$remote_addr/$status/$request_time 等）、syslog RFC5424 字段、journalctl 常用 flag、docker 日志驱动。G4b 对 nginx 日志变量名、journalctl flag、grep/awk 常用模式做 WARN 扫描。"
+  },
+  "nginx_log_variables": [
+    {
+      "name": "$remote_addr",
+      "desc": "客户端 IP"
+    },
+    {
+      "name": "$remote_port",
+      "desc": "客户端端口"
+    },
+    {
+      "name": "$proxy_add_x_forwarded_for",
+      "desc": "XFF 拼接链（取首个是真实客户端 IP）"
+    },
+    {
+      "name": "$http_x_forwarded_for",
+      "desc": "XFF 头原值"
+    },
+    {
+      "name": "$http_referer",
+      "desc": "Referer 头"
+    },
+    {
+      "name": "$http_user_agent",
+      "desc": "User-Agent 头"
+    },
+    {
+      "name": "$request",
+      "desc": "完整请求行（method URI proto）"
+    },
+    {
+      "name": "$request_method",
+      "desc": "请求方法"
+    },
+    {
+      "name": "$request_uri",
+      "desc": "原始 URI（含 query）"
+    },
+    {
+      "name": "$args",
+      "desc": "query string"
+    },
+    {
+      "name": "$uri",
+      "desc": "重写后 URI"
+    },
+    {
+      "name": "$status",
+      "desc": "响应状态码"
+    },
+    {
+      "name": "$body_bytes_sent",
+      "desc": "响应体字节"
+    },
+    {
+      "name": "$bytes_sent",
+      "desc": "含头的总发送字节"
+    },
+    {
+      "name": "$content_type",
+      "desc": "响应 Content-Type"
+    },
+    {
+      "name": "$http_host",
+      "desc": "Host 头"
+    },
+    {
+      "name": "$server_name",
+      "desc": "命中的 server_name"
+    },
+    {
+      "name": "$server_port",
+      "desc": "listen 端口"
+    },
+    {
+      "name": "$time_local",
+      "desc": "本地时间"
+    },
+    {
+      "name": "$time_iso8601",
+      "desc": "ISO8601 时间"
+    },
+    {
+      "name": "$request_time",
+      "desc": "请求处理时长（秒）"
+    },
+    {
+      "name": "$upstream_response_time",
+      "desc": "上游响应时长"
+    },
+    {
+      "name": "$upstream_addr",
+      "desc": "上游 IP:port"
+    },
+    {
+      "name": "$upstream_status",
+      "desc": "上游状态码"
+    },
+    {
+      "name": "$upstream_header_time",
+      "desc": "收到上游响应头时长"
+    },
+    {
+      "name": "$upstream_connect_time",
+      "desc": "连上游时长"
+    },
+    {
+      "name": "$upstream_send_time",
+      "desc": "发请求到上游时长"
+    },
+    {
+      "name": "$upstream_recv_time",
+      "desc": "收上游响应时长"
+    },
+    {
+      "name": "$upstream_cache_status",
+      "desc": "缓存命中状态"
+    },
+    {
+      "name": "$upstream_bytes_sent",
+      "desc": "发给上游字节"
+    },
+    {
+      "name": "$upstream_bytes_received",
+      "desc": "收自上游字节"
+    },
+    {
+      "name": "$upstream_header_bytes_sent",
+      "desc": "上游响应头字节"
+    },
+    {
+      "name": "$upstream_header_bytes_received",
+      "desc": "上游请求头字节"
+    },
+    {
+      "name": "$connection",
+      "desc": "连接序号"
+    },
+    {
+      "name": "$connection_requests",
+      "desc": "该连接第几次请求"
+    },
+    {
+      "name": "$connection_time",
+      "desc": "该连接存在时长"
+    },
+    {
+      "name": "$binary_logs_total_bytes",
+      "desc": "（少见）"
+    },
+    {
+      "name": "$msec",
+      "desc": "Unix 时间戳（浮点）"
+    },
+    {
+      "name": "$seconds",
+      "desc": "Unix 时间戳（整数）"
+    },
+    {
+      "name": "$pid",
+      "desc": "worker PID"
+    },
+    {
+      "name": "$host",
+      "desc": "Server 变量"
+    },
+    {
+      "name": "$is_args",
+      "desc": "是否带 query"
+    },
+    {
+      "name": "$query_string",
+      "desc": "同 $args"
+    },
+    {
+      "name": "$scheme",
+      "desc": "http/https"
+    },
+    {
+      "name": "$host_upstream",
+      "desc": "（少见）"
+    },
+    {
+      "name": "$nginx_version",
+      "desc": "nginx 版本"
+    }
+  ],
+  "nginx_log_formats": [
+    {
+      "name": "combined",
+      "desc": "$remote_addr - $remote_user [$time_local] \"$request\" $status $body_bytes_sent \"$http_referer\" \"$http_user_agent\""
+    },
+    {
+      "name": "main",
+      "desc": "$remote_addr - $remote_user [$time_local] \"$request\" $status $body_bytes_sent \"$http_referer\" \"$http_user_agent\""
+    },
+    {
+      "name": "url",
+      "desc": "纯 $request"
+    }
+  ],
+  "journalctl": [
+    {
+      "flag": "-u",
+      "desc": "按 unit 过滤（-u nginx）"
+    },
+    {
+      "flag": "--unit",
+      "desc": "同 -u"
+    },
+    {
+      "flag": "-f",
+      "desc": "follow（实时）"
+    },
+    {
+      "flag": "-n",
+      "desc": "最近 N 行"
+    },
+    {
+      "flag": "--lines",
+      "desc": "同 -n"
+    },
+    {
+      "flag": "-S",
+      "desc": "since（起始时间）"
+    },
+    {
+      "flag": "-U",
+      "desc": "until（结束时间）"
+    },
+    {
+      "flag": "--since",
+      "desc": "同 -S"
+    },
+    {
+      "flag": "--until",
+      "desc": "同 -U"
+    },
+    {
+      "flag": "-b",
+      "desc": "本次启动（boot）"
+    },
+    {
+      "flag": "--boot",
+      "desc": "同 -b"
+    },
+    {
+      "flag": "-p",
+      "desc": "优先级（err/warn/info/notice）"
+    },
+    {
+      "flag": "--priority",
+      "desc": "同 -p"
+    },
+    {
+      "flag": "-k",
+      "desc": "只看内核（kmsg）"
+    },
+    {
+      "flag": "-t",
+      "desc": "按 syslog tag 过滤"
+    },
+    {
+      "flag": "--identifier",
+      "desc": "同 -t"
+    },
+    {
+      "flag": "-o",
+      "desc": "输出格式（json/short）"
+    },
+    {
+      "flag": "--output",
+      "desc": "同 -o"
+    },
+    {
+      "flag": "-r",
+      "desc": "倒序"
+    },
+    {
+      "flag": "--reverse",
+      "desc": "同 -r"
+    },
+    {
+      "flag": "-a",
+      "desc": "全字段"
+    },
+    {
+      "flag": "-x",
+      "desc": "加 hex 偏移"
+    },
+    {
+      "flag": "-D",
+      "desc": "读指定 journal 文件"
+    },
+    {
+      "flag": "--file",
+      "desc": "同 -D"
+    },
+    {
+      "flag": "-g",
+      "desc": "globs 匹配"
+    },
+    {
+      "flag": "-m",
+      "desc": "合并机器（--machine）"
+    },
+    {
+      "flag": "-q",
+      "desc": "静默"
+    },
+    {
+      "flag": "-q",
+      "desc": "静默"
+    },
+    {
+      "flag": "-c",
+      "desc": "（少见）"
+    },
+    {
+      "flag": "--no-pager",
+      "desc": "不翻页"
+    },
+    {
+      "flag": "--pager-end",
+      "desc": "从末尾翻页"
+    },
+    {
+      "flag": "--full",
+      "desc": "全字段不截断"
+    },
+    {
+      "flag": "--output-fields",
+      "desc": "指定输出字段"
+    }
+  ],
+  "grep": [
+    {
+      "flag": "-i",
+      "desc": "忽略大小写"
+    },
+    {
+      "flag": "-n",
+      "desc": "行号"
+    },
+    {
+      "flag": "-c",
+      "desc": "计数"
+    },
+    {
+      "flag": "-v",
+      "desc": "反转匹配"
+    },
+    {
+      "flag": "-A",
+      "desc": "后 N 行"
+    },
+    {
+      "flag": "-B",
+      "desc": "前 N 行"
+    },
+    {
+      "flag": "-C",
+      "desc": "前后 N 行"
+    },
+    {
+      "flag": "-w",
+      "desc": "整词"
+    },
+    {
+      "flag": "-r",
+      "desc": "递归"
+    },
+    {
+      "flag": "-R",
+      "desc": "同 -r"
+    },
+    {
+      "flag": "-l",
+      "desc": "只列文件名"
+    },
+    {
+      "flag": "-L",
+      "desc": "只列不匹配文件"
+    },
+    {
+      "flag": "-m",
+      "desc": "每文件前 N 处"
+    },
+    {
+      "flag": "-o",
+      "desc": "只打印匹配"
+    },
+    {
+      "flag": "-E",
+      "desc": "扩展正则"
+    },
+    {
+      "flag": "-e",
+      "desc": "模式串"
+    },
+    {
+      "flag": "--color",
+      "desc": "高亮"
+    },
+    {
+      "flag": "--binary-files",
+      "desc": "二进制处理"
+    },
+    {
+      "flag": "-s",
+      "desc": "静默（不报无匹配）"
+    },
+    {
+      "flag": "-q",
+      "desc": "静默（只返码）"
+    },
+    {
+      "flag": "-h",
+      "desc": "无文件名"
+    },
+    {
+      "flag": "-I",
+      "desc": "跳二进制"
+    },
+    {
+      "flag": "-P",
+      "desc": "Perl 正则"
+    },
+    {
+      "flag": "--include",
+      "desc": "只匹配某类文件"
+    },
+    {
+      "flag": "--exclude",
+      "desc": "排除某类文件"
+    },
+    {
+      "flag": "--exclude-dir",
+      "desc": "排除目录"
+    },
+    {
+      "flag": "--before-context",
+      "desc": "同 -B"
+    },
+    {
+      "flag": "--after-context",
+      "desc": "同 -A"
+    },
+    {
+      "flag": "--context",
+      "desc": "同 -C"
+    },
+    {
+      "flag": "--max-count",
+      "desc": "同 -m"
+    },
+    {
+      "flag": "--regexp",
+      "desc": "同 -e"
+    },
+    {
+      "flag": "--recursive",
+      "desc": "同 -r"
+    },
+    {
+      "flag": "--files-with-matches",
+      "desc": "同 -l"
+    },
+    {
+      "flag": "--files-without-match",
+      "desc": "同 -L"
+    },
+    {
+      "flag": "--line-number",
+      "desc": "同 -n"
+    },
+    {
+      "flag": "--count",
+      "desc": "同 -c"
+    },
+    {
+      "flag": "--invert-match",
+      "desc": "同 -v"
+    },
+    {
+      "flag": "--case-insensitive",
+      "desc": "同 -i"
+    },
+    {
+      "flag": "--word-regexp",
+      "desc": "同 -w"
+    },
+    {
+      "flag": "--only-matching",
+      "desc": "同 -o"
+    },
+    {
+      "flag": "--extended-regexp",
+      "desc": "同 -E"
+    },
+    {
+      "flag": "--basic-regexp",
+      "desc": "基本正则"
+    },
+    {
+      "flag": "--perl-regexp",
+      "desc": "同 -P"
+    },
+    {
+      "flag": "--no-filename",
+      "desc": "同 -h"
+    },
+    {
+      "flag": "--quiet",
+      "desc": "同 -s"
+    },
+    {
+      "flag": "--silent",
+      "desc": "同 -s"
+    }
+  ],
+  "awk": [
+    {
+      "flag": "-F",
+      "desc": "分隔符（-F\" \" 空格）"
+    },
+    {
+      "flag": "-f",
+      "desc": "读脚本文件"
+    },
+    {
+      "flag": "-v",
+      "desc": "赋值变量"
+    },
+    {
+      "flag": "--posix",
+      "desc": "POSIX 模式"
+    }
+  ],
+  "sed": [
+    {
+      "flag": "-n",
+      "desc": "不自动打印"
+    },
+    {
+      "flag": "-i",
+      "desc": "原地改（-i.bak 留备份）"
+    },
+    {
+      "flag": "-E",
+      "desc": "扩展正则"
+    },
+    {
+      "flag": "-r",
+      "desc": "同 -E（GNU）"
+    },
+    {
+      "flag": "-e",
+      "desc": "多条表达式"
+    },
+    {
+      "flag": "-s",
+      "desc": "单文件不合并"
+    },
+    {
+      "flag": "--follow-symlink",
+      "desc": "跟符号链接"
+    }
+  ],
+  "docker_log": [
+    {
+      "flag": "-f",
+      "desc": "follow（docker logs）"
+    },
+    {
+      "flag": "--follow",
+      "desc": "同 -f"
+    },
+    {
+      "flag": "-t",
+      "desc": "带时间戳"
+    },
+    {
+      "flag": "--timestamps",
+      "desc": "同 -t"
+    },
+    {
+      "flag": "-n",
+      "desc": "最近 N 行"
+    },
+    {
+      "flag": "--tail",
+      "desc": "同 -n"
+    },
+    {
+      "flag": "--since",
+      "desc": "起始时间/时长"
+    },
+    {
+      "flag": "--until",
+      "desc": "结束时间/时长"
+    },
+    {
+      "flag": "-l",
+      "desc": "只列日志文件"
+    },
+    {
+      "flag": "--latest",
+      "desc": "最新容器"
+    },
+    {
+      "flag": "--quiet",
+      "desc": "静默"
+    }
+  ],
+  "syslog_rfc5424_fields": [
+    {
+      "name": "version",
+      "desc": "协议版本（5）"
+    },
+    {
+      "name": "timestamp",
+      "desc": "ISO8601 时间"
+    },
+    {
+      "name": "hostname",
+      "desc": "主机名"
+    },
+    {
+      "name": "app-name",
+      "desc": "应用名"
+    },
+    {
+      "name": "procid",
+      "desc": "进程 ID"
+    },
+    {
+      "name": "msgid",
+      "desc": "消息 ID"
+    },
+    {
+      "name": "structured-data",
+      "desc": "结构化数据块"
+    },
+    {
+      "name": "msg",
+      "desc": "消息体"
+    }
+  ],
+  "nginx_error_log_levels": [
+    {
+      "name": "emerg",
+      "desc": "致命，进程退出"
+    },
+    {
+      "name": "crit",
+      "desc": "严重"
+    },
+    {
+      "name": "error",
+      "desc": "一般错误"
+    },
+    {
+      "name": "warn",
+      "desc": "警告"
+    },
+    {
+      "name": "notice",
+      "desc": "通知（默认）"
+    },
+    {
+      "name": "info",
+      "desc": "信息"
+    },
+    {
+      "name": "debug",
+      "desc": "调试（需 compile）"
+    }
+  ],
+  "deprecated": []
+}

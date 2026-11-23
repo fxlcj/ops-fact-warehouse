@@ -1,0 +1,745 @@
+{
+  "_meta": {
+    "title": "systemd 单元常用指令 + systemctl 子命令白名单",
+    "source": [
+      "https://www.freedesktop.org/software/systemd/man/systemd.unit.html",
+      "https://www.freedesktop.org/software/systemd/man/systemctl.html"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "systemd 单元文件常用指令（Exec*/After*/WantedBy/Restart= 等）+ systemctl 子命令。G4b 对 systemctl 子命令 + 单元指令名 WARN 扫描（面宽）。HA/PVE/服务器文 107 篇命中。"
+  },
+  "unit_directives": [
+    {
+      "name": "Description",
+      "desc": "单元描述"
+    },
+    {
+      "name": "Documentation",
+      "desc": "文档链接"
+    },
+    {
+      "name": "Wants",
+      "desc": "软依赖（不阻塞启动）"
+    },
+    {
+      "name": "Requires",
+      "desc": "硬依赖（启动则必须启动）"
+    },
+    {
+      "name": "WantedBy",
+      "desc": "安装目标时由 [Install] 段 WantedBy 指定归属 target"
+    },
+    {
+      "name": "Wants=",
+      "desc": "（同上）"
+    },
+    {
+      "name": "BindsTo",
+      "desc": "强绑定（停则连本单元停）"
+    },
+    {
+      "name": "After",
+      "desc": "启动顺序后置"
+    },
+    {
+      "name": "Before",
+      "desc": "启动顺序前置"
+    },
+    {
+      "name": "Conflicts",
+      "desc": "互斥"
+    },
+    {
+      "name": "PartOf",
+      "desc": "生命周期跟随"
+    },
+    {
+      "name": "OnFailure",
+      "desc": "失败触发"
+    },
+    {
+      "name": "OnSuccess",
+      "desc": "成功触发"
+    },
+    {
+      "name": "Requisite",
+      "desc": "强依赖但只检查不拉起"
+    },
+    {
+      "name": "PropagatesReloadTo",
+      "desc": "reload 传递"
+    },
+    {
+      "name": "ReloadPropagatedFrom",
+      "desc": "reload 接收"
+    },
+    {
+      "name": "Colocated",
+      "desc": "（少见）"
+    },
+    {
+      "name": "Condition",
+      "desc": "条件（Condition*/Assert*）"
+    },
+    {
+      "name": "Assert",
+      "desc": "断言"
+    },
+    {
+      "name": "RequiresMountsFor",
+      "desc": "挂载依赖"
+    },
+    {
+      "name": "SourcePath",
+      "desc": "（少见）"
+    },
+    {
+      "name": "Unit",
+      "desc": "所属 unit"
+    },
+    {
+      "name": "Slice",
+      "desc": "cgroup slice"
+    },
+    {
+      "name": "Delegate",
+      "desc": "cgroup 委托"
+    },
+    {
+      "name": "CPUAccounting",
+      "desc": "CPU 计量"
+    },
+    {
+      "name": "MemoryAccounting",
+      "desc": "内存计量"
+    },
+    {
+      "name": "IOAccounting",
+      "desc": "IO 计量"
+    },
+    {
+      "name": "CPUWeight",
+      "desc": "CPU 权重"
+    },
+    {
+      "name": "CPUQuota",
+      "desc": "CPU 配额"
+    },
+    {
+      "name": "MemoryMax",
+      "desc": "内存上限"
+    },
+    {
+      "name": "MemoryLimit",
+      "desc": "内存上限（旧）"
+    },
+    {
+      "name": "TasksMax",
+      "desc": "最大任务数"
+    },
+    {
+      "name": "TimeoutStartSec",
+      "desc": "启动超时"
+    },
+    {
+      "name": "TimeoutStopSec",
+      "desc": "停止超时"
+    },
+    {
+      "name": "RuntimeMaxSec",
+      "desc": "运行最久"
+    },
+    {
+      "name": "RuntimeMaxUSec",
+      "desc": "运行最久（微秒）"
+    },
+    {
+      "name": "WatchdogSec",
+      "desc": "看门狗超时"
+    },
+    {
+      "name": "Restart",
+      "desc": "重启策略（no/always/on-failure/on-abnormal/on-success/on-watchdog）"
+    },
+    {
+      "name": "RestartSec",
+      "desc": "重启间隔"
+    },
+    {
+      "name": "StartLimitIntervalSec",
+      "desc": "启动限制窗口"
+    },
+    {
+      "name": "StartLimitBurst",
+      "desc": "启动限制次数"
+    },
+    {
+      "name": "SuccessExitStatus",
+      "desc": "成功退出码"
+    },
+    {
+      "name": "Upholding",
+      "desc": "（少见）"
+    },
+    {
+      "name": "ExecStart",
+      "desc": "启动命令"
+    },
+    {
+      "name": "ExecStartPre",
+      "desc": "启动前"
+    },
+    {
+      "name": "ExecStartPost",
+      "desc": "启动后"
+    },
+    {
+      "name": "ExecStop",
+      "desc": "停止命令"
+    },
+    {
+      "name": "ExecStopPre",
+      "desc": "停止前"
+    },
+    {
+      "name": "ExecStopPost",
+      "desc": "停止后"
+    },
+    {
+      "name": "ExecReload",
+      "desc": "重载命令"
+    },
+    {
+      "name": "Type",
+      "desc": "单元类型（simple/foraging/oneshot/exec/start/notify/notify-restart/idle）"
+    },
+    {
+      "name": "NotifyAccess",
+      "desc": "sd_notify 访问"
+    },
+    {
+      "name": "User",
+      "desc": "运行用户"
+    },
+    {
+      "name": "Group",
+      "desc": "运行组"
+    },
+    {
+      "name": "UMask",
+      "desc": "umask"
+    },
+    {
+      "name": "WorkingDirectory",
+      "desc": "工作目录"
+    },
+    {
+      "name": "Environment",
+      "desc": "环境变量"
+    },
+    {
+      "name": "EnvironmentFile",
+      "desc": "环境变量文件"
+    },
+    {
+      "name": "DynamicUser",
+      "desc": "动态用户"
+    },
+    {
+      "name": "SupplementaryGroups",
+      "desc": "附加组"
+    },
+    {
+      "name": "Limit",
+      "desc": "资源限制（Limit*）"
+    },
+    {
+      "name": "NoNewPrivileges",
+      "desc": "禁提权"
+    },
+    {
+      "name": "Security",
+      "desc": "安全模块（Security*）"
+    },
+    {
+      "name": "ProtectSystem",
+      "desc": "只读保护"
+    },
+    {
+      "name": "ProtectHome",
+      "desc": "保护 /home /root"
+    },
+    {
+      "name": "PrivateNetwork",
+      "desc": "私网"
+    },
+    {
+      "name": "PrivateDevices",
+      "desc": "私设备"
+    },
+    {
+      "name": "PrivateTmp",
+      "desc": "私 /tmp"
+    },
+    {
+      "name": "PrivateUsers",
+      "desc": "私用户"
+    },
+    {
+      "name": "IPAddressAllow",
+      "desc": "IP 白名单（nft）"
+    },
+    {
+      "name": "IPAddressDeny",
+      "desc": "IP 黑名单"
+    },
+    {
+      "name": "SocketUser",
+      "desc": "（少见）"
+    },
+    {
+      "name": "StandardOutput",
+      "desc": "标准输出"
+    },
+    {
+      "name": "StandardError",
+      "desc": "标准错误"
+    },
+    {
+      "name": "SyslogIdentifier",
+      "desc": "syslog tag"
+    },
+    {
+      "name": "ExecCondition",
+      "desc": "条件执行"
+    },
+    {
+      "name": "ConditionDirectoryNotEmpty",
+      "desc": "目录非空条件"
+    },
+    {
+      "name": "ConditionFileNotEmpty",
+      "desc": "文件非空条件"
+    },
+    {
+      "name": "ConditionFileExists",
+      "desc": "文件存在条件"
+    },
+    {
+      "name": "ConditionPathIsDirectory",
+      "desc": "路径是目录"
+    },
+    {
+      "name": "ConditionSecurityModule",
+      "desc": "安全模块条件"
+    },
+    {
+      "name": "ConditionVirtualization",
+      "desc": "虚拟化条件"
+    },
+    {
+      "name": "AssertDirectoryNotEmpty",
+      "desc": "目录非空断言"
+    },
+    {
+      "name": "AssertFileNotEmpty",
+      "desc": "文件非空断言"
+    },
+    {
+      "name": "AssertFileExists",
+      "desc": "文件存在断言"
+    },
+    {
+      "name": "wants",
+      "desc": "Wants 小写（unit 文件允许小写）"
+    },
+    {
+      "name": "requires",
+      "desc": "Requires 小写"
+    },
+    {
+      "name": "after",
+      "desc": "After 小写"
+    },
+    {
+      "name": "before",
+      "desc": "Before 小写"
+    },
+    {
+      "name": "type",
+      "desc": "Type 小写"
+    },
+    {
+      "name": "restart",
+      "desc": "Restart 小写"
+    },
+    {
+      "name": "user",
+      "desc": "User 小写"
+    },
+    {
+      "name": "group",
+      "desc": "Group 小写"
+    },
+    {
+      "name": "description",
+      "desc": "Description 小写"
+    },
+    {
+      "name": "environment",
+      "desc": "Environment 小写"
+    },
+    {
+      "name": "execstart",
+      "desc": "ExecStart 小写"
+    },
+    {
+      "name": "execstop",
+      "desc": "ExecStop 小写"
+    },
+    {
+      "name": "executor",
+      "desc": "（少见，exec 派生）"
+    },
+    {
+      "name": "targets",
+      "desc": "（少见）"
+    }
+  ],
+  "socket_directives": [
+    {
+      "name": "ListenStream",
+      "desc": "TCP/Unix 监听"
+    },
+    {
+      "name": "ListenDatagram",
+      "desc": "UDP 监听"
+    },
+    {
+      "name": "ListenSequentialPacket",
+      "desc": "Unix 顺序包"
+    },
+    {
+      "name": "ListenFIFO",
+      "desc": "FIFO 监听"
+    },
+    {
+      "name": "ListenNetlink",
+      "desc": "netlink 监听"
+    },
+    {
+      "name": "ListenSpecial",
+      "desc": "特殊文件"
+    },
+    {
+      "name": "BindPaths",
+      "desc": "绑定路径"
+    },
+    {
+      "name": "DirectoryMode",
+      "desc": "目录模式"
+    },
+    {
+      "name": "Service",
+      "desc": "关联 service"
+    }
+  ],
+  "systemctl_subcommands": [
+    {
+      "name": "status",
+      "desc": "查状态"
+    },
+    {
+      "name": "start",
+      "desc": "启动"
+    },
+    {
+      "name": "stop",
+      "desc": "停止"
+    },
+    {
+      "name": "restart",
+      "desc": "重启"
+    },
+    {
+      "name": "try-restart",
+      "desc": "运行中才重启"
+    },
+    {
+      "name": "reload",
+      "desc": "重载"
+    },
+    {
+      "name": "daemon-reload",
+      "desc": "重载配置"
+    },
+    {
+      "name": "enable",
+      "desc": "开机自启"
+    },
+    {
+      "name": "disable",
+      "desc": "禁开机"
+    },
+    {
+      "name": "is-enabled",
+      "desc": "查是否开机"
+    },
+    {
+      "name": "is-active",
+      "desc": "查是否运行"
+    },
+    {
+      "name": "list-units",
+      "desc": "列单元"
+    },
+    {
+      "name": "list-unit-files",
+      "desc": "列单元文件"
+    },
+    {
+      "name": "list-dependencies",
+      "desc": "列依赖树"
+    },
+    {
+      "name": "show",
+      "desc": "显示属性"
+    },
+    {
+      "name": "cat",
+      "desc": "看单元文件"
+    },
+    {
+      "name": "daemon-restart",
+      "desc": "重启 systemd 自身"
+    },
+    {
+      "name": "reboot",
+      "desc": "重启系统"
+    },
+    {
+      "name": "halt",
+      "desc": "关机"
+    },
+    {
+      "name": "poweroff",
+      "desc": "关机（同 halt）"
+    },
+    {
+      "name": "suspend",
+      "desc": "挂起"
+    },
+    {
+      "name": "hibernate",
+      "desc": "休眠"
+    },
+    {
+      "name": "hybrid-sleep",
+      "desc": "混合睡眠"
+    },
+    {
+      "name": "rescue",
+      "desc": "rescue 模式"
+    },
+    {
+      "name": "emergency",
+      "desc": "emergency 模式"
+    },
+    {
+      "name": "mask",
+      "desc": "屏蔽单元"
+    },
+    {
+      "name": "unmask",
+      "desc": "解屏蔽"
+    },
+    {
+      "name": "preset",
+      "desc": "预设状态"
+    },
+    {
+      "name": "set-default",
+      "desc": "设默认 target"
+    },
+    {
+      "name": "default",
+      "desc": "切默认"
+    },
+    {
+      "name": "link",
+      "desc": "链入单元"
+    },
+    {
+      "name": "kill",
+      "desc": "发信号杀单元"
+    },
+    {
+      "name": "reset-failed",
+      "desc": "重置 failed 状态"
+    },
+    {
+      "name": "clear",
+      "desc": "清单元状态"
+    },
+    {
+      "name": "import-failed",
+      "desc": "（少见）"
+    },
+    {
+      "name": "list-sockets",
+      "desc": "列 socket"
+    },
+    {
+      "name": "list-timers",
+      "desc": "列 timer"
+    },
+    {
+      "name": "list-automounts",
+      "desc": "列 automount"
+    },
+    {
+      "name": "list-journal",
+      "desc": "（少见）"
+    },
+    {
+      "name": "logs",
+      "desc": "看单元日志"
+    },
+    {
+      "name": "set-property",
+      "desc": "运行时改属性"
+    },
+    {
+      "name": "edit",
+      "desc": "编辑器改单元（override）"
+    },
+    {
+      "name": "add-repository",
+      "desc": "（少见）"
+    }
+  ],
+  "journal_flags": [
+    {
+      "flag": "-u",
+      "desc": "按 unit"
+    },
+    {
+      "flag": "--unit",
+      "desc": "同 -u"
+    },
+    {
+      "flag": "-f",
+      "desc": "follow"
+    },
+    {
+      "flag": "--follow",
+      "desc": "同 -f"
+    },
+    {
+      "flag": "-n",
+      "desc": "N 行"
+    },
+    {
+      "flag": "--lines",
+      "desc": "同 -n"
+    },
+    {
+      "flag": "-S",
+      "desc": "since"
+    },
+    {
+      "flag": "-U",
+      "desc": "until"
+    },
+    {
+      "flag": "--since",
+      "desc": "同 -S"
+    },
+    {
+      "flag": "--until",
+      "desc": "同 -U"
+    },
+    {
+      "flag": "-b",
+      "desc": "本次 boot"
+    },
+    {
+      "flag": "--boot",
+      "desc": "同 -b"
+    },
+    {
+      "flag": "-p",
+      "desc": "优先级"
+    },
+    {
+      "flag": "--priority",
+      "desc": "同 -p"
+    },
+    {
+      "flag": "-k",
+      "desc": "内核"
+    },
+    {
+      "flag": "-t",
+      "desc": "tag"
+    },
+    {
+      "flag": "--identifier",
+      "desc": "同 -t"
+    },
+    {
+      "flag": "-o",
+      "desc": "输出格式"
+    },
+    {
+      "flag": "--output",
+      "desc": "同 -o"
+    },
+    {
+      "flag": "-r",
+      "desc": "倒序"
+    },
+    {
+      "flag": "--reverse",
+      "desc": "同 -r"
+    },
+    {
+      "flag": "-a",
+      "desc": "全字段"
+    },
+    {
+      "flag": "-x",
+      "desc": "hex 偏移"
+    },
+    {
+      "flag": "-D",
+      "desc": "文件"
+    },
+    {
+      "flag": "--file",
+      "desc": "同 -D"
+    },
+    {
+      "flag": "--no-pager",
+      "desc": "不翻页"
+    },
+    {
+      "flag": "--pager-end",
+      "desc": "从末尾翻页"
+    },
+    {
+      "flag": "--full",
+      "desc": "全字段不截断"
+    },
+    {
+      "flag": "--catalog",
+      "desc": "消息目录"
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "systemd-nspawn",
+      "reason": "独立工具，非单元指令，勿混入 unit 白名单"
+    }
+  ]
+}
