@@ -16,6 +16,12 @@ New machine-readable reference repos under the subdirectories below. These are *
 - `kubernetes/kubernetes.json`: 37 kubectl subcommands + ~60 resource kinds/abbreviations (incl. Prometheus-Operator CRDs).
 - `firewall/firewall.json`: iptables tables / chains / targets (incl. Kubernetes `KUBE` target) + nftables tables.
 - `docker/docker.json`: 28 docker subcommands + 50+ common docker / docker-compose flags.
+- `network-tools/tools.json`: curl / tcpdump / nmap / ss / ip / dig / netstat / traceroute / ping / mtr common flags (incl. global `ip` flags and combined short-flag notes).
+- `log-format/log-format.json`: Nginx log variables / `journalctl` / `grep` / `awk` / `sed` command flags + RFC 5424 syslog fields + Nginx error-log levels.
+- `systemd/systemd.json`: 100+ systemd unit/socket directives + 45 `systemctl` subcommands + `journalctl` flags.
+- `ci-pipelines/ci-pipelines.json`: Jenkins pipeline blocks + GitLab CI keywords + GitHub Actions keywords.
+- `cve-format/cve-format.json`: CVE identifier format/regex rules + top CWE categories + CVSS v3 severity + EPSS note (for cross-checking CVE mentions in articles).
+- `prometheus-functions/promql.json`: 60+ built-in PromQL functions + 9 common alerting expression patterns (extension repo, not wired into the build gate yet).
 
 Maintenance: these are reference data re-checked manually (not a live feed); `checked_date` refreshes each re-check. The CISA KEV and IANA files above remain the live/re-collected sources.
 
