@@ -1,0 +1,372 @@
+{
+  "_meta": {
+    "title": "Home Assistant REST API 端点 + Lovelace UI 卡片/视图 type 白名单（HA 知识仓第 3 仓，与 ha-cli/ha-config 互补）",
+    "source": [
+      "https://www.home-assistant.io/api/",
+      "https://www.home-assistant.io/lovelace/",
+      "https://www.home-assistant.io/lovelace/cards/",
+      "https://www.home-assistant.io/lovelace/views/",
+      "https://www.home-assistant.io/integrations/webhook/"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "HA 知识仓第三仓（ha-cli=CLI、ha-config=配置/service/集成/addon、ha-api=REST API 端点+Lovelace UI）。site HA 95 篇：① ha rest 透传的 HA 核心 REST API 端点（/api/states、/api/services、/api/webhook/<id>、/api/supervisor/*、/api/config/* 等）② Lovelace 卡片 type（entities/glance/tile/history-graph/…）与视图 type。G4b 对 /api/<HA 核心端点> 与 Lovelace type: <值> WARN 扫描（面宽先保守，同 ha-cli/ha-config；MQTT/zigbee2mqtt/supervisor 第三方 API 路径不在此仓，避免误伤）。"
+  },
+  "ha_rest_api": [
+    {
+      "name": "/api/",
+      "desc": "API 根（返回 version）"
+    },
+    {
+      "name": "/api/states",
+      "desc": "读所有实体状态"
+    },
+    {
+      "name": "/api/states/<entity_id>",
+      "desc": "读单实体状态"
+    },
+    {
+      "name": "/api/services",
+      "desc": "触发服务（POST 调用 service）"
+    },
+    {
+      "name": "/api/services/<domain>",
+      "desc": "触发指定域 service"
+    },
+    {
+      "name": "/api/services/<domain>/<service>",
+      "desc": "触发指定 service"
+    },
+    {
+      "name": "/api/events",
+      "desc": "订阅事件流（SSE）"
+    },
+    {
+      "name": "/api/webhooks/<id>",
+      "desc": "Webhook 触发（POST）"
+    },
+    {
+      "name": "/api/health",
+      "desc": "健康检查（/api/health 旧路径，新用 /api/ 或 /api/config）"
+    },
+    {
+      "name": "/api/config",
+      "desc": "读 HA 配置"
+    },
+    {
+      "name": "/api/config/version",
+      "desc": "读 HA 版本"
+    },
+    {
+      "name": "/api/auth",
+      "desc": "认证"
+    },
+    {
+      "name": "/api/auth/providers",
+      "desc": "认证提供者列表"
+    },
+    {
+      "name": "/api/auth/login",
+      "desc": "登录换 access token"
+    },
+    {
+      "name": "/api/panel/",
+      "desc": "UI 面板"
+    },
+    {
+      "name": "/api/onboarding",
+      "desc": "引导配置"
+    },
+    {
+      "name": "/api/lovelace",
+      "desc": "Lovelace UI 资源"
+    },
+    {
+      "name": "/api/lovelace/dashboards",
+      "desc": "Lovelace 仪表盘列表"
+    },
+    {
+      "name": "/api/lovelace/dashboard/<path>",
+      "desc": "指定仪表盘"
+    },
+    {
+      "name": "/api/supervisor",
+      "desc": "Supervisor API（透传到 /api/supervisor/*）"
+    },
+    {
+      "name": "/api/supervisor/core/info",
+      "desc": "核心信息（site 用）"
+    },
+    {
+      "name": "/api/supervisor/core/update",
+      "desc": "核心更新（site 用）"
+    },
+    {
+      "name": "/api/supervisor/core/addons",
+      "desc": "addons 列表"
+    },
+    {
+      "name": "/api/supervisor/host/info",
+      "desc": "主机信息"
+    },
+    {
+      "name": "/api/supervisor/system/backup",
+      "desc": "备份"
+    },
+    {
+      "name": "/api/supervisor/system/recovery",
+      "desc": "恢复"
+    },
+    {
+      "name": "/api/supervisor/network",
+      "desc": "网络"
+    },
+    {
+      "name": "/api/supervisor/diskspace",
+      "desc": "磁盘"
+    },
+    {
+      "name": "/api/supervisor/options",
+      "desc": "选项"
+    },
+    {
+      "name": "/api/streams",
+      "desc": "流（旧）"
+    },
+    {
+      "name": "/api/stream",
+      "desc": "事件流（WebSocket，site 用 /api/websocket 透传）"
+    },
+    {
+      "name": "/api/websocket",
+      "desc": "WebSocket 事件流（site 用）"
+    },
+    {
+      "name": "/api/describe",
+      "desc": "实体描述"
+    },
+    {
+      "name": "/api/history",
+      "desc": "历史"
+    },
+    {
+      "name": "/api/history/entity",
+      "desc": "实体历史"
+    },
+    {
+      "name": "/api/recorder",
+      "desc": "数据库"
+    },
+    {
+      "name": "/api/calendar",
+      "desc": "日历"
+    },
+    {
+      "name": "/api/assist",
+      "desc": "voice 助手"
+    },
+    {
+      "name": "/api/voice",
+      "desc": "voice 助手"
+    },
+    {
+      "name": "/api/backups",
+      "desc": "备份（HA backup 集成 API）"
+    },
+    {
+      "name": "/api/snapshot",
+      "desc": "快照"
+    },
+    {
+      "name": "/api/webhook",
+      "desc": "webhook 根（/api/webhook/<id> 透传）"
+    },
+    {
+      "name": "/api/cli",
+      "desc": "ha rest /api/cli（CLI 透传）"
+    },
+    {
+      "name": "/api/bridge",
+      "desc": "bridge API（Zigbee2MQTT bridge 透传）"
+    }
+  ],
+  "lovelace_card_types": [
+    {
+      "name": "entities",
+      "desc": "实体列表卡（最常用）"
+    },
+    {
+      "name": "glance",
+      "desc": " glance 卡片"
+    },
+    {
+      "name": "tile",
+      "desc": "tile 卡片（HA 9.0+，新默认）"
+    },
+    {
+      "name": "grid",
+      "desc": "grid 布局卡"
+    },
+    {
+      "name": "section",
+      "desc": "section 布局卡"
+    },
+    {
+      "name": "custom:template-card",
+      "desc": "template-card（HACS 自定义，site 用）"
+    },
+    {
+      "name": "custom:mushroom",
+      "desc": "mushroom 卡（HACS）"
+    },
+    {
+      "name": "custom:mushroom-cover-card",
+      "desc": "mushroom 窗帘卡"
+    },
+    {
+      "name": "custom:mushroom-light-card",
+      "desc": "mushroom 灯卡"
+    },
+    {
+      "name": "custom:mini-graph-card",
+      "desc": "mini-graph（HACS）"
+    },
+    {
+      "name": "custom:mini-media-player",
+      "desc": "mini-media-player（HACS）"
+    },
+    {
+      "name": "custom:card-mod",
+      "desc": "card-mod 模组（给卡注 style，site 用）"
+    },
+    {
+      "name": "history-graph",
+      "desc": "历史图表卡"
+    },
+    {
+      "name": "history-glance",
+      "desc": "历史 glance 卡"
+    },
+    {
+      "name": "logbook",
+      "desc": "日志卡"
+    },
+    {
+      "name": "shopping-list",
+      "desc": "购物清单卡"
+    },
+    {
+      "name": "media-control",
+      "desc": "媒体控制卡"
+    },
+    {
+      "name": "camera",
+      "desc": "摄像头卡"
+    },
+    {
+      "name": "image",
+      "desc": "图片卡"
+    },
+    {
+      "name": "weather",
+      "desc": "天气卡"
+    },
+    {
+      "name": "weather-forecast",
+      "desc": "天气预报卡"
+    },
+    {
+      "name": "map",
+      "desc": "地图卡"
+    },
+    {
+      "name": "calendar",
+      "desc": "日历卡"
+    },
+    {
+      "name": "button",
+      "desc": "按钮卡"
+    },
+    {
+      "name": "sensor",
+      "desc": "传感器卡（旧）"
+    },
+    {
+      "name": "stat-card",
+      "desc": "stat 卡（旧）"
+    },
+    {
+      "name": "state-card",
+      "desc": "state 卡（旧）"
+    },
+    {
+      "name": "generic-templates",
+      "desc": "模板卡"
+    },
+    {
+      "name": "todo-list",
+      "desc": "待办卡"
+    },
+    {
+      "name": "my-cast",
+      "desc": "cast 卡（HACS）"
+    },
+    {
+      "name": "kiosk-mode",
+      "desc": "kiosk 模式卡"
+    },
+    {
+      "name": "panel",
+      "desc": "panel 卡"
+    },
+    {
+      "name": "chart",
+      "desc": "chart 卡（自定义）"
+    },
+    {
+      "name": "lovelace",
+      "desc": "lovelace 嵌套"
+    }
+  ],
+  "lovelace_view_types": [
+    {
+      "name": "masonry",
+      "desc": "视图布局：网格"
+    },
+    {
+      "name": "panel",
+      "desc": "视图布局：全屏单卡"
+    },
+    {
+      "name": "calendar",
+      "desc": "视图布局：日历"
+    },
+    {
+      "name": "map",
+      "desc": "视图布局：地图"
+    },
+    {
+      "name": "media",
+      "desc": "视图布局：媒体"
+    },
+    {
+      "name": "shopping-list",
+      "desc": "视图布局：购物清单"
+    }
+  ],
+  "lovelace_storage": [
+    {
+      "name": "yaml",
+      "desc": "YAML 模式（ui-lovelace.yaml 版本管理，site 推荐）"
+    },
+    {
+      "name": "storage",
+      "desc": "storage 模式（浏览器存储，UI 编辑）"
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "/api/v1/* 路径是 Prometheus 监控 API，不是 HA REST API",
+      "reason": "site monitor 栏目 /api/v1/query|labels|targets 全属 Prometheus，勿混入 HA API 白名单校验"
+    }
+  ]
+}

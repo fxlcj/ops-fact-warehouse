@@ -469,6 +469,216 @@
       "directive": "http3",
       "context": "listen",
       "desc": "HTTP/3 启用"
+    },
+    {
+      "directive": "least_conn",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "most_conn",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "fair",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "ip_hash",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "random",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "global_defs",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "stub_status",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "track_script",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "auth_basic",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "auth_request",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "client_body_temp_path",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "proxy_temp_path",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "fastcgi_temp_path",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "uwsgi_temp_path",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "resolver",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "resolver_timeout",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "proxy_redirect",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "proxy_hide_header",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "proxy_pass_request_body",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "proxy_pass_request_headers",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "sendfile_max_chunk",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "request_timeout",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "http2_max_concurrent_streams",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "autoindex",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "default_type",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "charset",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "error_page",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "set",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "worker_rlimit_core",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "worker_priority",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "events",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "http",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "stream",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "ssl_stapling",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "ssl_stapling_verify",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "server_names_hash_bucket_size",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "large_client_header_buffers",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "types",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "charset_set",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "types_hash_max_size",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "types_hash_bucket_size",
+      "context": "",
+      "desc": ""
+    },
+    {
+      "directive": "lfs",
+      "context": "",
+      "desc": ""
     }
   ]
 }

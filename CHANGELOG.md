@@ -31,6 +31,11 @@ New machine-readable reference repos under the subdirectories below. These are *
 - `helm/helm.json`: Helm 3.x subcommands + flags — ~25 subcommands (install/upgrade/uninstall/rollback/repo…) + ~25 common flags.
 - `debug-tools/debug-tools.json`: lsof / strace / perf / fuser — ~28 lsof flags, ~19 strace flags, ~22 perf subcommands, ~10 fuser flags.
 - `ha-config/ha-config.json`: Home Assistant **configuration** dimension (complements `ha-cli/`, which covers the CLI dimension) — ~85 core YAML config keys (automation trigger/condition/action/service etc.), ~108 service actions (`light.turn_on`/`climate.set_temperature`/`notify.mobile_app`… domain.action form), ~50 entity domains, ~124 integration names, ~123 official/HACS addon names (453 entries total).
+- `ha-api/ha-api.json`: Home Assistant **REST API + Lovelace UI** dimension (complements `ha-cli/` and `ha-config/`) — ~44 HA core REST API endpoints (`/api/states`, `/api/services`, `/api/supervisor/*`, `/api/config/*`, `/api/webhooks/*`) + ~34 Lovelace card types (entities/glance/tile/history-graph/…) + ~6 view types + ~2 storage modes (87 entries total). Third-party API paths (Prometheus `/api/v1/*`, MQTT/zigbee2mqtt device APIs) are intentionally **excluded** to avoid false-positives in monitoring articles.
+- `linux-sysctl/sysctl.json`: expanded to **134 params** (net/vm/fs/kernel) with interface-agnostic matching (e.g. `net.ipv4.conf.<iface>.rp_filter` resolves against the `.all.`/`.default.` variant).
+- `http-status/codes.json`: **77 codes** (full RFC 9110 + IANA extensions + Nginx `499` + Cloudflare `520`–`530` gateway codes).
+- `prometheus-metrics/metrics.json`: **310 entries** (~164 node_exporter incl. derived/alias metrics + ~56 kube-state-metrics + ~64 Prometheus-self + ~26 PromQL functions).
+- `nginx-directives/directives.json`: **132 directives** (full HTTP/server/location/events/stream/upstream context).
 
 Maintenance: these are reference data re-checked manually (not a live feed); `checked_date` refreshes each re-check. The CISA KEV and IANA files above remain the live/re-collected sources.
 

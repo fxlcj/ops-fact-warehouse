@@ -73,6 +73,66 @@
     "508": "Loop Detected（WebDAV）",
     "509": "Bandwidth Limit Exceeded",
     "510": "Not Extended",
-    "511": "Network Authentication Required"
+    "511": "Network Authentication Required",
+    "499": {
+      "desc": "nginx 扩展码 Client Closed Request（客户端在服务端响应前断开）",
+      "class": "4xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "520": {
+      "desc": "Cloudflare 通用源站错误",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "521": {
+      "desc": "Cloudflare 源站连接失败",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "522": {
+      "desc": "Cloudflare 源站连接超时",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "523": {
+      "desc": "Cloudflare 源站无法访问",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "524": {
+      "desc": "Cloudflare 源站无响应",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "525": {
+      "desc": "Cloudflare SSL 握手失败",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "526": {
+      "desc": "Cloudflare SSL 无效",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "527": {
+      "desc": "Cloudflare SSL 后端无效",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "528": {
+      "desc": "Cloudflare 源站无响应",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "529": {
+      "desc": "Cloudflare 源站超载",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    },
+    "530": {
+      "desc": "Cloudflare 源站未配置",
+      "class": "5xx",
+      "note": "扩展码（非 IANA 标准，厂商/网关自定义）"
+    }
   }
 }

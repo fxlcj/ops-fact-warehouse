@@ -83,7 +83,457 @@
     "node_hwmon_temp_celsius",
     "node_hwmon_fan_rpm",
     "node_scpi_sensor_state",
-    "node_systemd_unit_state"
+    "node_systemd_unit_state",
+    {
+      "name": "node_cpu_utilization",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_usage",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_diskio",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_memory_utilization",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_io_time",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_io_time_weighted_seconds_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_bytes_written",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_bytes_read",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_write_bytes_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_reads_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_writes_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_disk_completed",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_uname_info",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_textfile_scrape_error",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_pressure_cpu_waiting_seconds_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_pressure_memory_stalled_seconds_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_pressure_io_stalled_seconds_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_pressure_cpu_waiting_seconds",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_filesystem_read_seconds_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_filesystem_write_seconds_total",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_systemd_service_state",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_systemd_service_active",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_scrape_collector_success",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_scrape_collector_time",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_scrape_duration_seconds",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_scrape_error",
+      "desc": "node_exporter 派生/常用别名",
+      "type": "Gauge"
+    },
+    {
+      "name": "node_cpu",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_memory",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_network",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_disk",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_disk_utilization",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_exporter_build_info",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_time_seconds",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_time_zone_offset_seconds",
+      "desc": "node_exporter 基础指标名/常见引用形态",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem_device_size_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem_free_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem_avail_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem_files_free",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem_files_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem_read_bytes_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_filesystem_written_bytes_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_time_clock_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_netstat_Tcp_RetransSeg",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_netstat_Tcp_InSegs",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_netstat_Udp_RcvbufErrors",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_netstat_Udp_SndbufErrors",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_processes_rolling_restart_time_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_processes_state",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_processes_pids_max",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_processes_max",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_processes_last_pid",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_procs",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_procs_blocked",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_procs_running",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_contextswitches_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_forks_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_intr_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_boot_time_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_cpu_seconds_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_cpu_guest_seconds_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_load1",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_load5",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_load15",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_memory_MemTotal_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_memory_MemAvailable_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_memory_SwapTotal_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_memory_SwapFree_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_swap_used_bytes",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_disk_io_time_seconds_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_disk_read_bytes_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_disk_written_bytes_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_disk_reads_completed_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_disk_writes_completed_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_network_receive_bytes_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_network_transmit_bytes_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_network_receive_packets_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_network_transmit_packets_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_exporter_collector_enabled",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_netstat_TcpExt_ListenDrops",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_netstat_TcpExt_TCPTimeouts",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_pressure_memory_stalled_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_pressure_io_stalled_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_time_seconds_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_scrape_samples_scraped",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_scrape_samples_pending_total",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_scrape_samples_received",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_scrape_timeout_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_scrape_collector_duration_seconds",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_scrape_collector_enabled",
+      "desc": "node_exporter 真实指标",
+      "type": "MetricFamily"
+    }
   ],
   "kube_state_metrics": [
     "kube_pod_info",
@@ -132,7 +582,52 @@
     "kube_daemonset_status_number_misscheduled",
     "kube_daemonset_labels",
     "kube_horizontalpodautoscaler_info",
-    "kube_horizontalpodautoscaler_labels"
+    "kube_horizontalpodautoscaler_labels",
+    {
+      "name": "kube_pod_info",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_node_info",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_node_spec_unschedulable",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_pod_status_phase",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_pod_container_resource_requests_cpu_cores",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_pod_container_resource_requests_memory_bytes",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_pod_container_resource_limits_cpu_cores",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_pod_container_resource_limits_memory_bytes",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "kube_namespace_labels",
+      "desc": "kube-state-metrics 常用",
+      "type": "MetricFamily"
+    }
   ],
   "prometheus_self": [
     "prometheus_build_info",
@@ -154,7 +649,227 @@
     "prometheus_tsdb_storage_retention_time_seconds",
     "prometheus_notifications_dropped_total",
     "prometheus_notifications_failure_total",
-    "prometheus_notifications_sent_total"
+    "prometheus_notifications_sent_total",
+    {
+      "name": "prometheus_http_requests_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_local_storage_disk_space_too_low",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_rule_evaluation_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_rule_evaluation_failures_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_rule_evaluation_duration_seconds",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_head_series",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_head_active_series",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_head_chunks",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_head_compaction_in_progress",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_head_min_timestamp",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_head_max_timestamp",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_wal_segments",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_wal_corruptions_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_wal_storage_size_bytes",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_storage_blocks",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_storage_blocks_size_bytes",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_storage_retention_time_seconds",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_compaction_last_success",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_compaction_last_duration_seconds",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_reloads_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_reloads_failures_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_config_last_reload_success",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_config_last_reload_failure",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_build_info",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_ready",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_start_time_seconds",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_uptime_seconds",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_version_info",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_engine_query_duration_seconds",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_engine_queries_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_engine_queries_ended_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_engine_query_samples_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_local_storage_memory_in_bytes",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notification_queue_full",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifies_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_alerts_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_alerts_triggered_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifications_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifications_dropped_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifications_failed_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifications_sent_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifications_acked_total",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifications_lag_seconds",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_notifications_on_alert",
+      "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    }
   ],
   "common_promql_functions": [
     "rate",
