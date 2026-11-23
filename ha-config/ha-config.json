@@ -1484,6 +1484,166 @@
     {
       "name": "homeworx",
       "desc": ""
+    },
+    {
+      "name": "telegram",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "smtp",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "sun",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "time",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "state",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "template",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "numeric_state",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "rest",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "push_alerts",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "email_admin",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "group",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "binary_sensor",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "device",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "ha",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "homeassistant",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "media_player",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "automation",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "script",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "input_boolean",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "input_number",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "input_select",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "input_text",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "weather",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "zeroconf",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "discovery",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "cloud",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "zerotier",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "google_cast",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "alexa",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "google_assistant",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "onboarding",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "updater",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "logbook",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "history",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "persistent_notification",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "shell_command",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "default_config",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "frontend",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "mobile_app",
+      "desc": "HA 核心集成（补白名单）"
+    },
+    {
+      "name": "demo",
+      "desc": "HA 核心集成（补白名单）"
     }
   ],
   "addons": [

@@ -533,6 +533,21 @@
       "name": "node_scrape_collector_enabled",
       "desc": "node_exporter 真实指标",
       "type": "MetricFamily"
+    },
+    {
+      "name": "node_netstat",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_pressure_io_waiting_seconds_total",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "node_processes",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
     }
   ],
   "kube_state_metrics": [
@@ -868,6 +883,76 @@
     {
       "name": "prometheus_notifications_on_alert",
       "desc": "Prometheus 自指标",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_rule_group_last_evaluation_timestamp_seconds",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_scrape_duration_seconds",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_compaction_duration_seconds",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_operator",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_storage",
+      "desc": "真实指标/组件引用（补白名单）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_compaction_pending",
+      "desc": "Prometheus TSDB 自指标（待 compact 的 head blocks 数）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_compaction_running_seconds_total",
+      "desc": "Prometheus TSDB 自指标（compact 运行累计秒）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_disk_free_bytes",
+      "desc": "Prometheus TSDB 自指标（TSDB 目录剩余可写字节）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_head_series_created_total",
+      "desc": "Prometheus TSDB 自指标（新建 series 累计）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_load_total",
+      "desc": "Prometheus TSDB 自指标（TSDB load 累计秒，含 _count/_sum）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_queries_total",
+      "desc": "Prometheus TSDB 自指标（查询累计次数）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_retention_limit_bytes",
+      "desc": "Prometheus TSDB 自指标（retention 上限字节）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_scrape_duration_seconds_bucket",
+      "desc": "Prometheus 自指标（scrape 耗时直方图 _bucket 桶）",
+      "type": "MetricFamily"
+    },
+    {
+      "name": "prometheus_tsdb_compaction_duration_seconds_count",
+      "desc": "Prometheus 自指标（TSDB compact 耗时 _count 计数）",
       "type": "MetricFamily"
     }
   ],

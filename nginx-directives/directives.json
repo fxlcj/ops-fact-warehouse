@@ -679,6 +679,16 @@
       "directive": "lfs",
       "context": "",
       "desc": ""
+    },
+    {
+      "directive": "internal",
+      "desc": "真实 nginx 指令",
+      "type": "core"
+    },
+    {
+      "directive": "down",
+      "desc": "真实 nginx 指令",
+      "type": "core"
     }
   ]
 }
