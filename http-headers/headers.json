@@ -1,0 +1,405 @@
+{
+  "_meta": {
+    "title": "HTTP 常用请求/响应头白名单（配合 http-status 仓成完整 HTTP 知识仓）",
+    "source": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers",
+      "https://httpwg.org/specs/rfc9110.html"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "常见 HTTP 头（请求头 + 响应头 + 安全头 + 缓存头 + 跨域头 + 认证头 + 编码/协商头）。G4b 对 nginx 反代/安全文里出现的头名 WARN 扫描（面宽先保守）。与 http-status 仓互补。"
+  },
+  "request_headers": [
+    {
+      "name": "Host",
+      "desc": "目标主机（HTTP/1.1 必填）"
+    },
+    {
+      "name": "User-Agent",
+      "desc": "客户端标识"
+    },
+    {
+      "name": "Accept",
+      "desc": "可接受的响应类型（content negotiation）"
+    },
+    {
+      "name": "Accept-Encoding",
+      "desc": "可接受的编码（gzip/br/zstd）"
+    },
+    {
+      "name": "Accept-Language",
+      "desc": "语言偏好"
+    },
+    {
+      "name": "Accept-Charset",
+      "desc": "字符集偏好"
+    },
+    {
+      "name": "Accept-Datetime",
+      "desc": "时间偏好（CalDAV）"
+    },
+    {
+      "name": "Referer",
+      "desc": "来源页"
+    },
+    {
+      "name": "Origin",
+      "desc": "跨域来源（CORS）"
+    },
+    {
+      "name": "Content-Length",
+      "desc": "请求体长度"
+    },
+    {
+      "name": "Content-Type",
+      "desc": "请求体类型"
+    },
+    {
+      "name": "Content-Encoding",
+      "desc": "请求体编码"
+    },
+    {
+      "name": "Authorization",
+      "desc": "认证（Bearer/Basic）"
+    },
+    {
+      "name": "Cookie",
+      "desc": "客户端 cookie"
+    },
+    {
+      "name": "Proxy-Authorization",
+      "desc": "代理认证"
+    },
+    {
+      "name": "From",
+      "desc": "（历史，RFC 9110 已废弃）"
+    },
+    {
+      "name": "If-Match",
+      "desc": "条件（ETag）"
+    },
+    {
+      "name": "If-Modified-Since",
+      "desc": "条件（Last-Modified）"
+    },
+    {
+      "name": "If-None-Match",
+      "desc": "条件（ETag 反向）"
+    },
+    {
+      "name": "If-Unmodified-Since",
+      "desc": "条件（Last-Modified 反向）"
+    },
+    {
+      "name": "Pragma",
+      "desc": "指令（历史）"
+    },
+    {
+      "name": "Range",
+      "desc": "范围请求（分片）"
+    },
+    {
+      "name": "X-Requested-With",
+      "desc": "XHR 标记（事实标准）"
+    },
+    {
+      "name": "Forwarded",
+      "desc": "转发信息（X-Forwarded-* 标准化）"
+    },
+    {
+      "name": "X-Forwarded-For",
+      "desc": "客户端真实 IP 链（事实标准）"
+    },
+    {
+      "name": "X-Forwarded-Host",
+      "desc": "原始 Host（事实标准）"
+    },
+    {
+      "name": "X-Forwarded-Proto",
+      "desc": "原始协议（http/https，事实标准）"
+    },
+    {
+      "name": "X-Forwarded-Port",
+      "desc": "原始端口（事实标准）"
+    },
+    {
+      "name": "X-Forwarded-Ssl",
+      "desc": "SSL 标记（事实标准）"
+    },
+    {
+      "name": "X-Real-IP",
+      "desc": "Nginx 透传真实 IP（事实标准）"
+    },
+    {
+      "name": "Sec-Websocket-Key",
+      "desc": "WebSocket 升级"
+    },
+    {
+      "name": "Upgrade",
+      "desc": "协议升级（websocket）"
+    },
+    {
+      "name": "Client-Request",
+      "desc": "（少见）"
+    },
+    {
+      "name": "PRefer",
+      "desc": "（少用）"
+    }
+  ],
+  "response_headers": [
+    {
+      "name": "Content-Type",
+      "desc": "响应体类型"
+    },
+    {
+      "name": "Content-Length",
+      "desc": "响应体长度"
+    },
+    {
+      "name": "Content-Encoding",
+      "desc": "响应体编码"
+    },
+    {
+      "name": "Content-Language",
+      "desc": "语言"
+    },
+    {
+      "name": "Content-Location",
+      "desc": "资源位置"
+    },
+    {
+      "name": "ETag",
+      "desc": "实体标签（缓存/条件）"
+    },
+    {
+      "name": "Last-Modified",
+      "desc": "最后修改时间（缓存/条件）"
+    },
+    {
+      "name": "Cache-Control",
+      "desc": "缓存指令"
+    },
+    {
+      "name": "Pragma",
+      "desc": "缓存指令（历史）"
+    },
+    {
+      "name": "Expires",
+      "desc": "过期时间（历史，被 Cache-Control 取代）"
+    },
+    {
+      "name": "Age",
+      "desc": "缓存年龄（秒）"
+    },
+    {
+      "name": "Vary",
+      "desc": "按哪些头区分缓存"
+    },
+    {
+      "name": "WWW-Authenticate",
+      "desc": "挑战串（401 后）"
+    },
+    {
+      "name": "Set-Cookie",
+      "desc": "设置 cookie"
+    },
+    {
+      "name": "Location",
+      "desc": "重定向目标（3xx）"
+    },
+    {
+      "name": "Allow",
+      "desc": "允许的方法（405）"
+    },
+    {
+      "name": "Proxy-Authenticate",
+      "desc": "代理挑战"
+    },
+    {
+      "name": "Server",
+      "desc": "服务器标识"
+    },
+    {
+      "name": "Date",
+      "desc": "发送时间"
+    },
+    {
+      "name": "Connection",
+      "desc": "连接控制（close/keep-alive）"
+    },
+    {
+      "name": "Upgrade",
+      "desc": "协议升级"
+    },
+    {
+      "name": "Warning",
+      "desc": "警告"
+    },
+    {
+      "name": "Retry-After",
+      "desc": "重试间隔（503/429）"
+    },
+    {
+      "name": "Delta-Base",
+      "desc": "（历史，delta encoding）"
+    },
+    {
+      "name": "Accept-Ranges",
+      "desc": "支持的范围请求"
+    }
+  ],
+  "security_headers": [
+    {
+      "name": "Strict-Transport-Security",
+      "desc": "HSTS（强制 HTTPS）"
+    },
+    {
+      "name": "Content-Security-Policy",
+      "desc": "CSP（XSS/注入防护）"
+    },
+    {
+      "name": "X-Content-Type-Options",
+      "desc": "nosniff（禁 MIME 嗅探）"
+    },
+    {
+      "name": "X-Frame-Options",
+      "desc": "防点击劫持（DENY/SAMEORIGIN）"
+    },
+    {
+      "name": "X-XSS-Protection",
+      "desc": "XSS 过滤（已废弃，被 CSP 取代）"
+    },
+    {
+      "name": "Referrer-Policy",
+      "desc": "Referer 发送策略"
+    },
+    {
+      "name": "Cross-Origin-Opener-Policy",
+      "desc": "隔离顶层窗口（COOP）"
+    },
+    {
+      "name": "Cross-Origin-Embedder-Policy",
+      "desc": "隔离嵌入（COEP）"
+    },
+    {
+      "name": "Cross-Origin-Resource-Policy",
+      "desc": "跨域资源策略（CORP）"
+    },
+    {
+      "name": "Permissions-Policy",
+      "desc": "Feature 权限策略（camera/mic 等）"
+    },
+    {
+      "name": "Report-To",
+      "desc": "报告组（CSP 等）"
+    },
+    {
+      "name": "Report-Group",
+      "desc": "报告组"
+    },
+    {
+      "name": "Timing-Allow-Origin",
+      "desc": "允许跨域读性能计时"
+    },
+    {
+      "name": "Public-Key-Pins",
+      "desc": "HPKP（已废弃，有反噬风险）"
+    },
+    {
+      "name": "X-Powered-By",
+      "desc": "框架标识（安全建议移除）"
+    },
+    {
+      "name": "X-Cache",
+      "desc": "CDN 缓存命中（Varnish/Cloudflare，事实标准）"
+    },
+    {
+      "name": "X-Internal-Token",
+      "desc": "内部服务间调用凭据头（事实标准）"
+    }
+  ],
+  "cors_headers": [
+    {
+      "name": "Access-Control-Allow-Origin",
+      "desc": "允许的跨域源"
+    },
+    {
+      "name": "Access-Control-Allow-Credentials",
+      "desc": "是否带凭据"
+    },
+    {
+      "name": "Access-Control-Allow-Headers",
+      "desc": "允许的请求头"
+    },
+    {
+      "name": "Access-Control-Allow-Methods",
+      "desc": "允许的请求方法"
+    },
+    {
+      "name": "Access-Control-Expose-Headers",
+      "desc": "暴露的响应头"
+    },
+    {
+      "name": "Access-Control-Max-Age",
+      "desc": "预检缓存时长"
+    },
+    {
+      "name": "Access-Control-Request-Method",
+      "desc": "预检请求方法"
+    },
+    {
+      "name": "Access-Control-Request-Headers",
+      "desc": "预检请求头"
+    }
+  ],
+  "auth_headers": [
+    {
+      "name": "Authorization",
+      "desc": "客户端认证（Bearer/Basic/Digest）"
+    },
+    {
+      "name": "WWW-Authenticate",
+      "desc": "服务器挑战（401）"
+    },
+    {
+      "name": "Proxy-Authorization",
+      "desc": "代理认证"
+    },
+    {
+      "name": "Proxy-Authenticate",
+      "desc": "代理挑战"
+    }
+  ],
+  "encoding_negotiation_headers": [
+    {
+      "name": "Accept-Encoding",
+      "desc": "编码协商"
+    },
+    {
+      "name": "Content-Encoding",
+      "desc": "编码（响应）"
+    },
+    {
+      "name": "Transfer-Encoding",
+      "desc": "传输编码（chunked）"
+    },
+    {
+      "name": "Accept-Charset",
+      "desc": "字符集协商"
+    },
+    {
+      "name": "Content-Transfer-Encoding",
+      "desc": "（邮件/MIME）"
+    }
+  ],
+  "deprecated": [
+    {
+      "header": "X-XSS-Protection",
+      "reason": "已废弃（有反模式风险），新站点用 CSP 替代；G4 提示"
+    },
+    {
+      "header": "Public-Key-Pins",
+      "reason": "HPKP 已废弃，误用会导致站点长期不可达；G4 提示"
+    }
+  ]
+}

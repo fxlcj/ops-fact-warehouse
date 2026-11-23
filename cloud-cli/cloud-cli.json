@@ -1,0 +1,800 @@
+{
+  "_meta": {
+    "title": "云 CLI（AWS / GCP / Azure）常用子命令与 flag 白名单",
+    "source": [
+      "https://docs.aws.amazon.com/cli/latest/userguide/cli-chap.html",
+      "https://cloud.google.com/sdk/gcloud/reference",
+      "https://learn.microsoft.com/en-us/cli/azure/reference"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "云 CLI 子命令/flag 白名单（面宽，G4b 对 aws <svc> <action> / az <grp> / gcloud <grp> WARN 不阻断，人工核对）。site 实际用到 aws ec2/s3/cloudwatch、az network 等。子命令名多、易编造，故列常用核心动作，未列出的进 WARN 人工核对。"
+  },
+  "aws_services": [
+    {
+      "name": "ec2",
+      "desc": "计算（实例/安全组/卷/快照）"
+    },
+    {
+      "name": "s3",
+      "desc": "对象存储"
+    },
+    {
+      "name": "cloudwatch",
+      "desc": "监控"
+    },
+    {
+      "name": "logs",
+      "desc": "CloudWatch Logs"
+    },
+    {
+      "name": "ecs",
+      "desc": "容器"
+    },
+    {
+      "name": "eks",
+      "desc": "K8s 托管"
+    },
+    {
+      "name": "rds",
+      "desc": "关系数据库"
+    },
+    {
+      "name": "sqs",
+      "desc": "队列"
+    },
+    {
+      "name": "sns",
+      "desc": "发布/订阅"
+    },
+    {
+      "name": "lambda",
+      "desc": "函数"
+    },
+    {
+      "name": "iam",
+      "desc": "身份"
+    },
+    {
+      "name": "vpc",
+      "desc": "虚拟网络"
+    },
+    {
+      "name": "route53",
+      "desc": "DNS"
+    },
+    {
+      "name": "elb",
+      "desc": "负载均衡"
+    },
+    {
+      "name": "cloudformation",
+      "desc": "IaC 栈"
+    },
+    {
+      "name": "elasticbeanstalk",
+      "desc": "PaaS"
+    },
+    {
+      "name": "dynamodb",
+      "desc": "NoSQL"
+    },
+    {
+      "name": "kms",
+      "desc": "密钥"
+    },
+    {
+      "name": "sts",
+      "desc": "临时凭据"
+    },
+    {
+      "name": "ssm",
+      "desc": "Systems Manager"
+    },
+    {
+      "name": "autoscaling",
+      "desc": "自动扩缩"
+    },
+    {
+      "name": "batch",
+      "desc": "批处理"
+    },
+    {
+      "name": "ebs",
+      "desc": "块存储"
+    },
+    {
+      "name": "organizations",
+      "desc": "多账号组织"
+    },
+    {
+      "name": "cost-explorer",
+      "desc": "成本"
+    },
+    {
+      "name": "ce",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "dx",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "efs",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "emr",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "es",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "glacier",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "glue",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "grafana",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "health",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "kinesis",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "laptop",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "lightsail",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "mac2",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "mediametadata",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "neptune",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "network-firewall",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "opensearch",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "pinpoint",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "privateca",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "quicksight",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "redshift",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "redshift-serverless",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "route53domains",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "secretsmanager",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "serverlessrepo",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "ses",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "sesv2",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "shield",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "stepfunctions",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "support",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "timestream",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "transfer",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "workspaces",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "waf",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "wafv2",
+      "desc": "AWS 服务子命令"
+    },
+    {
+      "name": "xray",
+      "desc": "AWS 服务子命令"
+    }
+  ],
+  "aws_common_actions": [
+    {
+      "cmd": "aws ec2 describe-instances",
+      "desc": "看实例"
+    },
+    {
+      "cmd": "aws ec2 run-instances",
+      "desc": "启实例"
+    },
+    {
+      "cmd": "aws ec2 stop-instances",
+      "desc": "停实例"
+    },
+    {
+      "cmd": "aws ec2 start-instances",
+      "desc": "起实例"
+    },
+    {
+      "cmd": "aws ec2 terminate-instances",
+      "desc": "删实例"
+    },
+    {
+      "cmd": "aws ec2 describe-security-groups",
+      "desc": "安全组"
+    },
+    {
+      "cmd": "aws ec2 create-snapshot",
+      "desc": "建快照"
+    },
+    {
+      "cmd": "aws ec2 describe-vpcs",
+      "desc": "VPC"
+    },
+    {
+      "cmd": "aws ec2 describe-subnets",
+      "desc": "子网"
+    },
+    {
+      "cmd": "aws ec2 describe-addresses",
+      "desc": "EIP"
+    },
+    {
+      "cmd": "aws s3 ls",
+      "desc": "列对象"
+    },
+    {
+      "cmd": "aws s3 cp",
+      "desc": "拷入/拷出"
+    },
+    {
+      "cmd": "aws s3 mb",
+      "desc": "建桶"
+    },
+    {
+      "cmd": "aws s3 rb",
+      "desc": "删桶"
+    },
+    {
+      "cmd": "aws s3 sync",
+      "desc": "同步"
+    },
+    {
+      "cmd": "aws s3 rm",
+      "desc": "删对象"
+    },
+    {
+      "cmd": "aws cloudwatch list-metrics",
+      "desc": "列指标"
+    },
+    {
+      "cmd": "aws cloudwatch get-metric-data",
+      "desc": "取指标数据"
+    },
+    {
+      "cmd": "aws cloudwatch describe-alarms",
+      "desc": "告警"
+    },
+    {
+      "cmd": "aws logs describe-log-groups",
+      "desc": "列日志组"
+    },
+    {
+      "cmd": "aws logs tail",
+      "desc": "跟踪日志"
+    },
+    {
+      "cmd": "aws sts get-caller-identity",
+      "desc": "看当前身份"
+    },
+    {
+      "cmd": "aws configure",
+      "desc": "配置凭据"
+    },
+    {
+      "cmd": "aws ssm get-parameter",
+      "desc": "读参数"
+    },
+    {
+      "cmd": "aws dynamodb list-tables",
+      "desc": "列表"
+    },
+    {
+      "cmd": "aws eks list-clusters",
+      "desc": "列集群"
+    }
+  ],
+  "aws_flags": [
+    {
+      "flag": "--region",
+      "desc": "区域"
+    },
+    {
+      "flag": "--profile",
+      "desc": "凭据 profile"
+    },
+    {
+      "flag": "--output",
+      "desc": "输出格式（json/table/text）"
+    },
+    {
+      "flag": "--query",
+      "desc": "JMESPath 过滤"
+    },
+    {
+      "flag": "--filters",
+      "desc": "过滤条件"
+    },
+    {
+      "flag": "--all-versions",
+      "desc": "（s3 等）"
+    },
+    {
+      "flag": "--recursive",
+      "desc": "（s3 cp/ls）"
+    },
+    {
+      "flag": "--dry-run",
+      "desc": "干跑"
+    },
+    {
+      "flag": "--version",
+      "desc": "版本"
+    },
+    {
+      "flag": "--no-cli-pager",
+      "desc": "禁分页器"
+    },
+    {
+      "flag": "--max-items",
+      "desc": "结果数上限"
+    },
+    {
+      "flag": "--starting-token",
+      "desc": "分页 token"
+    }
+  ],
+  "gcloud_groups": [
+    {
+      "name": "compute",
+      "desc": "GCE 计算（instances/disks/zones）"
+    },
+    {
+      "name": "compute instances",
+      "desc": "GCE 实例"
+    },
+    {
+      "name": "compute disks",
+      "desc": "GCE 盘"
+    },
+    {
+      "name": "compute zones",
+      "desc": "区域"
+    },
+    {
+      "name": "compute ssh",
+      "desc": "SSH 实例"
+    },
+    {
+      "name": "compute ssh-keys",
+      "desc": "SSH key"
+    },
+    {
+      "name": "compute addresses",
+      "desc": "外部 IP"
+    },
+    {
+      "name": "compute images",
+      "desc": "镜像"
+    },
+    {
+      "name": "compute disks resize",
+      "desc": "扩盘"
+    },
+    {
+      "name": "compute instances stop",
+      "desc": "停实例"
+    },
+    {
+      "name": "compute instances start",
+      "desc": "启实例"
+    },
+    {
+      "name": "compute instances delete",
+      "desc": "删实例"
+    },
+    {
+      "name": "compute instances set-maintenance-policy",
+      "desc": "维护策略"
+    },
+    {
+      "name": "compute instances describe",
+      "desc": "看实例"
+    },
+    {
+      "name": "storage buckets",
+      "desc": "GCS 桶"
+    },
+    {
+      "name": "storage objects",
+      "desc": "GCS 对象"
+    },
+    {
+      "name": "container clusters",
+      "desc": "GKE 集群"
+    },
+    {
+      "name": "kubernetes",
+      "desc": "（旧别名）"
+    },
+    {
+      "name": "logging",
+      "desc": "日志"
+    },
+    {
+      "name": "monitoring",
+      "desc": "监控"
+    },
+    {
+      "name": "sql",
+      "desc": "Cloud SQL"
+    },
+    {
+      "name": "pubsub",
+      "desc": "发布订阅"
+    },
+    {
+      "name": "functions",
+      "desc": "Cloud Functions"
+    },
+    {
+      "name": "iam",
+      "desc": "身份（service-accounts）"
+    },
+    {
+      "name": "iam service-accounts",
+      "desc": "服务账号"
+    },
+    {
+      "name": "os-login",
+      "desc": "OS 登录"
+    },
+    {
+      "name": "projects",
+      "desc": "项目"
+    },
+    {
+      "name": "dns",
+      "desc": "Cloud DNS"
+    },
+    {
+      "name": "bq",
+      "desc": "BigQuery"
+    },
+    {
+      "name": "auth",
+      "desc": "认证（login/print-access-token）"
+    },
+    {
+      "name": "config",
+      "desc": "配置（set project）"
+    }
+  ],
+  "gcloud_flags": [
+    {
+      "flag": "--zone",
+      "desc": "可用区"
+    },
+    {
+      "flag": "--region",
+      "desc": "区域"
+    },
+    {
+      "flag": "--project",
+      "desc": "项目"
+    },
+    {
+      "flag": "--format",
+      "desc": "输出格式（table/json/yaml）"
+    },
+    {
+      "flag": "--filter",
+      "desc": "过滤"
+    },
+    {
+      "flag": "--limit",
+      "desc": "结果上限"
+    },
+    {
+      "flag": "--quiet",
+      "desc": "禁交互确认"
+    },
+    {
+      "flag": "--dry-run",
+      "desc": "干跑（部分命令）"
+    },
+    {
+      "flag": "--no-user-output-enabled",
+      "desc": "禁进度"
+    },
+    {
+      "flag": "--force",
+      "desc": "强制"
+    },
+    {
+      "flag": "--recursive",
+      "desc": "递归（storage）"
+    },
+    {
+      "flag": "--keep-vm",
+      "desc": "（builds）"
+    },
+    {
+      "flag": "--destination",
+      "desc": "（storage cp）"
+    }
+  ],
+  "az_groups": [
+    {
+      "name": "network",
+      "desc": "网络（nsg/vnet/public-ip/dns）"
+    },
+    {
+      "name": "network nsg",
+      "desc": "NSG"
+    },
+    {
+      "name": "network nsg rule",
+      "desc": "NSG 规则"
+    },
+    {
+      "name": "network vnet",
+      "desc": "VNet"
+    },
+    {
+      "name": "network interface",
+      "desc": "NIC"
+    },
+    {
+      "name": "network public-ip",
+      "desc": "公网 IP"
+    },
+    {
+      "name": "network dns",
+      "desc": "DNS"
+    },
+    {
+      "name": "vm",
+      "desc": "VM"
+    },
+    {
+      "name": "vm create",
+      "desc": "建 VM"
+    },
+    {
+      "name": "vm show",
+      "desc": "看 VM"
+    },
+    {
+      "name": "vm run-command",
+      "desc": "远端执行"
+    },
+    {
+      "name": "vm stop",
+      "desc": "停 VM"
+    },
+    {
+      "name": "vm start",
+      "desc": "启 VM"
+    },
+    {
+      "name": "vm deallocate",
+      "desc": "释放（计费变）"
+    },
+    {
+      "name": "vm delete",
+      "desc": "删 VM"
+    },
+    {
+      "name": "vm extension",
+      "desc": "扩展"
+    },
+    {
+      "name": "vm image",
+      "desc": "镜像"
+    },
+    {
+      "name": "storage",
+      "desc": "存储（account/container/blob）"
+    },
+    {
+      "name": "storage account",
+      "desc": "存储账号"
+    },
+    {
+      "name": "storage container",
+      "desc": "容器"
+    },
+    {
+      "name": "storage blob",
+      "desc": "对象"
+    },
+    {
+      "name": "group",
+      "desc": "资源组（create/show/list/delete）"
+    },
+    {
+      "name": "account",
+      "desc": "订阅（list/set）"
+    },
+    {
+      "name": "sql",
+      "desc": "Azure SQL"
+    },
+    {
+      "name": "monitor",
+      "desc": "监控（metrics/alerts）"
+    },
+    {
+      "name": "monitor metrics",
+      "desc": "指标"
+    },
+    {
+      "name": "monitor logs",
+      "desc": "日志"
+    },
+    {
+      "name": "kubernetes",
+      "desc": "AKS（list/get/create/delete）"
+    },
+    {
+      "name": "aks",
+      "desc": "AKS 简写"
+    },
+    {
+      "name": "login",
+      "desc": "登录（az）"
+    },
+    {
+      "name": "whoami",
+      "desc": "当前身份"
+    },
+    {
+      "name": "cloud",
+      "desc": "云目录（list）"
+    },
+    {
+      "name": "functionapp",
+      "desc": "函数应用"
+    },
+    {
+      "name": "webapp",
+      "desc": "Web 应用"
+    }
+  ],
+  "az_flags": [
+    {
+      "flag": "-g",
+      "desc": "资源组（--resource-group 缩写）"
+    },
+    {
+      "flag": "--resource-group",
+      "desc": "资源组"
+    },
+    {
+      "flag": "-l",
+      "desc": "区域（--location 缩写）"
+    },
+    {
+      "flag": "--location",
+      "desc": "区域"
+    },
+    {
+      "flag": "-n",
+      "desc": "名（--name 缩写）"
+    },
+    {
+      "flag": "--name",
+      "desc": "名"
+    },
+    {
+      "flag": "--output",
+      "desc": "输出格式（json/table）"
+    },
+    {
+      "flag": "-o",
+      "desc": "输出（--output 缩写）"
+    },
+    {
+      "flag": "--subscription",
+      "desc": "订阅"
+    },
+    {
+      "flag": "--yes",
+      "desc": "免确认（az 默认即 yes）"
+    },
+    {
+      "flag": "--no-wait",
+      "desc": "异步"
+    },
+    {
+      "flag": "--dry-run",
+      "desc": "（部分命令）"
+    },
+    {
+      "flag": "--only-show-errors",
+      "desc": "只报错"
+    },
+    {
+      "flag": "--query",
+      "desc": "JMESPath"
+    },
+    {
+      "flag": "-v",
+      "desc": "版本"
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "az aks get-credentials --admin",
+      "reason": "AKS 管理员 RBAC 已改，admin 标志少用；以文档为准"
+    }
+  ]
+}

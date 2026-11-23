@@ -22,6 +22,10 @@ New machine-readable reference repos under the subdirectories below. These are *
 - `ci-pipelines/ci-pipelines.json`: Jenkins pipeline blocks + GitLab CI keywords + GitHub Actions keywords.
 - `cve-format/cve-format.json`: CVE identifier format/regex rules + top CWE categories + CVSS v3 severity + EPSS note (for cross-checking CVE mentions in articles).
 - `prometheus-functions/promql.json`: 60+ built-in PromQL functions + 9 common alerting expression patterns (extension repo, not wired into the build gate yet).
+- `http-headers/headers.json`: common HTTP request/response/security/CORS/auth/encoding-negotiation headers (~100 header names, incl. deprecated `X-XSS-Protection` / `Public-Key-Pins`).
+- `virtualization/virtualization.json`: KVM/libvirt/Proxmox VE — ~76 `virsh` subcommands + 11 resource types + ~39 Proxmox `qm`/`lxc` subcommands + qemu common tools.
+- `database/database.json`: MySQL / PostgreSQL / Redis — admin commands (~40) + psql meta-commands + SQL keywords + ~82 Redis commands.
+- `cloud-cli/cloud-cli.json`: AWS / GCP / Azure CLI — ~61 AWS service subcommands + ~26 common AWS actions + ~30 gcloud command groups + ~34 `az` groups + flags.
 
 Maintenance: these are reference data re-checked manually (not a live feed); `checked_date` refreshes each re-check. The CISA KEV and IANA files above remain the live/re-collected sources.
 

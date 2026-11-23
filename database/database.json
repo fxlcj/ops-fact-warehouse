@@ -1,0 +1,754 @@
+{
+  "_meta": {
+    "title": "MySQL / PostgreSQL / Redis 常用命令与 SQL 关键字白名单",
+    "source": [
+      "https://dev.mysql.com/refman/en/",
+      "https://www.postgresql.org/docs/current/",
+      "https://redis.io/commands/"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "数据库排查/调优高频：MySQL/psql 连接管理命令 + 常用 SQL 关键字 + Redis 常用命令。G4b 对 psql/mysql 子命令 + SQL 关键字 WARN 扫描（面宽）。database-monitoring 系列文 27 篇命中。"
+  },
+  "mysql_admin": [
+    {
+      "cmd": "mysqladmin",
+      "desc": "管理客户端"
+    },
+    {
+      "cmd": "mysqladmin status",
+      "desc": "状态"
+    },
+    {
+      "cmd": "mysqladmin processlist",
+      "desc": "进程列表"
+    },
+    {
+      "cmd": "mysqladmin ping",
+      "desc": "存活"
+    },
+    {
+      "cmd": "mysqladmin flush-logs",
+      "desc": "刷日志"
+    },
+    {
+      "cmd": "mysqladmin flush-tables",
+      "desc": "刷表"
+    },
+    {
+      "cmd": "mysqladmin flush-privileges",
+      "desc": "刷权限（reload）"
+    },
+    {
+      "cmd": "mysqladmin shutdown",
+      "desc": "关机"
+    },
+    {
+      "cmd": "mysqladmin password",
+      "desc": "改密"
+    },
+    {
+      "cmd": "mysql -e",
+      "desc": "执行语句"
+    },
+    {
+      "cmd": "mysql --show",
+      "desc": "（少用）"
+    },
+    {
+      "cmd": "mysqldump",
+      "desc": "导出"
+    },
+    {
+      "cmd": "mysqlpump",
+      "desc": "并行导出（8.0.21+）"
+    },
+    {
+      "cmd": "mysqlbinlog",
+      "desc": "读 binlog"
+    },
+    {
+      "cmd": "mysqlcheck",
+      "desc": "表检查"
+    },
+    {
+      "cmd": "mysql_upgrade",
+      "desc": "升级系统表"
+    },
+    {
+      "cmd": "innodb",
+      "desc": "InnoDB 引擎"
+    }
+  ],
+  "psql_admin": [
+    {
+      "cmd": "psql -c",
+      "desc": "执行命令"
+    },
+    {
+      "cmd": "psql -f",
+      "desc": "读文件"
+    },
+    {
+      "cmd": "psql -U",
+      "desc": "用户"
+    },
+    {
+      "cmd": "psql -d",
+      "desc": "库"
+    },
+    {
+      "cmd": "psql -h",
+      "desc": "主机"
+    },
+    {
+      "cmd": "psql -p",
+      "desc": "端口"
+    },
+    {
+      "cmd": "psql -l",
+      "desc": "列库"
+    },
+    {
+      "cmd": "pg_dump",
+      "desc": "导出"
+    },
+    {
+      "cmd": "pg_dumpall",
+      "desc": "全量导出"
+    },
+    {
+      "cmd": "pg_restore",
+      "desc": "恢复"
+    },
+    {
+      "cmd": "pg_basebackup",
+      "desc": "基础备份"
+    },
+    {
+      "cmd": "pgrep",
+      "desc": "（系统命令，非 PG）"
+    },
+    {
+      "cmd": "pg_stat_activity",
+      "desc": "查询视图（非命令）"
+    }
+  ],
+  "psql_meta_commands": [
+    {
+      "name": "\\l",
+      "desc": "列库"
+    },
+    {
+      "name": "\\c",
+      "desc": "连库"
+    },
+    {
+      "name": "\\du",
+      "desc": "列用户"
+    },
+    {
+      "name": "\\dn",
+      "desc": "列 schema"
+    },
+    {
+      "name": "\\dt",
+      "desc": "列表"
+    },
+    {
+      "name": "\\di",
+      "desc": "列索引"
+    },
+    {
+      "name": "\\dm",
+      "desc": "列材料化视图"
+    },
+    {
+      "name": "\\d",
+      "desc": "看表结构"
+    },
+    {
+      "name": "\\ds",
+      "desc": "列序列"
+    },
+    {
+      "name": "\\lo",
+      "desc": "大对象"
+    },
+    {
+      "name": "\\e",
+      "desc": "编辑器编辑"
+    },
+    {
+      "name": "\\q",
+      "desc": "退出"
+    },
+    {
+      "name": "\\timing",
+      "desc": "计时开关"
+    },
+    {
+      "name": "\\echo",
+      "desc": "打印"
+    },
+    {
+      "name": "\\copy",
+      "desc": "客户端导入导出"
+    },
+    {
+      "name": "\\x",
+      "desc": "扩展输出"
+    },
+    {
+      "name": "\\i",
+      "desc": "读文件"
+    },
+    {
+      "name": "\\g",
+      "desc": "执行缓冲"
+    },
+    {
+      "name": "\\pset",
+      "desc": "打印设置"
+    },
+    {
+      "name": "\\watch",
+      "desc": "定时重跑"
+    }
+  ],
+  "sql_keywords": [
+    {
+      "name": "SELECT",
+      "desc": "查询"
+    },
+    {
+      "name": "INSERT",
+      "desc": "插入"
+    },
+    {
+      "name": "UPDATE",
+      "desc": "更新"
+    },
+    {
+      "name": "DELETE",
+      "desc": "删除"
+    },
+    {
+      "name": "CREATE",
+      "desc": "创建"
+    },
+    {
+      "name": "ALTER",
+      "desc": "修改"
+    },
+    {
+      "name": "DROP",
+      "desc": "删除对象"
+    },
+    {
+      "name": "TRUNCATE",
+      "desc": "清表"
+    },
+    {
+      "name": "RENAME",
+      "desc": "重命名"
+    },
+    {
+      "name": "SHOW",
+      "desc": "查看（MySQL）"
+    },
+    {
+      "name": "DESCRIBE",
+      "desc": "看表（MySQL）"
+    },
+    {
+      "name": "EXPLAIN",
+      "desc": "执行计划"
+    },
+    {
+      "name": "ANALYZE",
+      "desc": "分析（PG）"
+    },
+    {
+      "name": "VACUUM",
+      "desc": "清理（PG）"
+    },
+    {
+      "name": "REINDEX",
+      "desc": "重建索引"
+    },
+    {
+      "name": "GRANT",
+      "desc": "授权"
+    },
+    {
+      "name": "REVOKE",
+      "desc": "撤权"
+    },
+    {
+      "name": "COMMIT",
+      "desc": "提交"
+    },
+    {
+      "name": "ROLLBACK",
+      "desc": "回滚"
+    },
+    {
+      "name": "BEGIN",
+      "desc": "开事务"
+    },
+    {
+      "name": "LOCK",
+      "desc": "锁"
+    },
+    {
+      "name": "UNLOCK",
+      "desc": "解锁"
+    },
+    {
+      "name": "SET",
+      "desc": "设变量"
+    },
+    {
+      "name": "KILL",
+      "desc": "杀会话（MySQL）"
+    },
+    {
+      "name": "FLUSH",
+      "desc": "刷（MySQL）"
+    },
+    {
+      "name": "RESET",
+      "desc": "重置（MySQL）"
+    }
+  ],
+  "redis_commands": [
+    {
+      "name": "GET",
+      "desc": "取值"
+    },
+    {
+      "name": "SET",
+      "desc": "设值"
+    },
+    {
+      "name": "DEL",
+      "desc": "删键"
+    },
+    {
+      "name": "EXISTS",
+      "desc": "存在"
+    },
+    {
+      "name": "KEYS",
+      "desc": "匹配键（慎用，生产用 SCAN）"
+    },
+    {
+      "name": "SCAN",
+      "desc": "迭代键"
+    },
+    {
+      "name": "TTL",
+      "desc": "剩余过期"
+    },
+    {
+      "name": "EXPIRE",
+      "desc": "设过期"
+    },
+    {
+      "name": "PTTL",
+      "desc": "剩余毫秒"
+    },
+    {
+      "name": "PERSIST",
+      "desc": "去过期"
+    },
+    {
+      "name": "INCR",
+      "desc": "自增"
+    },
+    {
+      "name": "INCRBY",
+      "desc": "增 N"
+    },
+    {
+      "name": "DECR",
+      "desc": "自减"
+    },
+    {
+      "name": "HGET",
+      "desc": "hash 取"
+    },
+    {
+      "name": "HSET",
+      "desc": "hash 设"
+    },
+    {
+      "name": "HGETALL",
+      "desc": "hash 全取"
+    },
+    {
+      "name": "HDEL",
+      "desc": "hash 删"
+    },
+    {
+      "name": "HKEYS",
+      "desc": "hash 键"
+    },
+    {
+      "name": "LLEN",
+      "desc": "列表长"
+    },
+    {
+      "name": "RPUSH",
+      "desc": "右推"
+    },
+    {
+      "name": "LPUSH",
+      "desc": "左推"
+    },
+    {
+      "name": "LRANGE",
+      "desc": "列表范围"
+    },
+    {
+      "name": "SADD",
+      "desc": "集合加"
+    },
+    {
+      "name": "SREM",
+      "desc": "集合删"
+    },
+    {
+      "name": "SMEMBERS",
+      "desc": "集合全取"
+    },
+    {
+      "name": "ZADD",
+      "desc": "有序集合加"
+    },
+    {
+      "name": "ZRANGE",
+      "desc": "有序集合范围"
+    },
+    {
+      "name": "FLUSHDB",
+      "desc": "清库（危险）"
+    },
+    {
+      "name": "FLUSHALL",
+      "desc": "清所有库（危险）"
+    },
+    {
+      "name": "DBSIZE",
+      "desc": "库大小"
+    },
+    {
+      "name": "INFO",
+      "desc": "实例信息"
+    },
+    {
+      "name": "MONITOR",
+      "desc": "监控命令（慎用）"
+    },
+    {
+      "name": "SLAVEOF",
+      "desc": "（旧，改 REPLICAOF）"
+    },
+    {
+      "name": "REPLICAOF",
+      "desc": "设从库"
+    },
+    {
+      "name": "CLUSTER",
+      "desc": "集群子命令"
+    },
+    {
+      "name": "CONFIG",
+      "desc": "配置"
+    },
+    {
+      "name": "SAVE",
+      "desc": "同步 RDB（阻塞）"
+    },
+    {
+      "name": "BGSAVE",
+      "desc": "后台 RDB"
+    },
+    {
+      "name": "LASTSAVE",
+      "desc": "上次保存"
+    },
+    {
+      "name": "SHUTDOWN",
+      "desc": "关机"
+    },
+    {
+      "name": "MGET",
+      "desc": "多取"
+    },
+    {
+      "name": "MSET",
+      "desc": "多设"
+    },
+    {
+      "name": "STRLEN",
+      "desc": "字符串长"
+    },
+    {
+      "name": "SUBSTR",
+      "desc": "（旧 SUBSTRING，已改名）"
+    },
+    {
+      "name": "SUBSTRING",
+      "desc": "子串"
+    },
+    {
+      "name": "APPEND",
+      "desc": "字符串尾追加"
+    },
+    {
+      "name": "RPOP",
+      "desc": "右弹"
+    },
+    {
+      "name": "LPOP",
+      "desc": "左弹"
+    },
+    {
+      "name": "SINTER",
+      "desc": "集合交集"
+    },
+    {
+      "name": "SUNION",
+      "desc": "集合并集"
+    },
+    {
+      "name": "SDIFF",
+      "desc": "集合差集"
+    },
+    {
+      "name": "SCARD",
+      "desc": "集合基数"
+    },
+    {
+      "name": "ZSCORE",
+      "desc": "有序集合分值"
+    },
+    {
+      "name": "ZRANK",
+      "desc": "有序集合排名"
+    },
+    {
+      "name": "ZREVRANGE",
+      "desc": "有序集合倒序范围"
+    },
+    {
+      "name": "PSETEX",
+      "desc": "设值+毫秒过期"
+    },
+    {
+      "name": "SETEX",
+      "desc": "设值+秒过期"
+    },
+    {
+      "name": "GETSET",
+      "desc": "取并设（原子）"
+    },
+    {
+      "name": "SETNX",
+      "desc": "不存在才设"
+    },
+    {
+      "name": "TYPE",
+      "desc": "键类型"
+    },
+    {
+      "name": "OBJECT",
+      "desc": "对象信息"
+    },
+    {
+      "name": "HINCRBY",
+      "desc": "hash 整数自增"
+    },
+    {
+      "name": "HINCRBYFLOAT",
+      "desc": "hash 浮点自增"
+    },
+    {
+      "name": "HLEN",
+      "desc": "hash 长"
+    },
+    {
+      "name": "HVALS",
+      "desc": "hash 值"
+    },
+    {
+      "name": "ZCARD",
+      "desc": "有序集合基数"
+    },
+    {
+      "name": "PUBLISH",
+      "desc": "发布（Pub/Sub）"
+    },
+    {
+      "name": "SUBSCRIBE",
+      "desc": "订阅"
+    },
+    {
+      "name": "UNSUBSCRIBE",
+      "desc": "取消订阅"
+    },
+    {
+      "name": "PSSUBSCRIBE",
+      "desc": "模式订阅"
+    },
+    {
+      "name": "PFCOUNT",
+      "desc": "概率基数（HyperLogLog）"
+    },
+    {
+      "name": "PFADD",
+      "desc": "概率基数加"
+    },
+    {
+      "name": "PFMERGE",
+      "desc": "概率基数合并"
+    },
+    {
+      "name": "BITCOUNT",
+      "desc": "位计数"
+    },
+    {
+      "name": "SETBIT",
+      "desc": "设位"
+    },
+    {
+      "name": "GETBIT",
+      "desc": "取位"
+    },
+    {
+      "name": "EVAL",
+      "desc": "Lua 脚本"
+    },
+    {
+      "name": "EXEC",
+      "desc": "事务执行（MULTI）"
+    },
+    {
+      "name": "MULTI",
+      "desc": "开事务"
+    },
+    {
+      "name": "WATCH",
+      "desc": "乐观锁"
+    },
+    {
+      "name": "DISCARD",
+      "desc": "弃事务"
+    },
+    {
+      "name": "ACL",
+      "desc": "ACL 命令族"
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "redis SLAVEOF",
+      "reason": "5.0+ 改 REPLICAOF（语义不变，旧名弃用）"
+    }
+  ],
+  "pg_admin": [
+    {
+      "cmd": "psql",
+      "desc": "PG 交互客户端"
+    },
+    {
+      "cmd": "psql -c",
+      "desc": "执行命令"
+    },
+    {
+      "cmd": "pg_dump",
+      "desc": "导出（custom/plain）"
+    },
+    {
+      "cmd": "pg_dumpall",
+      "desc": "全量（模板1）"
+    },
+    {
+      "cmd": "pg_restore",
+      "desc": "恢复"
+    },
+    {
+      "cmd": "pg_basebackup",
+      "desc": "基础备份（流式）"
+    },
+    {
+      "cmd": "pg_verifybackup",
+      "desc": "校验备份"
+    },
+    {
+      "cmd": "pg_walreplay",
+      "desc": "（无此命令，WAL 重放走归档）"
+    },
+    {
+      "cmd": "pg_ctl",
+      "desc": "启停/维护 PG 实例"
+    },
+    {
+      "cmd": "pg_ctl start",
+      "desc": "启动"
+    },
+    {
+      "cmd": "pg_ctl stop",
+      "desc": "停止（-m fast/smart/immediate）"
+    },
+    {
+      "cmd": "pg_ctl status",
+      "desc": "状态"
+    },
+    {
+      "cmd": "pg_ctl promote",
+      "desc": "提升从库"
+    },
+    {
+      "cmd": "pg_controldata",
+      "desc": "看控制文件（WAL/时间线）"
+    },
+    {
+      "cmd": "pg_stat_activity",
+      "desc": "活跃会话视图（查询，非命令）"
+    },
+    {
+      "cmd": "pg_stat_replication",
+      "desc": "复制状态视图"
+    },
+    {
+      "cmd": "pg_lsdir",
+      "desc": "（少见）"
+    },
+    {
+      "cmd": "reindexdb",
+      "desc": "重建库索引"
+    },
+    {
+      "cmd": "vacuumdb",
+      "desc": "清库（维护）"
+    },
+    {
+      "cmd": "createdb",
+      "desc": "建库"
+    },
+    {
+      "cmd": "dropdb",
+      "desc": "删库"
+    },
+    {
+      "cmd": "pgbench",
+      "desc": "压测"
+    },
+    {
+      "cmd": "initdb",
+      "desc": "初始化数据目录"
+    }
+  ]
+}

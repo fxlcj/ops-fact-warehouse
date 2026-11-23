@@ -1,0 +1,566 @@
+{
+  "_meta": {
+    "title": "KVM / libvirt / Proxmox VE 虚拟化命令与资源白名单",
+    "source": [
+      "https://libvirt.org/manpages/",
+      "https://pve.proxmox.com/wiki/Main_Page",
+      "https://qemu.readthedocs.io/"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "虚拟化排查/管理高频：virsh/libvirt 子命令 + 资源类型 + Proxmox VE 常用命令（pvesh/qm/kdb）+ qemu 常用。G4b 对 virsh 子命令 / pve 命令 WARN 扫描（面宽）。HA/PVE 栏目 57 篇命中。"
+  },
+  "virsh_commands": [
+    {
+      "name": "list",
+      "desc": "列虚拟机"
+    },
+    {
+      "name": "doms",
+      "desc": "同 list（缩写）"
+    },
+    {
+      "name": "start",
+      "desc": "启动域"
+    },
+    {
+      "name": "create",
+      "desc": "创建域"
+    },
+    {
+      "name": "define",
+      "desc": "定义域"
+    },
+    {
+      "name": "undefine",
+      "desc": "取消定义"
+    },
+    {
+      "name": "destroy",
+      "desc": "强制销毁域"
+    },
+    {
+      "name": "shutdown",
+      "desc": "优雅关机"
+    },
+    {
+      "name": "reboot",
+      "desc": "重启域"
+    },
+    {
+      "name": "suspend",
+      "desc": "挂起"
+    },
+    {
+      "name": "resume",
+      "desc": "恢复"
+    },
+    {
+      "name": "autostart",
+      "desc": "设开机自启"
+    },
+    {
+      "name": "setautostart",
+      "desc": "（旧）"
+    },
+    {
+      "name": "snapshot-create",
+      "desc": "建快照"
+    },
+    {
+      "name": "snapshot-create-as",
+      "desc": "建命名快照"
+    },
+    {
+      "name": "snapshot-list",
+      "desc": "列快照"
+    },
+    {
+      "name": "snapshot-revert",
+      "desc": "回滚快照"
+    },
+    {
+      "name": "snapshot-delete",
+      "desc": "删快照"
+    },
+    {
+      "name": "snapshot-info",
+      "desc": "快照详情"
+    },
+    {
+      "name": "vol-create",
+      "desc": "建卷"
+    },
+    {
+      "name": "vol-create-from",
+      "desc": "从模板建卷"
+    },
+    {
+      "name": "vol-list",
+      "desc": "列卷"
+    },
+    {
+      "name": "vol-upload",
+      "desc": "上传卷"
+    },
+    {
+      "name": "vol-download",
+      "desc": "下载卷"
+    },
+    {
+      "name": "vol-delete",
+      "desc": "删卷"
+    },
+    {
+      "name": "pool-create",
+      "desc": "建池"
+    },
+    {
+      "name": "pool-create-as",
+      "desc": "建命名池"
+    },
+    {
+      "name": "pool-list",
+      "desc": "列池"
+    },
+    {
+      "name": "pool-define",
+      "desc": "定义池"
+    },
+    {
+      "name": "pool-undefine",
+      "desc": "取消定义池"
+    },
+    {
+      "name": "pool-destroy",
+      "desc": "销毁池"
+    },
+    {
+      "name": "pool-build",
+      "desc": "建池"
+    },
+    {
+      "name": "pool-refresh",
+      "desc": "刷新池"
+    },
+    {
+      "name": "pool-rescan",
+      "desc": "重扫池"
+    },
+    {
+      "name": "pool-activate",
+      "desc": "激活池"
+    },
+    {
+      "name": "pool-deactivate",
+      "desc": "停用池"
+    },
+    {
+      "name": "pool-start",
+      "desc": "启动池"
+    },
+    {
+      "name": "pool-stop",
+      "desc": "停池"
+    },
+    {
+      "name": "attach-disk",
+      "desc": "挂盘"
+    },
+    {
+      "name": "detach-disk",
+      "desc": "卸盘"
+    },
+    {
+      "name": "setvcpus",
+      "desc": "热加 CPU"
+    },
+    {
+      "name": "mem",
+      "desc": "看内存"
+    },
+    {
+      "name": "dommemstat",
+      "desc": "域内存统计"
+    },
+    {
+      "name": "dominfo",
+      "desc": "域信息"
+    },
+    {
+      "name": "dumpxml",
+      "desc": "导 XML"
+    },
+    {
+      "name": "domstate",
+      "desc": "域状态"
+    },
+    {
+      "name": "domid",
+      "desc": "域 ID"
+    },
+    {
+      "name": "dompids",
+      "desc": "域 PID"
+    },
+    {
+      "name": "net-list",
+      "desc": "列网络"
+    },
+    {
+      "name": "net-define",
+      "desc": "定义网络"
+    },
+    {
+      "name": "net-start",
+      "desc": "启网络"
+    },
+    {
+      "name": "net-destroy",
+      "desc": "销毁网络"
+    },
+    {
+      "name": "net-attach",
+      "desc": "挂网络"
+    },
+    {
+      "name": "nwfilter-list",
+      "desc": "列网络过滤器"
+    },
+    {
+      "name": "nwfilter-define",
+      "desc": "定义网络过滤器"
+    },
+    {
+      "name": "node-info",
+      "desc": "节点信息"
+    },
+    {
+      "name": "node-cpui",
+      "desc": "节点 CPU"
+    },
+    {
+      "name": "node-memory",
+      "desc": "节点内存"
+    },
+    {
+      "name": "nodecpumap",
+      "desc": "CPU 映射"
+    },
+    {
+      "name": "domifstat",
+      "desc": "域网卡统计"
+    },
+    {
+      "name": "domifinfo",
+      "desc": "域网卡信息"
+    },
+    {
+      "name": "domiftune",
+      "desc": "域网卡调优"
+    },
+    {
+      "name": "domblkstat",
+      "desc": "域块统计"
+    },
+    {
+      "name": "domvcpupin",
+      "desc": "CPU 绑定"
+    },
+    {
+      "name": "cpu-baseline",
+      "desc": "CPU 基线"
+    },
+    {
+      "name": "cpu-compare",
+      "desc": "CPU 对比"
+    },
+    {
+      "name": "version",
+      "desc": "版本"
+    },
+    {
+      "name": "help",
+      "desc": "帮助"
+    },
+    {
+      "name": "connect",
+      "desc": "连接 libvirt 驱动"
+    },
+    {
+      "name": "capabilities",
+      "desc": "能力"
+    },
+    {
+      "name": "uri",
+      "desc": "URI"
+    },
+    {
+      "name": "migrate",
+      "desc": "迁移域"
+    },
+    {
+      "name": "domjobabort",
+      "desc": "中止任务"
+    },
+    {
+      "name": "domjobinfo",
+      "desc": "任务信息"
+    },
+    {
+      "name": "domstats",
+      "desc": "域统计"
+    },
+    {
+      "name": "domevents",
+      "desc": "域事件"
+    }
+  ],
+  "virsh_resources": [
+    {
+      "name": "virsh",
+      "short": "vm",
+      "kind": "VM",
+      "note": "libvirt 域"
+    },
+    {
+      "name": "net",
+      "short": "net",
+      "kind": "VirtualNetwork"
+    },
+    {
+      "name": "nwfilter",
+      "short": "nwf",
+      "kind": "NetworkFilter"
+    },
+    {
+      "name": "pool",
+      "short": "pool",
+      "kind": "StoragePool"
+    },
+    {
+      "name": "vol",
+      "short": "vol",
+      "kind": "Volume"
+    },
+    {
+      "name": "secret",
+      "short": "secret",
+      "kind": "Secret"
+    },
+    {
+      "name": "interface",
+      "short": "iface",
+      "kind": "Interface"
+    },
+    {
+      "name": "node",
+      "short": "node",
+      "kind": "Node"
+    },
+    {
+      "name": "capability",
+      "short": "caps",
+      "kind": "Capability"
+    },
+    {
+      "name": "hostdev",
+      "short": "hostdev",
+      "kind": "HostDevice"
+    },
+    {
+      "name": "snapshot",
+      "short": "snap",
+      "kind": "Snapshot"
+    }
+  ],
+  "proxmox_commands": [
+    {
+      "name": "pvesh",
+      "desc": "Proxmox Shell API 客户端"
+    },
+    {
+      "name": "qm",
+      "desc": "Qemu VM 管理"
+    },
+    {
+      "name": "lxc",
+      "desc": "LXC 容器管理"
+    },
+    {
+      "name": "pvesm",
+      "desc": "存储管理"
+    },
+    {
+      "name": "pvenet",
+      "desc": "网络管理"
+    },
+    {
+      "name": "sd-dump",
+      "desc": "（少见）"
+    },
+    {
+      "name": "zfs",
+      "desc": "ZFS 管理"
+    },
+    {
+      "name": "ceph",
+      "desc": "Ceph 管理"
+    },
+    {
+      "name": "pve-firewall",
+      "desc": "防火墙"
+    },
+    {
+      "name": "apt",
+      "desc": "（系统包管理，非 PVE 专用）"
+    },
+    {
+      "name": "create",
+      "desc": "创建 VM/容器（qm create / lxc create）"
+    },
+    {
+      "name": "start",
+      "desc": "启动"
+    },
+    {
+      "name": "stop",
+      "desc": "停止"
+    },
+    {
+      "name": "shutdown",
+      "desc": "优雅关机"
+    },
+    {
+      "name": "reboot",
+      "desc": "重启"
+    },
+    {
+      "name": "migrate",
+      "desc": "迁移（qm migrate VMID [node]）"
+    },
+    {
+      "name": "template",
+      "desc": "设/取消模板（--1/--0）"
+    },
+    {
+      "name": "snapshot",
+      "desc": "快照（qm snapshot VMID snapname）"
+    },
+    {
+      "name": "restore",
+      "desc": "还原快照（qm restore VMID snapname）"
+    },
+    {
+      "name": "rollback",
+      "desc": "回滚快照"
+    },
+    {
+      "name": "delete",
+      "desc": "删除快照"
+    },
+    {
+      "name": "showconfig",
+      "desc": "看配置（qm showconfig VMID）"
+    },
+    {
+      "name": "set",
+      "desc": "改配置（qm set / lxc config set）"
+    },
+    {
+      "name": "resize",
+      "desc": "改根盘/内存（qm resize）"
+    },
+    {
+      "name": "exec",
+      "desc": "容器内执行（lxc exec CTID cmd）"
+    },
+    {
+      "name": "enter",
+      "desc": "进入容器 shell（lxc enter）"
+    },
+    {
+      "name": "clone",
+      "desc": "克隆 VM/容器（qm clone / lxc clone）"
+    },
+    {
+      "name": "status",
+      "desc": "状态（lxc status）"
+    },
+    {
+      "name": "list",
+      "desc": "列容器（lxc list）"
+    },
+    {
+      "name": "destroy",
+      "desc": "销毁容器（lxc destroy）"
+    },
+    {
+      "name": "pause",
+      "desc": "挂起（lxc pause）"
+    },
+    {
+      "name": "rescue",
+      "desc": "救援模式（lxc rescue）"
+    },
+    {
+      "name": "update",
+      "desc": "更新（lxc update）"
+    },
+    {
+      "name": "backup",
+      "desc": "qm/lxc 子命令"
+    },
+    {
+      "name": "binary",
+      "desc": "qm/lxc 子命令"
+    },
+    {
+      "name": "config",
+      "desc": "qm/lxc 子命令"
+    },
+    {
+      "name": "discard",
+      "desc": "qm/lxc 子命令"
+    },
+    {
+      "name": "dump",
+      "desc": "qm/lxc 子命令"
+    },
+    {
+      "name": "importdisk",
+      "desc": "qm/lxc 子命令"
+    }
+  ],
+  "qemu_common": [
+    {
+      "name": "qemu-system-x86_64",
+      "desc": "x86_64 虚拟机"
+    },
+    {
+      "name": "qemu-img",
+      "desc": "镜像工具"
+    },
+    {
+      "name": "qemu-nbd",
+      "desc": "NBD 服务"
+    },
+    {
+      "name": "virsh",
+      "desc": "（libvirt，非 QEMU）"
+    },
+    {
+      "name": "kvm",
+      "desc": "KVM 模块"
+    },
+    {
+      "name": "libvirt",
+      "desc": "libvirt 栈"
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "virsh domdial",
+      "reason": "已移除，改用 telnet 直连 console"
+    }
+  ]
+}
