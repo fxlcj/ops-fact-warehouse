@@ -3,6 +3,13 @@
 Each entry records what changed and the date the official source was re-checked.
 A figure never changes without its `checked_date` changing with it.
 
+## 2026-11-23 — Prometheus/Nginx/HA whitelist expanded; Prometheus + Nginx upgraded to G4b FAIL
+
+- `prometheus-metrics/metrics.json`: 289 → 301 metric names (node_exporter 167 / kube-state-metrics 56 / prometheus self 78; +26 PromQL functions) — added real node_exporter PSI/pressure, `node_netstat`, `node_processes`; real Prometheus self-metrics `prometheus_rule_group_last_evaluation_timestamp_seconds`, `prometheus_scrape_duration_seconds{_bucket}`, `prometheus_tsdb_compaction_duration_seconds{_count}`, plus `prometheus_operator`/`prometheus_storage` component refs and 7 `prometheus_tsdb_*` derived metrics.
+- `nginx-directives/directives.json`: 132 → 134 (added `internal`, `down` — real nginx `location`/upstream-peer directives; Caddy directives such as `header`/`encode`/`reverse_proxy` are excluded as non-nginx in the gate).
+- `ha-config/ha-config.json`: integrations 124 → 164 (added 40 real core HA integrations: telegram, smtp, sun, time, state, template, numeric_state, rest, push_alerts, email_admin, media_player, camera, weather, mqtt, google_cast, alexa, google_assistant, demo, ...).
+- Gate (G4b `check_tech_whitelist`): `prometheus-metrics` and `nginx-directives` upgraded from WARN to **FAIL** (block deploy) — a fabricated metric/directive now blocks; real refs pass. Negative-tested both directions.
+
 ## 2026-11-22 — Technical-reference whitelist repos added (vLLM / HA CLI / sysctl / HTTP / Prometheus / Nginx / Kubernetes / iptables / Docker)
 
 New machine-readable reference repos under the subdirectories below. These are **static reference whitelists** distilled from each project's official docs, each with a `checked_date` in `_meta`. They exist so articles can be checked against the official fixed-data surface (commands, flags, metric names, directives, table/chain/target) — a fabricated identifier not on the list is a red flag worth reviewing.
