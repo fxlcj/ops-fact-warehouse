@@ -1,0 +1,370 @@
+{
+  "_meta": {
+    "title": "sysstat 性能统计工具（iostat/vmstat/mpstat/sar）命令与 flag 白名单",
+    "source": [
+      "https://man7.org/linux/man-pages/man8/iostat.8.html",
+      "https://man7.org/linux/man-pages/man8/vmstat.8.html",
+      "https://man7.org/linux/man-pages/man8/mpstat.8.html",
+      "https://man7.org/linux/man-pages/man8/sar.8.html"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "sysstat 套件（iostat 磁盘 / vmstat 内存+swap+cpu / mpstat 每核 cpu / sar 历史采集）。site 性能排查高频（iostat 81 / vmstat 57 / mpstat 21 / sar 8 次）。G4b 对 iostat/vmstat/mpstat/sar flag 做 WARN 扫描（面宽人工核对）。"
+  },
+  "iostat_flags": [
+    {
+      "flag": "-x",
+      "desc": "扩展统计（avgqu-sz 等，磁盘常用）"
+    },
+    {
+      "flag": "-z",
+      "desc": "0 设备也显示"
+    },
+    {
+      "flag": "-m",
+      "desc": "块用 MiB"
+    },
+    {
+      "flag": "-s",
+      "desc": "扇区统计"
+    },
+    {
+      "flag": "-p",
+      "desc": "显示完整路径"
+    },
+    {
+      "flag": "-d",
+      "desc": "只磁盘"
+    },
+    {
+      "flag": "-c",
+      "desc": "只 cpu"
+    },
+    {
+      "flag": "-t",
+      "desc": "带时间戳"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本"
+    },
+    {
+      "flag": "-y",
+      "desc": "不显示首次（自 0 起的无意义）"
+    },
+    {
+      "flag": "-N",
+      "desc": "按设备名显示"
+    },
+    {
+      "flag": "--disk",
+      "desc": "磁盘（-d 全写）"
+    },
+    {
+      "flag": "--cpu",
+      "desc": "cpu（-c 全写）"
+    },
+    {
+      "flag": "-E"
+    },
+    {
+      "flag": "-h"
+    },
+    {
+      "flag": "-v"
+    },
+    {
+      "flag": "-P"
+    }
+  ],
+  "iostat_fields": [
+    {
+      "name": "util",
+      "desc": "设备繁忙时间占比（%util 饱和看）"
+    },
+    {
+      "name": "await",
+      "desc": "IO 等待+服务总时长"
+    },
+    {
+      "name": "r_await",
+      "desc": "读 IO 等待"
+    },
+    {
+      "name": "w_await",
+      "desc": "写 IO 等待"
+    },
+    {
+      "name": "r-s",
+      "desc": "读/s"
+    },
+    {
+      "name": "w-s",
+      "desc": "写/s"
+    },
+    {
+      "name": "rkB-s",
+      "desc": "读 KB/s"
+    },
+    {
+      "name": "wkB-s",
+      "desc": "写 KB/s"
+    },
+    {
+      "name": "svctm",
+      "desc": "服务时长（旧版，非严格服务时间）"
+    },
+    {
+      "name": "q-sz",
+      "desc": "队列长度"
+    },
+    {
+      "name": "avgqu-sz",
+      "desc": "平均队列深度（饱和判断）"
+    }
+  ],
+  "vmstat_flags": [
+    {
+      "flag": "-1",
+      "desc": "每秒采样（1 间隔）"
+    },
+    {
+      "flag": "2",
+      "desc": "每 2 秒（间隔参数）"
+    },
+    {
+      "flag": "5",
+      "desc": "每 5 秒（间隔参数）"
+    },
+    {
+      "flag": "10",
+      "desc": "每 10 秒（间隔参数）"
+    },
+    {
+      "flag": "-n",
+      "desc": "不显示表头（每行不重打印）"
+    },
+    {
+      "flag": "-d",
+      "desc": "只磁盘统计"
+    },
+    {
+      "flag": "-p",
+      "desc": "指定分区"
+    },
+    {
+      "flag": "-s",
+      "desc": "系统统计（swap 等）"
+    },
+    {
+      "flag": "-m",
+      "desc": "内存统计"
+    },
+    {
+      "flag": "-S",
+      "desc": "单位（k 千/M 兆）"
+    },
+    {
+      "flag": "-t",
+      "desc": "带时间"
+    },
+    {
+      "flag": "-w",
+      "desc": "宽格式（不截断）"
+    },
+    {
+      "flag": "-W",
+      "desc": "宽+不截断"
+    },
+    {
+      "flag": "--one",
+      "desc": "只显示一次"
+    },
+    {
+      "flag": "-h",
+      "desc": "帮助"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本"
+    }
+  ],
+  "vmstat_fields": [
+    {
+      "name": "swpd",
+      "desc": "已用 swap（KB）"
+    },
+    {
+      "name": "free",
+      "desc": "空闲内存（KB）"
+    },
+    {
+      "name": "buff",
+      "desc": "缓冲内存"
+    },
+    {
+      "name": "cache",
+      "desc": "页缓存"
+    },
+    {
+      "name": "si",
+      "desc": "swap in（KB/s，>0 异常）"
+    },
+    {
+      "name": "so",
+      "desc": "swap out（KB/s，>0 异常）"
+    },
+    {
+      "name": "bi",
+      "desc": "块 in"
+    },
+    {
+      "name": "bo",
+      "desc": "块 out"
+    },
+    {
+      "name": "us",
+      "desc": "用户 cpu%"
+    },
+    {
+      "name": "sy",
+      "desc": "系统 cpu%"
+    },
+    {
+      "name": "wa",
+      "desc": "IO 等待 cpu%（>20 磁盘瓶颈）"
+    },
+    {
+      "name": "st",
+      "desc": "steal cpu%（虚拟化）"
+    },
+    {
+      "name": "id",
+      "desc": "空闲 cpu%"
+    },
+    {
+      "name": "r",
+      "desc": "运行队列长度（>CPU核数 过载）"
+    },
+    {
+      "name": "b",
+      "desc": "阻塞进程数（>0 等 IO/内存）"
+    }
+  ],
+  "mpstat_flags": [
+    {
+      "flag": "-P",
+      "desc": "指定 cpu（ALL/0-7）"
+    },
+    {
+      "flag": "1",
+      "desc": "每秒（间隔参数）"
+    },
+    {
+      "flag": "-A",
+      "desc": "全部统计"
+    },
+    {
+      "flag": "-u",
+      "desc": "利用率"
+    },
+    {
+      "flag": "-I",
+      "desc": "中断（SUM/CPU/CSR）"
+    },
+    {
+      "flag": "-i",
+      "desc": "中断/s"
+    },
+    {
+      "flag": "-s",
+      "desc": "softirq"
+    },
+    {
+      "flag": "-w",
+      "desc": "宽"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本"
+    },
+    {
+      "flag": "-E"
+    },
+    {
+      "flag": "-h"
+    }
+  ],
+  "sar_flags": [
+    {
+      "flag": "-u",
+      "desc": "cpu 利用率"
+    },
+    {
+      "flag": "-r",
+      "desc": "内存"
+    },
+    {
+      "flag": "-b",
+      "desc": "块 io"
+    },
+    {
+      "flag": "-d",
+      "desc": "磁盘（-p 分区）"
+    },
+    {
+      "flag": "-n",
+      "desc": "网络（DEV/EDEV/TCP 等）"
+    },
+    {
+      "flag": "-q",
+      "desc": "运行队列/swapin"
+    },
+    {
+      "flag": "-v",
+      "desc": "inode/进程"
+    },
+    {
+      "flag": "-a",
+      "desc": "活动/inode"
+    },
+    {
+      "flag": "-p",
+      "desc": "显示分区名（配 -d）"
+    },
+    {
+      "flag": "-B",
+      "desc": "缓冲/缺页"
+    },
+    {
+      "flag": "-F",
+      "desc": "文件系统"
+    },
+    {
+      "flag": "--interactive",
+      "desc": "交互模式"
+    },
+    {
+      "flag": "-f",
+      "desc": "读指定 sar 数据文件"
+    },
+    {
+      "flag": "-s",
+      "desc": "起始时间（00:00）"
+    },
+    {
+      "flag": "-e",
+      "desc": "结束时间（23:59）"
+    },
+    {
+      "flag": "-o",
+      "desc": "二进制格式（新）"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本"
+    },
+    {
+      "flag": "-P"
+    }
+  ]
+}

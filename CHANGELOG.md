@@ -26,6 +26,10 @@ New machine-readable reference repos under the subdirectories below. These are *
 - `virtualization/virtualization.json`: KVM/libvirt/Proxmox VE — ~76 `virsh` subcommands + 11 resource types + ~39 Proxmox `qm`/`lxc` subcommands + qemu common tools.
 - `database/database.json`: MySQL / PostgreSQL / Redis — admin commands (~40) + psql meta-commands + SQL keywords + ~82 Redis commands.
 - `cloud-cli/cloud-cli.json`: AWS / GCP / Azure CLI — ~61 AWS service subcommands + ~26 common AWS actions + ~30 gcloud command groups + ~34 `az` groups + flags.
+- `sysstat/sysstat.json`: iostat / vmstat / mpstat / sar — ~17 iostat flags + 11 fields, ~16 vmstat flags + 15 fields, ~11 mpstat flags, ~18 sar flags.
+- `openssl/openssl.json`: OpenSSL subcommands + flags — ~49 subcommands (s_client/x509/req/pkcs12/cert…) + ~41 common flags + 3 deprecated notes.
+- `helm/helm.json`: Helm 3.x subcommands + flags — ~25 subcommands (install/upgrade/uninstall/rollback/repo…) + ~25 common flags.
+- `debug-tools/debug-tools.json`: lsof / strace / perf / fuser — ~28 lsof flags, ~19 strace flags, ~22 perf subcommands, ~10 fuser flags.
 
 Maintenance: these are reference data re-checked manually (not a live feed); `checked_date` refreshes each re-check. The CISA KEV and IANA files above remain the live/re-collected sources.
 

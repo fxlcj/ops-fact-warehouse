@@ -1,0 +1,388 @@
+{
+  "_meta": {
+    "title": "OpenSSL 命令与子命令白名单",
+    "source": [
+      "https://www.openssl.org/docs/man1.1.1/man1/openssl.html",
+      "https://www.openssl.org/docs/man3.0/man1/openssl.html"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "OpenSSL 1.1.1/3.0 子命令与常用 flag。site 证书/HTTPS 排查高频（114 次，s_client/x509 最高）。G4b 对 openssl <子命令> WARN 扫描（面宽人工核对）。注意 1.1.1 用 x509 -ext、3.0 用 openssl x509，1.1.1 的 dgst 改 3.0 的 dgst（同名）。"
+  },
+  "subcommands": [
+    {
+      "name": "s_client",
+      "desc": "TLS 客户端（测证书/握手）"
+    },
+    {
+      "name": "s_server",
+      "desc": "TLS 服务端"
+    },
+    {
+      "name": "x509",
+      "desc": "证书查看/转码/签名"
+    },
+    {
+      "name": "req",
+      "desc": "CSR 生成/查看"
+    },
+    {
+      "name": "genpkey",
+      "desc": "生成私钥（3.0，替代 genrsa）"
+    },
+    {
+      "name": "genrsa",
+      "desc": "生成 RSA 密钥（1.1.1）"
+    },
+    {
+      "name": "gensym",
+      "desc": "生成对称密钥（3.0）"
+    },
+    {
+      "name": "dsarec",
+      "desc": "DSA 密钥"
+    },
+    {
+      "name": "ecparam",
+      "desc": "EC 曲线参数"
+    },
+    {
+      "name": "ec",
+      "desc": "EC 密钥（3.0 起并入 pkey）"
+    },
+    {
+      "name": "pkey",
+      "desc": "私钥查看/转码（3.0，替代 rsa/dsa）"
+    },
+    {
+      "name": "pkeyutl",
+      "desc": "非对称加解密"
+    },
+    {
+      "name": "rsa",
+      "desc": "RSA 密钥（1.1.1，3.0 入 pkey）"
+    },
+    {
+      "name": "crl",
+      "desc": "CRL 操作"
+    },
+    {
+      "name": "crl2pkcs7",
+      "desc": "CRL 转 PKCS7"
+    },
+    {
+      "name": "crl2",
+      "desc": "（少用）"
+    },
+    {
+      "name": "rand",
+      "desc": "随机数"
+    },
+    {
+      "name": "fips",
+      "desc": "FIPS 自检"
+    },
+    {
+      "name": "ocsp",
+      "desc": "OCSP 查吊销"
+    },
+    {
+      "name": "verify",
+      "desc": "验证证书链"
+    },
+    {
+      "name": "dgst",
+      "desc": "摘要（sha256 等，1.1.1/3.0）"
+    },
+    {
+      "name": "md5",
+      "desc": "MD5（旧，不推荐）"
+    },
+    {
+      "name": "sha1",
+      "desc": "SHA1（旧，不推荐）"
+    },
+    {
+      "name": "sha256",
+      "desc": "SHA256（独立命令）"
+    },
+    {
+      "name": "sha512",
+      "desc": "SHA512（独立命令）"
+    },
+    {
+      "name": "cms",
+      "desc": "S/MIME（PKCS7 CMS）"
+    },
+    {
+      "name": "smime",
+      "desc": "S/MIME（1.1.1）"
+    },
+    {
+      "name": "pkcs7",
+      "desc": "PKCS7 操作"
+    },
+    {
+      "name": "pkcs12",
+      "desc": "P12 导入/导出"
+    },
+    {
+      "name": "pkcs8",
+      "desc": "PKCS8 密钥"
+    },
+    {
+      "name": "enc",
+      "desc": "对称加解密"
+    },
+    {
+      "name": "passwd",
+      "desc": "口令哈希"
+    },
+    {
+      "name": "speed",
+      "desc": "性能测试"
+    },
+    {
+      "name": "nseq",
+      "desc": "NIST 随机数（3.0）"
+    },
+    {
+      "name": "ciphers",
+      "desc": "列支持的密码套件"
+    },
+    {
+      "name": "dhparam",
+      "desc": "生成 DH 参数（DH）"
+    },
+    {
+      "name": "dh",
+      "desc": "DH 查看"
+    },
+    {
+      "name": "ts",
+      "desc": "时间戳"
+    },
+    {
+      "name": "asn1parse",
+      "desc": "ASN.1 解析"
+    },
+    {
+      "name": "errstr",
+      "desc": "错误码转文本"
+    },
+    {
+      "name": "engine",
+      "desc": "引擎（1.1.1，3.0 移除）"
+    },
+    {
+      "name": "providers",
+      "desc": "提供者（3.0）"
+    },
+    {
+      "name": "list",
+      "desc": "列算法/对象（3.0）"
+    },
+    {
+      "name": "kdf",
+      "desc": "KDF（3.0）"
+    },
+    {
+      "name": "storeutl",
+      "desc": "查看 store"
+    },
+    {
+      "name": "st",
+      "desc": "（少用）"
+    },
+    {
+      "name": "version",
+      "desc": "版本"
+    },
+    {
+      "name": "help",
+      "desc": "帮助"
+    },
+    {
+      "name": "ca",
+      "desc": "自建 CA 签证书"
+    }
+  ],
+  "common_flags": [
+    {
+      "flag": "-in",
+      "desc": "输入文件"
+    },
+    {
+      "flag": "-out",
+      "desc": "输出文件"
+    },
+    {
+      "flag": "-noout",
+      "desc": "不输出主体（只看文本）"
+    },
+    {
+      "flag": "-text",
+      "desc": "文本解析（证书/CSR）"
+    },
+    {
+      "flag": "-dates",
+      "desc": "证书日期"
+    },
+    {
+      "flag": "-subject",
+      "desc": "只看主体"
+    },
+    {
+      "flag": "-issuer",
+      "desc": "只看颁发者"
+    },
+    {
+      "flag": "-fingerprint",
+      "desc": "指纹（配 -sha256 等）"
+    },
+    {
+      "flag": "-sha256",
+      "desc": "摘要算法"
+    },
+    {
+      "flag": "-sha1",
+      "desc": "摘要算法（旧）"
+    },
+    {
+      "flag": "-md5",
+      "desc": "摘要算法（旧）"
+    },
+    {
+      "flag": "-CAfile",
+      "desc": "CA 证书"
+    },
+    {
+      "flag": "-CApath",
+      "desc": "CA 目录"
+    },
+    {
+      "flag": "-verify",
+      "desc": "验证"
+    },
+    {
+      "flag": "-checkend",
+      "desc": "是否过期"
+    },
+    {
+      "flag": "-ext",
+      "desc": "指定扩展（-ext SAN）"
+    },
+    {
+      "flag": "-days",
+      "desc": "证书有效天数"
+    },
+    {
+      "flag": "-key",
+      "desc": "私钥"
+    },
+    {
+      "flag": "-keyout",
+      "desc": "私钥输出"
+    },
+    {
+      "flag": "-pass",
+      "desc": "口令来源"
+    },
+    {
+      "flag": "-passout",
+      "desc": "输出口令（配合）"
+    },
+    {
+      "flag": "-passin",
+      "desc": "输入口令（配合）"
+    },
+    {
+      "flag": "-nodes",
+      "desc": "不加密私钥"
+    },
+    {
+      "flag": "-new",
+      "desc": "（req 新建）"
+    },
+    {
+      "flag": "-newkey",
+      "desc": "（req 新密钥）"
+    },
+    {
+      "flag": "-sub",
+      "desc": "（req 主体）"
+    },
+    {
+      "flag": "-subj",
+      "desc": "（req 主体）"
+    },
+    {
+      "flag": "-inkey",
+      "desc": "输入密钥"
+    },
+    {
+      "flag": "-no_tls",
+      "desc": "（s_client 旧协议）"
+    },
+    {
+      "flag": "-no_tls1_2",
+      "desc": "（s_client 禁 TLS1.2）"
+    },
+    {
+      "flag": "-no_tls1_3",
+      "desc": "（s_client 禁 TLS1.3）"
+    },
+    {
+      "flag": "-cipher",
+      "desc": "指定密码套件"
+    },
+    {
+      "flag": "-connect",
+      "desc": "（s_client 连接 host:port）"
+    },
+    {
+      "flag": "-servername",
+      "desc": "SNI"
+    },
+    {
+      "flag": "-starttls",
+      "desc": "STARTTLS"
+    },
+    {
+      "flag": "-showcerts",
+      "desc": "显示全链"
+    },
+    {
+      "flag": "-brief",
+      "desc": "简略（s_client）"
+    },
+    {
+      "flag": "-s_ct",
+      "desc": "（少用）"
+    },
+    {
+      "flag": "-V",
+      "desc": "详细（s_client）"
+    },
+    {
+      "flag": "-version",
+      "desc": "版本"
+    },
+    {
+      "flag": "-set"
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "openssl md5",
+      "reason": "MD5 已不推荐用于签名/指纹，用 dgst -sha256"
+    },
+    {
+      "cmd": "openssl sha1",
+      "reason": "SHA1 已不推荐，用 sha256+"
+    },
+    {
+      "cmd": "openssl engine",
+      "reason": "3.0 移除，改用 provider"
+    }
+  ]
+}

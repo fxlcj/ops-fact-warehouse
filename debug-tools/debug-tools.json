@@ -1,0 +1,331 @@
+{
+  "_meta": {
+    "title": "故障排查工具（lsof/strace/perf/fuser）命令与 flag 白名单",
+    "source": [
+      "https://man7.org/linux/man-pages/man8/lsof.8.html",
+      "https://man7.org/linux/man-pages/man2/strace.2.html",
+      "https://perf.wiki.kernel.org/",
+      "https://man7.org/linux/man-pages/man1/fuser.1.html"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "排查高频：lsof 看端口占用 / strace 跟踪系统调用 / perf 性能剖析 / fuser 看谁在用文件。site 排查文 18+7+17 次命中。G4b 对 lsof/strace/perf/fuser flag WARN 扫描（面宽人工核对）。"
+  },
+  "lsof_flags": [
+    {
+      "flag": "-i",
+      "desc": "网络（-i :port / -i 4 / -i 6）"
+    },
+    {
+      "flag": "-p",
+      "desc": "指定 PID（看该进程打开文件）"
+    },
+    {
+      "flag": "-u",
+      "desc": "按用户"
+    },
+    {
+      "flag": "-c",
+      "desc": "按命令名"
+    },
+    {
+      "flag": "-d",
+      "desc": "指定设备"
+    },
+    {
+      "flag": "-a",
+      "desc": "与（AND 条件）"
+    },
+    {
+      "flag": "-n",
+      "desc": "不解析主机名（更快）"
+    },
+    {
+      "flag": "-P",
+      "desc": "不解析端口名"
+    },
+    {
+      "flag": "-U",
+      "desc": "unix socket"
+    },
+    {
+      "flag": "-R",
+      "desc": "解析 IP"
+    },
+    {
+      "flag": "-g",
+      "desc": "组 ID"
+    },
+    {
+      "flag": "-F",
+      "desc": "格式化输出"
+    },
+    {
+      "flag": "-x",
+      "desc": "完全打开（无 O_APPEND）"
+    },
+    {
+      "flag": "-o",
+      "desc": "显示 open 详情"
+    },
+    {
+      "flag": "+e",
+      "desc": "额外用户"
+    },
+    {
+      "flag": "-D",
+      "desc": "dev 目录"
+    },
+    {
+      "flag": "-s",
+      "desc": "（少用）"
+    },
+    {
+      "flag": "-h",
+      "desc": "帮助"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本"
+    },
+    {
+      "flag": "-q",
+      "desc": "安静"
+    },
+    {
+      "flag": "-l",
+      "desc": "（少用）"
+    },
+    {
+      "flag": "-t",
+      "desc": "只输出 PID（脚本常用）"
+    },
+    {
+      "flag": "-E"
+    },
+    {
+      "flag": "-iE"
+    },
+    {
+      "flag": "-i6"
+    },
+    {
+      "flag": "-i4"
+    },
+    {
+      "flag": "-iTCP"
+    },
+    {
+      "flag": "-iUDP"
+    }
+  ],
+  "strace_flags": [
+    {
+      "flag": "-c",
+      "desc": "统计调用次数（不逐条打印）"
+    },
+    {
+      "flag": "-p",
+      "desc": "附加到已有 PID"
+    },
+    {
+      "flag": "-e",
+      "desc": "指定跟踪的调用（trace=network/trace=read,write）"
+    },
+    {
+      "flag": "-s",
+      "desc": "字符串最大长度"
+    },
+    {
+      "flag": "-o",
+      "desc": "输出到文件"
+    },
+    {
+      "flag": "-D",
+      "desc": "后台运行（detach）"
+    },
+    {
+      "flag": "-f",
+      "desc": "跟踪 fork（每个子进程）"
+    },
+    {
+      "flag": "-ff",
+      "desc": "跟踪+各写各文件"
+    },
+    {
+      "flag": "-ttt",
+      "desc": "精确时间戳"
+    },
+    {
+      "flag": "-T",
+      "desc": "显示调用耗时"
+    },
+    {
+      "flag": "-x",
+      "desc": "十六进制"
+    },
+    {
+      "flag": "-xx",
+      "desc": "十六进制（完整）"
+    },
+    {
+      "flag": "-q",
+      "desc": "安静（不打印 exit）"
+    },
+    {
+      "flag": "-v",
+      "desc": "详细（不省略）"
+    },
+    {
+      "flag": "-k",
+      "desc": "内核堆栈（需 CONFIG）"
+    },
+    {
+      "flag": "-a",
+      "desc": "（少用）"
+    },
+    {
+      "flag": "-h",
+      "desc": "帮助"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本"
+    },
+    {
+      "flag": "-n",
+      "desc": "（少用）"
+    }
+  ],
+  "perf_commands": [
+    {
+      "name": "perf record",
+      "desc": "采集（perf record -a -g）"
+    },
+    {
+      "name": "perf report",
+      "desc": "看报告"
+    },
+    {
+      "name": "perf stat",
+      "desc": "统计（cycles/instructions）"
+    },
+    {
+      "name": "perf top",
+      "desc": "实时热点"
+    },
+    {
+      "name": "perf list",
+      "desc": "列事件"
+    },
+    {
+      "name": "perf script",
+      "desc": "看调用栈"
+    },
+    {
+      "name": "perf bench",
+      "desc": "基准"
+    },
+    {
+      "name": "perf probe",
+      "desc": "动态探针"
+    },
+    {
+      "name": "perf trace",
+      "desc": "系统调用跟踪"
+    },
+    {
+      "name": "perf inject",
+      "desc": "数据注入"
+    },
+    {
+      "name": "perf diff",
+      "desc": "对比"
+    },
+    {
+      "name": "perf annotate",
+      "desc": "源码标注"
+    },
+    {
+      "name": "perf kallsyms",
+      "desc": "符号"
+    },
+    {
+      "name": "perf c2c",
+      "desc": "cache 竞争"
+    },
+    {
+      "name": "perf lock",
+      "desc": "锁分析"
+    },
+    {
+      "name": "perf sched",
+      "desc": "调度延迟"
+    },
+    {
+      "name": "perf test",
+      "desc": "自测"
+    },
+    {
+      "name": "perf evlist",
+      "desc": "事件列表"
+    },
+    {
+      "name": "perf buildid",
+      "desc": "build-id"
+    },
+    {
+      "name": "perf data",
+      "desc": "数据处理"
+    },
+    {
+      "name": "perf version",
+      "desc": "版本"
+    },
+    {
+      "name": "help",
+      "desc": "帮助"
+    }
+  ],
+  "fuser_flags": [
+    {
+      "flag": "file",
+      "desc": "fuser <file> 看谁在用（位置参数，非 flag）"
+    },
+    {
+      "flag": "-s",
+      "desc": "静默（只看成功）"
+    },
+    {
+      "flag": "-n",
+      "desc": "按协议/设备"
+    },
+    {
+      "flag": "-i",
+      "desc": "网络"
+    },
+    {
+      "flag": "-k",
+      "desc": "杀掉使用者"
+    },
+    {
+      "flag": "-m",
+      "desc": "挂载点"
+    },
+    {
+      "flag": "-c",
+      "desc": "命令名"
+    },
+    {
+      "flag": "-u",
+      "desc": "显示用户名"
+    },
+    {
+      "flag": "-V",
+      "desc": "版本"
+    },
+    {
+      "flag": "-h",
+      "desc": "帮助"
+    }
+  ]
+}

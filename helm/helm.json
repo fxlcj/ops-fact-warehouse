@@ -1,0 +1,214 @@
+{
+  "_meta": {
+    "title": "Helm 包管理器子命令与 flag 白名单",
+    "source": [
+      "https://helm.sh/docs/"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "Helm 3.x 子命令与常用 flag。site k8s 工具文 38 次命中（install/get/repo/upgrade 最高）。G4b 对 helm <子命令> WARN 扫描（面宽人工核对）。"
+  },
+  "subcommands": [
+    {
+      "name": "install",
+      "desc": "装 chart 到集群"
+    },
+    {
+      "name": "upgrade",
+      "desc": "升级 release"
+    },
+    {
+      "name": "uninstall",
+      "desc": "卸载 release"
+    },
+    {
+      "name": "rollback",
+      "desc": "回滚 release"
+    },
+    {
+      "name": "list",
+      "desc": "列 release"
+    },
+    {
+      "name": "history",
+      "desc": "release 历史"
+    },
+    {
+      "name": "status",
+      "desc": "release 状态"
+    },
+    {
+      "name": "show",
+      "desc": "show values/chart"
+    },
+    {
+      "name": "get",
+      "desc": "get notes/values/all"
+    },
+    {
+      "name": "dependency",
+      "desc": "依赖管理（dependency update）"
+    },
+    {
+      "name": "repo",
+      "desc": "仓库管理（repo add/update/list）"
+    },
+    {
+      "name": "search",
+      "desc": "search hub/chart"
+    },
+    {
+      "name": "fetch",
+      "desc": "下载 chart"
+    },
+    {
+      "name": "create",
+      "desc": "新建 chart"
+    },
+    {
+      "name": "template",
+      "desc": "渲染模板（本地）"
+    },
+    {
+      "name": "lint",
+      "desc": "校验 chart"
+    },
+    {
+      "name": "package",
+      "desc": "打包 chart"
+    },
+    {
+      "name": "pull",
+      "desc": "拉 chart"
+    },
+    {
+      "name": "version",
+      "desc": "版本"
+    },
+    {
+      "name": "env",
+      "desc": "环境"
+    },
+    {
+      "name": "help",
+      "desc": "帮助"
+    },
+    {
+      "name": "diff",
+      "desc": "（diff 插件）"
+    },
+    {
+      "name": "chart",
+      "desc": "（旧 2.x 别名）"
+    },
+    {
+      "name": "release",
+      "desc": "（旧 2.x 别名）"
+    },
+    {
+      "name": "values",
+      "desc": "（旧 2.x values 子命令）"
+    }
+  ],
+  "common_flags": [
+    {
+      "flag": "-n",
+      "desc": "命名空间（--namespace）"
+    },
+    {
+      "flag": "--namespace",
+      "desc": "命名空间"
+    },
+    {
+      "flag": "--values",
+      "desc": "-f 值文件"
+    },
+    {
+      "flag": "-f",
+      "desc": "值文件（--values 缩写）"
+    },
+    {
+      "flag": "--set",
+      "desc": "单个键值"
+    },
+    {
+      "flag": "--set-string",
+      "desc": "字符串值"
+    },
+    {
+      "flag": "--set-file",
+      "desc": "文件值"
+    },
+    {
+      "flag": "--dry-run",
+      "desc": "干跑"
+    },
+    {
+      "flag": "--debug",
+      "desc": "调试"
+    },
+    {
+      "flag": "--wait",
+      "desc": "等就绪"
+    },
+    {
+      "flag": "--timeout",
+      "desc": "超时"
+    },
+    {
+      "flag": "--atomic",
+      "desc": "失败自动回滚"
+    },
+    {
+      "flag": "--force",
+      "desc": "强制"
+    },
+    {
+      "flag": "--reuse-values",
+      "desc": "沿用旧值"
+    },
+    {
+      "flag": "--no-hooks",
+      "desc": "不跑 hook"
+    },
+    {
+      "flag": "--generate-name",
+      "desc": "随机名"
+    },
+    {
+      "flag": "--version",
+      "desc": "（chart 版本）"
+    },
+    {
+      "flag": "--devel",
+      "desc": "含预发布版本"
+    },
+    {
+      "flag": "--kube-context",
+      "desc": "k8s context"
+    },
+    {
+      "flag": "--kubeconfig",
+      "desc": "kubeconfig 路径"
+    },
+    {
+      "flag": "--tls-verify",
+      "desc": "TLS 校验"
+    },
+    {
+      "flag": "--insecure",
+      "desc": "不校验（旧）"
+    },
+    {
+      "flag": "--repository",
+      "desc": "指定仓库"
+    },
+    {
+      "flag": "-h",
+      "desc": "帮助"
+    },
+    {
+      "flag": "-v",
+      "desc": "详细"
+    }
+  ]
+}
