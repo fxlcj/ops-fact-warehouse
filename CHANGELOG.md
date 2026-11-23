@@ -30,6 +30,7 @@ New machine-readable reference repos under the subdirectories below. These are *
 - `openssl/openssl.json`: OpenSSL subcommands + flags — ~49 subcommands (s_client/x509/req/pkcs12/cert…) + ~41 common flags + 3 deprecated notes.
 - `helm/helm.json`: Helm 3.x subcommands + flags — ~25 subcommands (install/upgrade/uninstall/rollback/repo…) + ~25 common flags.
 - `debug-tools/debug-tools.json`: lsof / strace / perf / fuser — ~28 lsof flags, ~19 strace flags, ~22 perf subcommands, ~10 fuser flags.
+- `ha-config/ha-config.json`: Home Assistant **configuration** dimension (complements `ha-cli/`, which covers the CLI dimension) — ~85 core YAML config keys (automation trigger/condition/action/service etc.), ~108 service actions (`light.turn_on`/`climate.set_temperature`/`notify.mobile_app`… domain.action form), ~50 entity domains, ~124 integration names, ~123 official/HACS addon names (453 entries total).
 
 Maintenance: these are reference data re-checked manually (not a live feed); `checked_date` refreshes each re-check. The CISA KEV and IANA files above remain the live/re-collected sources.
 

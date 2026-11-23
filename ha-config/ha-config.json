@@ -1,0 +1,1993 @@
+{
+  "_meta": {
+    "title": "Home Assistant 核心配置 / service / 集成 / Addon 白名单（配合 ha-cli 仓成完整 HA 知识仓）",
+    "source": [
+      "https://www.home-assistant.io/integrations/",
+      "https://www.home-assistant.io/integrations/automation/",
+      "https://www.home-assistant.io/integrations/service/",
+      "https://home-assistant.io/integrations/"
+    ],
+    "checked_date": "2026-11-23",
+    "note": "HA 配置维度（与 ha-cli 仓的 CLI 维度互补）：① 核心 yaml 配置键（automation 的 trigger/condition/action/service 等 + 顶层配置键）② service 动作（domain.service_name，如 light.turn_on/climate.set_temperature）③ entity domain（HA 实体域前缀）④ 常用集成名 ⑤ 常用官方 Addon 名。site HA 95 篇，yaml 配置键 1000+ 处、Zigbee/MQTT 等集成名高频。G4b 对 HA 配置键 / service / 集成名 WARN 扫描（面宽先保守，同 ha-cli）。"
+  },
+  "core_yaml_keys": [
+    {
+      "name": "automation",
+      "desc": "顶层：自动化定义"
+    },
+    {
+      "name": "script",
+      "desc": "顶层：脚本"
+    },
+    {
+      "name": "scene",
+      "desc": "顶层：场景"
+    },
+    {
+      "name": "trigger",
+      "desc": "automation 触发器（event/time/state/numeric_state/zone/zone/mqtt/…）"
+    },
+    {
+      "name": "condition",
+      "desc": "automation 条件（state/numeric_state/time/template/zone/sun/sun/…）"
+    },
+    {
+      "name": "action",
+      "desc": "automation 动作（service/variable/choose/wait_for_trigger…）"
+    },
+    {
+      "name": "service",
+      "desc": "动作里的服务调用"
+    },
+    {
+      "name": "alias",
+      "desc": "自动化/场景别名"
+    },
+    {
+      "name": "mode",
+      "desc": "automation 运行模式（single/restart/parallel/queued）"
+    },
+    {
+      "name": "event",
+      "desc": "事件触发/条件"
+    },
+    {
+      "name": "time",
+      "desc": "时间触发/条件"
+    },
+    {
+      "name": "state",
+      "desc": "状态触发/条件"
+    },
+    {
+      "name": "numeric_state",
+      "desc": "数值状态触发/条件"
+    },
+    {
+      "name": "zone",
+      "desc": "区域触发/条件"
+    },
+    {
+      "name": "mqtt",
+      "desc": "MQTT 触发/条件（topic/payload）"
+    },
+    {
+      "name": "template",
+      "desc": "模板触发/条件/传感器"
+    },
+    {
+      "name": "sun",
+      "desc": "日出日落触发/条件"
+    },
+    {
+      "name": "homeassistant",
+      "desc": "启动/停止/重启 触发"
+    },
+    {
+      "name": "webhook",
+      "desc": "Webhook 触发"
+    },
+    {
+      "name": "tag",
+      "desc": "NFC 标签触发"
+    },
+    {
+      "name": "thread",
+      "desc": "Thread 触发（少用）"
+    },
+    {
+      "name": "wait",
+      "desc": "动作里等待"
+    },
+    {
+      "name": "choose",
+      "desc": "动作分支"
+    },
+    {
+      "name": "repeat",
+      "desc": "动作重复"
+    },
+    {
+      "name": "while",
+      "desc": "动作循环"
+    },
+    {
+      "name": "parallel",
+      "desc": "动作并行"
+    },
+    {
+      "name": "variables",
+      "desc": "脚本/自动化变量"
+    },
+    {
+      "name": "topology",
+      "desc": "（少用）"
+    },
+    {
+      "name": "initial_state",
+      "desc": "自动化初始状态"
+    },
+    {
+      "name": "disabled",
+      "desc": "禁用标记"
+    },
+    {
+      "name": "description",
+      "desc": "描述"
+    },
+    {
+      "name": "id",
+      "desc": "自动化/场景/脚本 ID"
+    },
+    {
+      "name": "platform",
+      "desc": "集成平台（集成配置必填）"
+    },
+    {
+      "name": "entity_id",
+      "desc": "实体 ID（trigger/condition/action 指认）"
+    },
+    {
+      "name": "value",
+      "desc": "数值比较"
+    },
+    {
+      "name": "above",
+      "desc": "数值下限"
+    },
+    {
+      "name": "below",
+      "desc": "数值上限"
+    },
+    {
+      "name": "from",
+      "desc": "状态变化 from"
+    },
+    {
+      "name": "to",
+      "desc": "状态变化 to"
+    },
+    {
+      "name": "for",
+      "desc": "持续时长"
+    },
+    {
+      "name": "at",
+      "desc": "时刻（time 触发）"
+    },
+    {
+      "name": "value_template",
+      "desc": "模板值"
+    },
+    {
+      "name": "payload",
+      "desc": "MQTT payload"
+    },
+    {
+      "name": "topic",
+      "desc": "MQTT topic"
+    },
+    {
+      "name": "qos",
+      "desc": "MQTT QoS（0/1/2）"
+    },
+    {
+      "name": "retain",
+      "desc": "MQTT 保留消息"
+    },
+    {
+      "name": "username",
+      "desc": "集成用户名（少用）"
+    },
+    {
+      "name": "password",
+      "desc": "集成口令（少用）"
+    },
+    {
+      "name": "host",
+      "desc": "集成主机"
+    },
+    {
+      "name": "port",
+      "desc": "集成端口"
+    },
+    {
+      "name": "name",
+      "desc": "集成名"
+    },
+    {
+      "name": "unique_id",
+      "desc": "实体唯一 ID（MQTT 集成）"
+    },
+    {
+      "name": "state_topic",
+      "desc": "MQTT 状态 topic"
+    },
+    {
+      "name": "command_topic",
+      "desc": "MQTT 命令 topic"
+    },
+    {
+      "name": "availability_topic",
+      "desc": "MQTT 可用性 topic"
+    },
+    {
+      "name": "json_attributes",
+      "desc": "MQTT JSON 属性"
+    },
+    {
+      "name": "unit_of_measurement",
+      "desc": "量纲"
+    },
+    {
+      "name": "device_class",
+      "desc": "设备类（温度/电量等）"
+    },
+    {
+      "name": "state_class",
+      "desc": "状态类（measurement/total）"
+    },
+    {
+      "name": "friendly_name",
+      "desc": "友好名"
+    },
+    {
+      "name": "icon",
+      "desc": "实体图标"
+    },
+    {
+      "name": "color",
+      "desc": "实体颜色（少用）"
+    },
+    {
+      "name": "brightness",
+      "desc": "亮度（light）"
+    },
+    {
+      "name": "rgb",
+      "desc": "RGB（light）"
+    },
+    {
+      "name": "color_temp",
+      "desc": "色温（light）"
+    },
+    {
+      "name": "kelvin",
+      "desc": "开尔文（light）"
+    },
+    {
+      "name": "fan_speed",
+      "desc": "风速（fan）"
+    },
+    {
+      "name": "oscillation",
+      "desc": "摆头（fan）"
+    },
+    {
+      "name": "temperature",
+      "desc": "温度（climate）"
+    },
+    {
+      "name": "hvac_mode",
+      "desc": "HVAC 模式（climate）"
+    },
+    {
+      "name": "swing_mode",
+      "desc": "摆动（climate）"
+    },
+    {
+      "name": "fan_mode",
+      "desc": "风扇模式（climate）"
+    },
+    {
+      "name": "target_temp",
+      "desc": "目标温度（旧版 climate）"
+    },
+    {
+      "name": "min_temp",
+      "desc": "最低温度"
+    },
+    {
+      "name": "max_temp",
+      "desc": "最高温度"
+    },
+    {
+      "name": "position",
+      "desc": "位置（cover）"
+    },
+    {
+      "name": "tilt",
+      "desc": "倾斜（cover）"
+    },
+    {
+      "name": "duration",
+      "desc": "时长（cover/fan）"
+    },
+    {
+      "name": "speed",
+      "desc": "速度（fan/vacuum）"
+    },
+    {
+      "name": "message",
+      "desc": "通知消息（notify）"
+    },
+    {
+      "name": "title",
+      "desc": "通知标题"
+    },
+    {
+      "name": "data",
+      "desc": "附加数据（notify/服务）"
+    },
+    {
+      "name": "service_data",
+      "desc": "服务数据（旧版）"
+    },
+    {
+      "name": "area",
+      "desc": "区域"
+    },
+    {
+      "name": "radius",
+      "desc": "区域半径"
+    }
+  ],
+  "service_actions": [
+    {
+      "name": "homeassistant.turn_on",
+      "desc": "实体开"
+    },
+    {
+      "name": "homeassistant.turn_off",
+      "desc": "实体关"
+    },
+    {
+      "name": "homeassistant.toggle",
+      "desc": "实体翻转"
+    },
+    {
+      "name": "homeassistant.restart",
+      "desc": "重启 HA"
+    },
+    {
+      "name": "homeassistant.stop",
+      "desc": "停止 HA"
+    },
+    {
+      "name": "homeassistant.reload",
+      "desc": "重载配置"
+    },
+    {
+      "name": "homeassistant.update_entity",
+      "desc": "强制更新实体"
+    },
+    {
+      "name": "homeassistant.set_state",
+      "desc": "设状态（测试用）"
+    },
+    {
+      "name": "homeassistant.expose_homekit",
+      "desc": "暴露 HomeKit"
+    },
+    {
+      "name": "light.turn_on",
+      "desc": "灯开"
+    },
+    {
+      "name": "light.turn_off",
+      "desc": "灯关"
+    },
+    {
+      "name": "light.toggle",
+      "desc": "灯翻转"
+    },
+    {
+      "name": "switch.turn_on",
+      "desc": "开关开"
+    },
+    {
+      "name": "switch.turn_off",
+      "desc": "开关关"
+    },
+    {
+      "name": "switch.toggle",
+      "desc": "开关翻转"
+    },
+    {
+      "name": "fan.turn_on",
+      "desc": "扇开"
+    },
+    {
+      "name": "fan.turn_off",
+      "desc": "扇关"
+    },
+    {
+      "name": "fan.toggle",
+      "desc": "扇翻转"
+    },
+    {
+      "name": "fan.oscillate",
+      "desc": "摆头"
+    },
+    {
+      "name": "fan.set_speed",
+      "desc": "设风速"
+    },
+    {
+      "name": "climate.set_temperature",
+      "desc": "设温度"
+    },
+    {
+      "name": "climate.set_hvac_mode",
+      "desc": "设 HVAC 模式"
+    },
+    {
+      "name": "climate.turn_on",
+      "desc": "空调开"
+    },
+    {
+      "name": "climate.turn_off",
+      "desc": "空调关"
+    },
+    {
+      "name": "climate.set_fan_mode",
+      "desc": "设风扇模式"
+    },
+    {
+      "name": "climate.set_swing_mode",
+      "desc": "设摆动"
+    },
+    {
+      "name": "cover.open_cover",
+      "desc": "开窗帘"
+    },
+    {
+      "name": "cover.close_cover",
+      "desc": "关窗帘"
+    },
+    {
+      "name": "cover.set_cover_position",
+      "desc": "设位置"
+    },
+    {
+      "name": "cover.stop_cover",
+      "desc": "停窗帘"
+    },
+    {
+      "name": "cover.stop_cover_tilt",
+      "desc": "停倾斜"
+    },
+    {
+      "name": "scene.turn_on",
+      "desc": "场景开"
+    },
+    {
+      "name": "script.turn_on",
+      "desc": "脚本开"
+    },
+    {
+      "name": "script.turn_off",
+      "desc": "脚本关"
+    },
+    {
+      "name": "script.toggle",
+      "desc": "脚本翻转"
+    },
+    {
+      "name": "automation.trigger",
+      "desc": "触发自动化"
+    },
+    {
+      "name": "automation.turn_on",
+      "desc": "自动化开"
+    },
+    {
+      "name": "automation.turn_off",
+      "desc": "自动化关"
+    },
+    {
+      "name": "notify.mobile_app",
+      "desc": "手机通知"
+    },
+    {
+      "name": "notify.telegram",
+      "desc": "Telegram 通知"
+    },
+    {
+      "name": "notify.email",
+      "desc": "邮件通知"
+    },
+    {
+      "name": "notify.ntfy",
+      "desc": "ntfy 通知"
+    },
+    {
+      "name": "notify.push",
+      "desc": "推送（通用）"
+    },
+    {
+      "name": "notify.pushbullet",
+      "desc": "Pushbullet"
+    },
+    {
+      "name": "notify.slack",
+      "desc": "Slack"
+    },
+    {
+      "name": "notify.matrix",
+      "desc": "Matrix"
+    },
+    {
+      "name": "media_player.play_media",
+      "desc": "播放媒体"
+    },
+    {
+      "name": "media_player.turn_on",
+      "desc": "媒体开"
+    },
+    {
+      "name": "media_player.turn_off",
+      "desc": "媒体关"
+    },
+    {
+      "name": "media_player.volume_set",
+      "desc": "设音量"
+    },
+    {
+      "name": "media_player.volume_mute",
+      "desc": "静音"
+    },
+    {
+      "name": "media_player.select_source",
+      "desc": "选源"
+    },
+    {
+      "name": "vacuum.start",
+      "desc": "扫地机启动"
+    },
+    {
+      "name": "vacuum.return_to_base",
+      "desc": "回充"
+    },
+    {
+      "name": "vacuum.clean_spot",
+      "desc": "定点清扫"
+    },
+    {
+      "name": "vacuum.pause",
+      "desc": "暂停"
+    },
+    {
+      "name": "vacuum.stop",
+      "desc": "停止"
+    },
+    {
+      "name": "lock.lock",
+      "desc": "锁门"
+    },
+    {
+      "name": "lock.unlock",
+      "desc": "开门"
+    },
+    {
+      "name": "lock.toggle",
+      "desc": "锁翻转"
+    },
+    {
+      "name": "alarm_control_panel.alarm_disarm",
+      "desc": "撤防"
+    },
+    {
+      "name": "alarm_control_panel.alarm_arm_home",
+      "desc": "布防在家"
+    },
+    {
+      "name": "alarm_control_panel.alarm_arm_away",
+      "desc": "布防离家"
+    },
+    {
+      "name": "update.install",
+      "desc": "安装更新"
+    },
+    {
+      "name": "update.download",
+      "desc": "下载更新"
+    },
+    {
+      "name": "update.cleanup",
+      "desc": "清理旧版本"
+    },
+    {
+      "name": "tts.google_say",
+      "desc": "TTS 转语音"
+    },
+    {
+      "name": "webhook.call",
+      "desc": "触发 webhook（少用）"
+    },
+    {
+      "name": "shell_command.run",
+      "desc": "跑 shell 命令（危险）"
+    },
+    {
+      "name": "input_boolean.turn_on",
+      "desc": "输入布尔开"
+    },
+    {
+      "name": "input_boolean.turn_off",
+      "desc": "输入布尔关"
+    },
+    {
+      "name": "input_boolean.toggle",
+      "desc": "输入布尔翻转"
+    },
+    {
+      "name": "input_number.set_value",
+      "desc": "输入数值设值"
+    },
+    {
+      "name": "input_select.select_option",
+      "desc": "输入下拉选值"
+    },
+    {
+      "name": "input_text.set_value",
+      "desc": "输入文本设值"
+    },
+    {
+      "name": "timer.start",
+      "desc": "计时器启动"
+    },
+    {
+      "name": "timer.cancel",
+      "desc": "计时器取消"
+    },
+    {
+      "name": "timer.reset",
+      "desc": "计时器复位"
+    },
+    {
+      "name": "timer.turn_on",
+      "desc": "计时器开"
+    },
+    {
+      "name": "timer.turn_off",
+      "desc": "计时器关"
+    },
+    {
+      "name": "camera.record",
+      "desc": "摄像头录像"
+    },
+    {
+      "name": "camera.snapshot",
+      "desc": "摄像头快照"
+    },
+    {
+      "name": "camera.turn_on",
+      "desc": "摄像头开"
+    },
+    {
+      "name": "camera.turn_off",
+      "desc": "摄像头关"
+    },
+    {
+      "name": "camera.start_stream",
+      "desc": "摄像头开始流"
+    },
+    {
+      "name": "camera.stop_stream",
+      "desc": "摄像头停流"
+    },
+    {
+      "name": "vacuum.clean",
+      "desc": "扫地机清扫"
+    },
+    {
+      "name": "sensor.update",
+      "desc": "传感器强制更新"
+    },
+    {
+      "name": "media_player.volume_up",
+      "desc": "音量加"
+    },
+    {
+      "name": "media_player.volume_down",
+      "desc": "音量减"
+    },
+    {
+      "name": "alarm_control_panel.alarm_arm_night",
+      "desc": "布防夜间"
+    },
+    {
+      "name": "tts.say",
+      "desc": "TTS 说话"
+    },
+    {
+      "name": "tts.mary_tts",
+      "desc": "TTS mary"
+    },
+    {
+      "name": "shell_command.run_command",
+      "desc": "跑 shell 命令（别名）"
+    },
+    {
+      "name": "scene.toggle",
+      "desc": "场景翻转"
+    },
+    {
+      "name": "script.reload",
+      "desc": "重载脚本"
+    },
+    {
+      "name": "zone.modify",
+      "desc": "改区域"
+    },
+    {
+      "name": "zone.reload",
+      "desc": "重载区域"
+    },
+    {
+      "name": "history.clear",
+      "desc": "清历史"
+    },
+    {
+      "name": "logbook.clear",
+      "desc": "清日志"
+    },
+    {
+      "name": "recorder.purge",
+      "desc": "清数据库"
+    },
+    {
+      "name": "media_player.media_play",
+      "desc": "媒体播放（别名）"
+    },
+    {
+      "name": "media_player.pause",
+      "desc": "媒体暂停"
+    },
+    {
+      "name": "media_player.unpause",
+      "desc": "媒体续播"
+    },
+    {
+      "name": "media_player.stop",
+      "desc": "媒体停止"
+    },
+    {
+      "name": "tts.speak",
+      "desc": "TTS 说话（别名）"
+    },
+    {
+      "name": "tts.init",
+      "desc": "TTS 初始化"
+    },
+    {
+      "name": "tts.reload",
+      "desc": "重载 TTS"
+    }
+  ],
+  "entity_domains": [
+    {
+      "name": "light",
+      "desc": "灯"
+    },
+    {
+      "name": "switch",
+      "desc": "开关"
+    },
+    {
+      "name": "sensor",
+      "desc": "传感器"
+    },
+    {
+      "name": "climate",
+      "desc": "暖通"
+    },
+    {
+      "name": "fan",
+      "desc": "风扇"
+    },
+    {
+      "name": "cover",
+      "desc": "窗帘/卷帘"
+    },
+    {
+      "name": "scene",
+      "desc": "场景"
+    },
+    {
+      "name": "script",
+      "desc": "脚本"
+    },
+    {
+      "name": "automation",
+      "desc": "自动化"
+    },
+    {
+      "name": "input",
+      "desc": "输入（button/boolean/number/select/text）"
+    },
+    {
+      "name": "input_button",
+      "desc": "输入按钮"
+    },
+    {
+      "name": "input_boolean",
+      "desc": "输入布尔"
+    },
+    {
+      "name": "input_number",
+      "desc": "输入数值"
+    },
+    {
+      "name": "input_select",
+      "desc": "输入下拉"
+    },
+    {
+      "name": "input_text",
+      "desc": "输入文本"
+    },
+    {
+      "name": "notify",
+      "desc": "通知"
+    },
+    {
+      "name": "alarm",
+      "desc": "报警器（alarm_control_panel）"
+    },
+    {
+      "name": "alarm_control_panel",
+      "desc": "报警面板"
+    },
+    {
+      "name": "vacuum",
+      "desc": "扫地机"
+    },
+    {
+      "name": "lock",
+      "desc": "门锁"
+    },
+    {
+      "name": "media_player",
+      "desc": "媒体"
+    },
+    {
+      "name": "weather",
+      "desc": "天气"
+    },
+    {
+      "name": "calendar",
+      "desc": "日历"
+    },
+    {
+      "name": "update",
+      "desc": "更新"
+    },
+    {
+      "name": "button",
+      "desc": "按钮"
+    },
+    {
+      "name": "humidifier",
+      "desc": "加湿器"
+    },
+    {
+      "name": "water_heater",
+      "desc": "热水器"
+    },
+    {
+      "name": "remote",
+      "desc": "遥控器"
+    },
+    {
+      "name": "timer",
+      "desc": "计时器"
+    },
+    {
+      "name": "zone",
+      "desc": "区域"
+    },
+    {
+      "name": "device_tracker",
+      "desc": "设备追踪"
+    },
+    {
+      "name": "person",
+      "desc": "人"
+    },
+    {
+      "name": "camera",
+      "desc": "摄像头"
+    },
+    {
+      "name": "image",
+      "desc": "图片实体"
+    },
+    {
+      "name": "webhook",
+      "desc": "Webhook"
+    },
+    {
+      "name": "shell_command",
+      "desc": "Shell 命令"
+    },
+    {
+      "name": "counter",
+      "desc": "计数器"
+    },
+    {
+      "name": "event",
+      "desc": "事件"
+    },
+    {
+      "name": "history",
+      "desc": "历史"
+    },
+    {
+      "name": "logbook",
+      "desc": "日志"
+    },
+    {
+      "name": "recorder",
+      "desc": "数据库记录"
+    },
+    {
+      "name": "analytics",
+      "desc": "分析"
+    },
+    {
+      "name": "system_health",
+      "desc": "系统健康"
+    },
+    {
+      "name": "diagnostics",
+      "desc": "诊断"
+    },
+    {
+      "name": "debugpy",
+      "desc": "调试（少用）"
+    },
+    {
+      "name": "tts",
+      "desc": "语音合成"
+    },
+    {
+      "name": "conversation",
+      "desc": "对话（voice）"
+    },
+    {
+      "name": "assumed_state",
+      "desc": "假设状态（少用）"
+    },
+    {
+      "name": "tag",
+      "desc": "NFC 标签"
+    },
+    {
+      "name": "thread",
+      "desc": "Thread（少用）"
+    }
+  ],
+  "integrations": [
+    {
+      "name": "Zigbee",
+      "desc": "Zigbee 协议（总称）"
+    },
+    {
+      "name": "ZHA",
+      "desc": "Zigbee Home Automation 集成（ZHA）"
+    },
+    {
+      "name": "zigbee2mqtt",
+      "desc": "Zigbee2MQTT 集成"
+    },
+    {
+      "name": "MQTT",
+      "desc": "MQTT 协议集成"
+    },
+    {
+      "name": "mqtt",
+      "desc": "（小写别名）"
+    },
+    {
+      "name": "ESP32",
+      "desc": "ESP32 芯片（esp32 集成）"
+    },
+    {
+      "name": "esp32",
+      "desc": "（小写）"
+    },
+    {
+      "name": "BLE",
+      "desc": "蓝牙"
+    },
+    {
+      "name": "bluetooth",
+      "desc": "蓝牙（小写）"
+    },
+    {
+      "name": "Google",
+      "desc": "Google 集成"
+    },
+    {
+      "name": "Apple",
+      "desc": "Apple 集成"
+    },
+    {
+      "name": "Xiaomi",
+      "desc": "小米集成"
+    },
+    {
+      "name": "Sonoff",
+      "desc": "Sonoff 集成"
+    },
+    {
+      "name": "Shelly",
+      "desc": "Shelly 集成"
+    },
+    {
+      "name": "Tasmota",
+      "desc": "Tasmota 固件"
+    },
+    {
+      "name": "DNS",
+      "desc": "DNS 集成（网络）"
+    },
+    {
+      "name": "NTP",
+      "desc": "NTP 时间同步"
+    },
+    {
+      "name": "Synology",
+      "desc": "群晖集成"
+    },
+    {
+      "name": "HomeKit",
+      "desc": "Apple HomeKit 集成"
+    },
+    {
+      "name": "apple_homekit",
+      "desc": "（集成 id）"
+    },
+    {
+      "name": "homekit",
+      "desc": "（别名）"
+    },
+    {
+      "name": "unifi",
+      "desc": "UniFi 集成"
+    },
+    {
+      "name": "unifi_controller",
+      "desc": "（集成 id）"
+    },
+    {
+      "name": "tplink",
+      "desc": "TP-Link 集成"
+    },
+    {
+      "name": "tplink-smart",
+      "desc": "TP-Link Smart 集成"
+    },
+    {
+      "name": "deconz",
+      "desc": "deCONZ 集成（Zigbee）"
+    },
+    {
+      "name": "zwave_js",
+      "desc": "Z-Wave JS 集成"
+    },
+    {
+      "name": "zwave_mqtt",
+      "desc": "Z-Wave MQTT 集成（旧）"
+    },
+    {
+      "name": "nordic",
+      "desc": "Nordic 集成（少用）"
+    },
+    {
+      "name": "dhcp",
+      "desc": "DHCP 集成（网络）"
+    },
+    {
+      "name": "dhcp_server",
+      "desc": "（集成 id）"
+    },
+    {
+      "name": "snmp",
+      "desc": "SNMP 集成"
+    },
+    {
+      "name": "ssdp",
+      "desc": "SSDP 发现"
+    },
+    {
+      "name": "upnp",
+      "desc": "UPnP 集成"
+    },
+    {
+      "name": "cast",
+      "desc": "Chromecast 集成"
+    },
+    {
+      "name": "chromecast",
+      "desc": "（别名）"
+    },
+    {
+      "name": "kodi",
+      "desc": "Kodi 集成"
+    },
+    {
+      "name": "plex",
+      "desc": "Plex 集成"
+    },
+    {
+      "name": "mopidy",
+      "desc": "Mopidy 集成"
+    },
+    {
+      "name": "roon",
+      "desc": "Roon 集成"
+    },
+    {
+      "name": "airplay",
+      "desc": "AirPlay 集成"
+    },
+    {
+      "name": "bluesound",
+      "desc": "Bluesound 集成"
+    },
+    {
+      "name": "wemo",
+      "desc": "WeMo 集成"
+    },
+    {
+      "name": "hue",
+      "desc": "Philips Hue 集成"
+    },
+    {
+      "name": "zigbee",
+      "desc": "Zigbee（小写总称）"
+    },
+    {
+      "name": "thread",
+      "desc": "Thread 网络集成"
+    },
+    {
+      "name": "matter",
+      "desc": "Matter 协议集成"
+    },
+    {
+      "name": "vela",
+      "desc": "Vela 集成（少用）"
+    },
+    {
+      "name": "vela_cloud",
+      "desc": "（集成 id）"
+    },
+    {
+      "name": "syncthing",
+      "desc": ""
+    },
+    {
+      "name": "nextcloud",
+      "desc": ""
+    },
+    {
+      "name": "kafka",
+      "desc": ""
+    },
+    {
+      "name": "redis",
+      "desc": ""
+    },
+    {
+      "name": "mongodb",
+      "desc": ""
+    },
+    {
+      "name": "influx",
+      "desc": ""
+    },
+    {
+      "name": "influxdb",
+      "desc": ""
+    },
+    {
+      "name": "grafana",
+      "desc": ""
+    },
+    {
+      "name": "prometheus",
+      "desc": ""
+    },
+    {
+      "name": "zwave",
+      "desc": ""
+    },
+    {
+      "name": "esphome",
+      "desc": ""
+    },
+    {
+      "name": "ble",
+      "desc": ""
+    },
+    {
+      "name": "nspanel",
+      "desc": ""
+    },
+    {
+      "name": "sonos",
+      "desc": ""
+    },
+    {
+      "name": "android_tv",
+      "desc": ""
+    },
+    {
+      "name": "android",
+      "desc": ""
+    },
+    {
+      "name": "webos",
+      "desc": ""
+    },
+    {
+      "name": "roku",
+      "desc": ""
+    },
+    {
+      "name": "apple_tv",
+      "desc": ""
+    },
+    {
+      "name": "tv",
+      "desc": ""
+    },
+    {
+      "name": "androidtv",
+      "desc": ""
+    },
+    {
+      "name": "samsung",
+      "desc": ""
+    },
+    {
+      "name": "samsungtv",
+      "desc": ""
+    },
+    {
+      "name": "lg",
+      "desc": ""
+    },
+    {
+      "name": "webostv",
+      "desc": ""
+    },
+    {
+      "name": "fire_tv",
+      "desc": ""
+    },
+    {
+      "name": "nest",
+      "desc": ""
+    },
+    {
+      "name": "google_nest",
+      "desc": ""
+    },
+    {
+      "name": "ecobee",
+      "desc": ""
+    },
+    {
+      "name": "mythic",
+      "desc": ""
+    },
+    {
+      "name": "thermostat",
+      "desc": ""
+    },
+    {
+      "name": "brother",
+      "desc": ""
+    },
+    {
+      "name": "hikvision",
+      "desc": ""
+    },
+    {
+      "name": "dlink",
+      "desc": ""
+    },
+    {
+      "name": "ikea",
+      "desc": ""
+    },
+    {
+      "name": "philips_hue",
+      "desc": ""
+    },
+    {
+      "name": "shelly",
+      "desc": ""
+    },
+    {
+      "name": "sonoff",
+      "desc": ""
+    },
+    {
+      "name": "tasmota",
+      "desc": ""
+    },
+    {
+      "name": "xiaomi",
+      "desc": ""
+    },
+    {
+      "name": "mijia",
+      "desc": ""
+    },
+    {
+      "name": "yeelight",
+      "desc": ""
+    },
+    {
+      "name": "qingping",
+      "desc": ""
+    },
+    {
+      "name": "aqara",
+      "desc": ""
+    },
+    {
+      "name": "opple",
+      "desc": ""
+    },
+    {
+      "name": "tuya",
+      "desc": ""
+    },
+    {
+      "name": "sma",
+      "desc": ""
+    },
+    {
+      "name": "fronius",
+      "desc": ""
+    },
+    {
+      "name": "solaredge",
+      "desc": ""
+    },
+    {
+      "name": "enphase",
+      "desc": ""
+    },
+    {
+      "name": "solarman",
+      "desc": ""
+    },
+    {
+      "name": "z2m",
+      "desc": ""
+    },
+    {
+      "name": "zha",
+      "desc": ""
+    },
+    {
+      "name": "mosquitto",
+      "desc": ""
+    },
+    {
+      "name": "emby",
+      "desc": ""
+    },
+    {
+      "name": "ntp",
+      "desc": ""
+    },
+    {
+      "name": "dns",
+      "desc": ""
+    },
+    {
+      "name": "camera",
+      "desc": ""
+    },
+    {
+      "name": "onvif",
+      "desc": ""
+    },
+    {
+      "name": "hassio",
+      "desc": ""
+    },
+    {
+      "name": "android_ip_webcam",
+      "desc": ""
+    },
+    {
+      "name": "ip_webcam",
+      "desc": ""
+    },
+    {
+      "name": "ipcam",
+      "desc": ""
+    },
+    {
+      "name": "motioneye",
+      "desc": ""
+    },
+    {
+      "name": "go2rtc",
+      "desc": ""
+    },
+    {
+      "name": "stream",
+      "desc": ""
+    },
+    {
+      "name": "frigate",
+      "desc": ""
+    },
+    {
+      "name": "deepdream",
+      "desc": ""
+    },
+    {
+      "name": "voice",
+      "desc": ""
+    },
+    {
+      "name": "tts",
+      "desc": ""
+    },
+    {
+      "name": "wink",
+      "desc": ""
+    },
+    {
+      "name": "smartthings",
+      "desc": ""
+    },
+    {
+      "name": "insteon",
+      "desc": ""
+    },
+    {
+      "name": "fibaro",
+      "desc": ""
+    },
+    {
+      "name": "homeworx",
+      "desc": ""
+    }
+  ],
+  "addons": [
+    {
+      "name": "Mosquitto broker",
+      "desc": "MQTT broker addon"
+    },
+    {
+      "name": "Mosquitto MQTT Broker",
+      "desc": "（别名）"
+    },
+    {
+      "name": "InfluxDB",
+      "desc": "时序数据库 addon"
+    },
+    {
+      "name": "Database",
+      "desc": "数据库 addon"
+    },
+    {
+      "name": "Log Viewer",
+      "desc": "日志查看 addon"
+    },
+    {
+      "name": "Terminal & SSH",
+      "desc": "终端/SSH addon"
+    },
+    {
+      "name": "Terminal-SSH",
+      "desc": "（别名）"
+    },
+    {
+      "name": "SSH",
+      "desc": "SSH addon"
+    },
+    {
+      "name": "File Editor",
+      "desc": "文件编辑 addon"
+    },
+    {
+      "name": "Samba share",
+      "desc": "SMB 共享 addon"
+    },
+    {
+      "name": "Samba",
+      "desc": "（别名）"
+    },
+    {
+      "name": "Studio Code Server",
+      "desc": "VS Code addon"
+    },
+    {
+      "name": "VS Code",
+      "desc": "（别名）"
+    },
+    {
+      "name": "nginx Proxy",
+      "desc": "nginx 反代 addon"
+    },
+    {
+      "name": "nginx-proxy",
+      "desc": "（id）"
+    },
+    {
+      "name": "Grafana",
+      "desc": "Grafana 监控 addon"
+    },
+    {
+      "name": "Prometheus",
+      "desc": "Prometheus addon"
+    },
+    {
+      "name": "Node-RED",
+      "desc": "Node-RED 可视化 addon"
+    },
+    {
+      "name": "node-red",
+      "desc": "（id）"
+    },
+    {
+      "name": "Mosquitto",
+      "desc": "（简写）"
+    },
+    {
+      "name": "Zigbee2MQTT",
+      "desc": "Zigbee2MQTT addon"
+    },
+    {
+      "name": "ESPHome",
+      "desc": "ESPHome 集成 addon"
+    },
+    {
+      "name": "esphome",
+      "desc": "（id）"
+    },
+    {
+      "name": "OpenVPN",
+      "desc": "OpenVPN 服务器 addon"
+    },
+    {
+      "name": "WireGuard",
+      "desc": "WireGuard VPN addon"
+    },
+    {
+      "name": "AdGuard Home",
+      "desc": "AdGuard DNS addon"
+    },
+    {
+      "name": "adguard-home",
+      "desc": "（id）"
+    },
+    {
+      "name": "Tailscale",
+      "desc": "Tailscale addon"
+    },
+    {
+      "name": "Docker",
+      "desc": "Docker 管理 addon"
+    },
+    {
+      "name": "Portainer",
+      "desc": "Portainer addon"
+    },
+    {
+      "name": "Home Assistant Community Store",
+      "desc": "HACS addon"
+    },
+    {
+      "name": "HACS",
+      "desc": "Home Assistant Community Store 简写"
+    },
+    {
+      "name": "Home Assistant Backup",
+      "desc": ""
+    },
+    {
+      "name": "backup",
+      "desc": ""
+    },
+    {
+      "name": "Core Stats",
+      "desc": ""
+    },
+    {
+      "name": "core-stats",
+      "desc": ""
+    },
+    {
+      "name": "Advanced MQTT",
+      "desc": ""
+    },
+    {
+      "name": "advanced-mqtt",
+      "desc": ""
+    },
+    {
+      "name": "zigbee2mqtt",
+      "desc": ""
+    },
+    {
+      "name": "Z-Wave JS",
+      "desc": ""
+    },
+    {
+      "name": "zwavejs-ui",
+      "desc": ""
+    },
+    {
+      "name": "Raspberry Pi tweaks",
+      "desc": ""
+    },
+    {
+      "name": "raspberry",
+      "desc": ""
+    },
+    {
+      "name": "Raspberry Pi Config",
+      "desc": ""
+    },
+    {
+      "name": "raspi-config",
+      "desc": ""
+    },
+    {
+      "name": "Minecraft Server",
+      "desc": ""
+    },
+    {
+      "name": "minecraft",
+      "desc": ""
+    },
+    {
+      "name": "Jellyfin",
+      "desc": ""
+    },
+    {
+      "name": "jellyfin",
+      "desc": ""
+    },
+    {
+      "name": "Plex",
+      "desc": ""
+    },
+    {
+      "name": "plex",
+      "desc": ""
+    },
+    {
+      "name": "Jellyfin Media Server",
+      "desc": ""
+    },
+    {
+      "name": "jellyfin-media-server",
+      "desc": ""
+    },
+    {
+      "name": "Open WebUI",
+      "desc": ""
+    },
+    {
+      "name": "open-webui",
+      "desc": ""
+    },
+    {
+      "name": "ChatGPT-Next-Web",
+      "desc": ""
+    },
+    {
+      "name": "chatgpt",
+      "desc": ""
+    },
+    {
+      "name": "Duplicati",
+      "desc": ""
+    },
+    {
+      "name": "duplicati",
+      "desc": ""
+    },
+    {
+      "name": "Kopia",
+      "desc": ""
+    },
+    {
+      "name": "kopia",
+      "desc": ""
+    },
+    {
+      "name": "Nextcloud AIO",
+      "desc": ""
+    },
+    {
+      "name": "nextcloud",
+      "desc": ""
+    },
+    {
+      "name": "Syncthing",
+      "desc": ""
+    },
+    {
+      "name": "syncthing",
+      "desc": ""
+    },
+    {
+      "name": "Vaultwarden",
+      "desc": ""
+    },
+    {
+      "name": "vaultwarden",
+      "desc": ""
+    },
+    {
+      "name": "Bitwarden",
+      "desc": ""
+    },
+    {
+      "name": "bitwarden",
+      "desc": ""
+    },
+    {
+      "name": "Mealie",
+      "desc": ""
+    },
+    {
+      "name": "mealie",
+      "desc": ""
+    },
+    {
+      "name": "FreshRSS",
+      "desc": ""
+    },
+    {
+      "name": "freshrss",
+      "desc": ""
+    },
+    {
+      "name": "Uptime Kuma",
+      "desc": ""
+    },
+    {
+      "name": "uptime-kuma",
+      "desc": ""
+    },
+    {
+      "name": "Healthchecks",
+      "desc": ""
+    },
+    {
+      "name": "healthchecks",
+      "desc": ""
+    },
+    {
+      "name": "Cockpit",
+      "desc": ""
+    },
+    {
+      "name": "cockpit",
+      "desc": ""
+    },
+    {
+      "name": "Speedtest",
+      "desc": ""
+    },
+    {
+      "name": "speedtest",
+      "desc": ""
+    },
+    {
+      "name": "Traefik",
+      "desc": ""
+    },
+    {
+      "name": "traefik",
+      "desc": ""
+    },
+    {
+      "name": "Caddy",
+      "desc": ""
+    },
+    {
+      "name": "caddy",
+      "desc": ""
+    },
+    {
+      "name": "Certbot",
+      "desc": ""
+    },
+    {
+      "name": "certbot",
+      "desc": ""
+    },
+    {
+      "name": "Cloudflare WARP",
+      "desc": ""
+    },
+    {
+      "name": "warp",
+      "desc": ""
+    },
+    {
+      "name": "WARP",
+      "desc": ""
+    },
+    {
+      "name": "warp-client",
+      "desc": ""
+    },
+    {
+      "name": "OpenResty",
+      "desc": ""
+    },
+    {
+      "name": "openresty",
+      "desc": ""
+    },
+    {
+      "name": "OpenVPN Server",
+      "desc": ""
+    },
+    {
+      "name": "openvpn-server",
+      "desc": ""
+    },
+    {
+      "name": "AmneziaVPN",
+      "desc": ""
+    },
+    {
+      "name": "amnezia",
+      "desc": ""
+    },
+    {
+      "name": "DuckDNS",
+      "desc": ""
+    },
+    {
+      "name": "duckdns",
+      "desc": ""
+    },
+    {
+      "name": "Pi-hole",
+      "desc": ""
+    },
+    {
+      "name": "pihole",
+      "desc": ""
+    },
+    {
+      "name": "Adguard",
+      "desc": ""
+    },
+    {
+      "name": "adguard",
+      "desc": ""
+    },
+    {
+      "name": "Blocky",
+      "desc": ""
+    },
+    {
+      "name": "blocky",
+      "desc": ""
+    },
+    {
+      "name": "SearXNG",
+      "desc": ""
+    },
+    {
+      "name": "searxng",
+      "desc": ""
+    },
+    {
+      "name": "Whoogle",
+      "desc": ""
+    },
+    {
+      "name": "whoogle",
+      "desc": ""
+    },
+    {
+      "name": "LibreTranslate",
+      "desc": ""
+    },
+    {
+      "name": "libretranslate",
+      "desc": ""
+    },
+    {
+      "name": "Loki",
+      "desc": ""
+    },
+    {
+      "name": "loki",
+      "desc": ""
+    },
+    {
+      "name": "Tempo",
+      "desc": ""
+    },
+    {
+      "name": "tempo",
+      "desc": ""
+    },
+    {
+      "name": "Grafana Loki",
+      "desc": ""
+    },
+    {
+      "name": "grafana-loki",
+      "desc": ""
+    },
+    {
+      "name": "Elasticsearch",
+      "desc": ""
+    },
+    {
+      "name": "elasticsearch",
+      "desc": ""
+    },
+    {
+      "name": "Meilisearch",
+      "desc": ""
+    },
+    {
+      "name": "meilisearch",
+      "desc": ""
+    },
+    {
+      "name": "Whoosh",
+      "desc": ""
+    },
+    {
+      "name": "whoosh",
+      "desc": ""
+    }
+  ],
+  "deprecated": [
+    {
+      "cmd": "light.turn_on 旧 brightness_mireds",
+      "reason": "色温旧参数，新用 color_temp_kelvin"
+    },
+    {
+      "cmd": "climate.turn_on/turn_off 旧",
+      "reason": "新版 climate 用 set_hvac_mode"
+    }
+  ]
+}
