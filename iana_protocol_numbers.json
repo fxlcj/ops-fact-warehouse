@@ -6,7 +6,7 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "1",
@@ -15,7 +15,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "2",
@@ -24,7 +24,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "3",
@@ -33,7 +33,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "4",
@@ -42,7 +42,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "5",
@@ -51,7 +51,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "6",
@@ -60,7 +60,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "7",
@@ -69,7 +69,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "8",
@@ -78,7 +78,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "10",
@@ -87,7 +87,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "11",
@@ -96,7 +96,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "12",
@@ -105,7 +105,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "15",
@@ -114,7 +114,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "16",
@@ -123,7 +123,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "17",
@@ -132,7 +132,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "18",
@@ -141,7 +141,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "19",
@@ -150,7 +150,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "20",
@@ -159,7 +159,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "21",
@@ -168,7 +168,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "22",
@@ -177,7 +177,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "23",
@@ -186,7 +186,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "24",
@@ -195,7 +195,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "25",
@@ -204,7 +204,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "26",
@@ -213,7 +213,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "27",
@@ -222,7 +222,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "28",
@@ -231,7 +231,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "30",
@@ -240,7 +240,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "31",
@@ -249,7 +249,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "32",
@@ -258,7 +258,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "33",
@@ -267,7 +267,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "34",
@@ -276,7 +276,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "35",
@@ -285,7 +285,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "36",
@@ -294,7 +294,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "37",
@@ -303,7 +303,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "38",
@@ -312,7 +312,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "39",
@@ -321,7 +321,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "42",
@@ -330,7 +330,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "45",
@@ -339,7 +339,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "47",
@@ -348,7 +348,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "48",
@@ -357,7 +357,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "49",
@@ -366,7 +366,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "50",
@@ -375,7 +375,7 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "51",
@@ -384,7 +384,7 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "52",
@@ -393,7 +393,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "54",
@@ -402,7 +402,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "58",
@@ -411,7 +411,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "59",
@@ -420,7 +420,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "60",
@@ -429,7 +429,7 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "62",
@@ -438,7 +438,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "64",
@@ -447,7 +447,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "65",
@@ -456,7 +456,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "66",
@@ -465,7 +465,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "67",
@@ -474,7 +474,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "69",
@@ -483,7 +483,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "70",
@@ -492,7 +492,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "71",
@@ -501,7 +501,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "72",
@@ -510,7 +510,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "73",
@@ -519,7 +519,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "74",
@@ -528,7 +528,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "75",
@@ -537,7 +537,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "76",
@@ -546,7 +546,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "77",
@@ -555,7 +555,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "78",
@@ -564,7 +564,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "79",
@@ -573,7 +573,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "80",
@@ -582,7 +582,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "81",
@@ -591,7 +591,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "82",
@@ -600,7 +600,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "83",
@@ -609,7 +609,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "84",
@@ -618,7 +618,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "85",
@@ -627,7 +627,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "86",
@@ -636,7 +636,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "87",
@@ -645,7 +645,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "89",
@@ -654,7 +654,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "90",
@@ -663,7 +663,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "91",
@@ -672,7 +672,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "92",
@@ -681,7 +681,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "93",
@@ -690,7 +690,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "94",
@@ -699,7 +699,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "96",
@@ -708,7 +708,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "97",
@@ -717,7 +717,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "98",
@@ -726,7 +726,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "100",
@@ -735,7 +735,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "101",
@@ -744,7 +744,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "108",
@@ -753,7 +753,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "129",
@@ -762,7 +762,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "130",
@@ -771,7 +771,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "134",
@@ -780,7 +780,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "135",
@@ -789,7 +789,7 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "136",
@@ -798,7 +798,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "137",
@@ -807,7 +807,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "138",
@@ -816,7 +816,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "140",
@@ -825,7 +825,7 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "141",
@@ -834,7 +834,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "142",
@@ -843,7 +843,7 @@
     "ipv6": false,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "253",
@@ -852,7 +852,7 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   },
   {
     "value": "254",
@@ -861,6 +861,6 @@
     "ipv6": true,
     "spec": null,
     "url": "https://www.iana.org/assignments/protocol-numbers/protocol-numbers.xml",
-    "checked_date": "2026-11-19"
+    "checked_date": "2026-11-26"
   }
 ]

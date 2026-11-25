@@ -1,7 +1,7 @@
 {
   "111": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 111,
     "service": "rpcbind",
@@ -10,7 +10,7 @@
   },
   "11434": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 11434,
     "service": "ollama",
@@ -19,7 +19,7 @@
   },
   "123": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 123,
     "service": "ntp",
@@ -28,7 +28,7 @@
   },
   "127": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 127,
     "service": "常用服务端口",
@@ -37,7 +37,7 @@
   },
   "137": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 137,
     "service": "netbios-ns",
@@ -46,7 +46,7 @@
   },
   "138": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 138,
     "service": "netbios-dgm",
@@ -55,7 +55,7 @@
   },
   "161": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 161,
     "service": "snmp",
@@ -64,7 +64,7 @@
   },
   "162": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 162,
     "service": "snmptrap",
@@ -73,7 +73,7 @@
   },
   "179": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 179,
     "service": "bgp",
@@ -82,7 +82,7 @@
   },
   "1883": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 1883,
     "service": "mqtt",
@@ -91,7 +91,7 @@
   },
   "20": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 20,
     "service": "ftp-data",
@@ -100,7 +100,7 @@
   },
   "21": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 21,
     "service": "ftp",
@@ -109,7 +109,7 @@
   },
   "22": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 22,
     "service": "ssh",
@@ -118,7 +118,7 @@
   },
   "2222": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 2222,
     "service": "备用SSH",
@@ -127,7 +127,7 @@
   },
   "23": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 23,
     "service": "telnet",
@@ -136,7 +136,7 @@
   },
   "25": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 25,
     "service": "smtp",
@@ -145,7 +145,7 @@
   },
   "255": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 255,
     "service": "常用服务端口",
@@ -154,7 +154,7 @@
   },
   "3000": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 3000,
     "service": "grafana / node",
@@ -163,7 +163,7 @@
   },
   "3268": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 3268,
     "service": "msft-gc",
@@ -172,7 +172,7 @@
   },
   "3269": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 3269,
     "service": "msft-gc-ssl",
@@ -181,7 +181,7 @@
   },
   "3306": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 3306,
     "service": "mysql",
@@ -190,7 +190,7 @@
   },
   "389": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 389,
     "service": "ldap",
@@ -199,7 +199,7 @@
   },
   "4040": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 4040,
     "service": "常用服务端口",
@@ -208,7 +208,7 @@
   },
   "443": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 443,
     "service": "https",
@@ -217,7 +217,7 @@
   },
   "500": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 500,
     "service": "isakmp",
@@ -226,7 +226,7 @@
   },
   "514": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 514,
     "service": "syslog",
@@ -235,7 +235,7 @@
   },
   "53": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 53,
     "service": "dns",
@@ -244,7 +244,7 @@
   },
   "5353": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 5353,
     "service": "mdns",
@@ -253,7 +253,7 @@
   },
   "5432": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 5432,
     "service": "postgresql",
@@ -262,7 +262,7 @@
   },
   "6060": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 6060,
     "service": "常用服务端口",
@@ -271,7 +271,7 @@
   },
   "636": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 636,
     "service": "ldaps",
@@ -280,7 +280,7 @@
   },
   "6379": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 6379,
     "service": "redis",
@@ -289,7 +289,7 @@
   },
   "80": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 80,
     "service": "http",
@@ -298,7 +298,7 @@
   },
   "8000": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8000,
     "service": "irdmi / 备用HTTP",
@@ -307,7 +307,7 @@
   },
   "8021": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8021,
     "service": "常用服务端口",
@@ -316,7 +316,7 @@
   },
   "8080": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8080,
     "service": "http-alt",
@@ -325,7 +325,7 @@
   },
   "8081": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8081,
     "service": "备用HTTP",
@@ -334,7 +334,7 @@
   },
   "8123": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8123,
     "service": "常用服务端口",
@@ -343,7 +343,7 @@
   },
   "8443": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8443,
     "service": "https-alt",
@@ -352,7 +352,7 @@
   },
   "8472": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8472,
     "service": "wireguard",
@@ -361,7 +361,7 @@
   },
   "873": {
     "category": "std",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（业界标准端口）",
     "port": 873,
     "service": "rsync",
@@ -370,7 +370,7 @@
   },
   "8883": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 8883,
     "service": "mqtt-tls",
@@ -379,7 +379,7 @@
   },
   "9000": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 9000,
     "service": "常用服务端口",
@@ -388,7 +388,7 @@
   },
   "9001": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 9001,
     "service": "常用服务端口",
@@ -397,7 +397,7 @@
   },
   "9090": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 9090,
     "service": "prometheus",
@@ -406,7 +406,7 @@
   },
   "9091": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 9091,
     "service": "prometheus write",
@@ -415,7 +415,7 @@
   },
   "9100": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 9100,
     "service": "printer / jhp-port",
@@ -424,7 +424,7 @@
   },
   "9182": {
     "category": "vendor",
-    "checked_date": "2026-11-19",
+    "checked_date": "2026-11-26",
     "note": "参考辅助（非 IANA 注册表断言）。service 为业界通用叫法，写文章引用前请对 iana.org 每端口官方页/厂商官方源逐端口核实。（多为厂商/项目约定，非 IANA 标准服务名）",
     "port": 9182,
     "service": "常用服务端口",

@@ -3,6 +3,15 @@
 Each entry records what changed and the date the official source was re-checked.
 A figure never changes without its `checked_date` changing with it.
 
+## 2026-11-26 — Weekly re-collection (CISA KEV snapshot 1790 → 1796; TLD 1436 → 1435)
+
+Weekly re-collection against the official sources. `cisa_kev.json` is a **point-in-time snapshot of a live feed**,
+so its count moves with each official release — always cite it with its `checked_date`.
+- `cisa_kev.json`: **1796** entries (was 1790). Catalog version `2026.11.25`, date released 2026-11-25. Six entries added this cycle, none removed, no due-date changes.
+- `cisa_kev_ops_relevant.json`: ops-vendor subset **367** entries (was 363); new additions include Cisco Expressway Series (CVE-2026-76466), HPE Juniper Session Smart Conductor/Router (CVE-2026-103406), Apache Roller (CVE-2026-129448) and Apache Axis (CVE-2026-90436).
+- `iana_tlds.json`: **1435** TLDs (was 1436) — one entry removed upstream by IANA.
+- Other files re-collected this run, counts stable: 28 RFC / 48 common ports (reference aid) / 18+18 special IP ranges / 96 protocol numbers.
+
 ## 2026-11-23 — Prometheus/Nginx/HA whitelist expanded; Prometheus + Nginx upgraded to G4b FAIL
 
 - `prometheus-metrics/metrics.json`: 289 → 301 metric names (node_exporter 167 / kube-state-metrics 56 / prometheus self 78; +26 PromQL functions) — added real node_exporter PSI/pressure, `node_netstat`, `node_processes`; real Prometheus self-metrics `prometheus_rule_group_last_evaluation_timestamp_seconds`, `prometheus_scrape_duration_seconds{_bucket}`, `prometheus_tsdb_compaction_duration_seconds{_count}`, plus `prometheus_operator`/`prometheus_storage` component refs and 7 `prometheus_tsdb_*` derived metrics.
